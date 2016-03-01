@@ -33,6 +33,10 @@
 
 下面是关于markdown的插件： - markdown-pdf 将markdown文本输出为pdf文件。 - markdown-writer 暂时不会写markdown吗？有了它用菜单就行了。 - markdown-preview 边写边看到效果。这个不用安装了，是核心包，自带的(`ctrl+shift+m`)。
 
-# 开始你的atom旅行吧。
+# 开始你的atom旅行吧
 
 ![makrdown](./Markdown.jpg)
+
+## 关于atom的温情链接
+
+[官方手册：Atom 基础使用](https://atom-china.org/t/guan-fang-shou-ce-atom-ji-chu-shi-yong/62)
