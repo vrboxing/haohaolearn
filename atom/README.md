@@ -10,12 +10,6 @@
 
 - 下载：<https://atom.io>
 
-# theme
-
-设置好主题，便于使用： 
- - UI theme: Isotope
- - Syntax theme: Atom Light
-
 # package
 
 插件(plugin)是atom得以强大的方式。安装插件很简单，用快捷键`Ctrl  ,`，显示出`设置`页面，在`install`页面中输入待输入的package。在查找出的包列表中点击`install`按钮即可。
@@ -27,13 +21,18 @@
 - isotope theme 高贵清晰，有利于装逼。
 - vim-mode 用vim方式编辑文本，嗖嗖地感觉。(不会vim暂时不要安装，但推荐学会它，最正确地学习时机是"现在、立刻、马上，急切的不要不要的姿势")
 
+# theme
+
+设置好主题，便于使用： - UI theme: Isotope - Syntax theme: Atom Light
+
 # markdown
 
 - markdown是一种轻量极标记语言。
 - 它有很多优点，对我而言只有两个：`好学`、`漂酿`。
 - 链接很多，这是其中一个 [Markdown----入门指南](http://www.jianshu.com/p/1e402922ee32)
 
-下面是关于markdown的插件：
- - markdown-pdf 将markdown文本输出为pdf文件。
- - markdown-writer 暂时不会写markdown吗？有了它用菜单就行了。
- - markdown-preview 边写边看到效果。这个不用安装了，是核心包，自带的(`ctrl+shift+m`)。
+下面是关于markdown的插件： - markdown-pdf 将markdown文本输出为pdf文件。 - markdown-writer 暂时不会写markdown吗？有了它用菜单就行了。 - markdown-preview 边写边看到效果。这个不用安装了，是核心包，自带的(`ctrl+shift+m`)。
+
+# 开始你的atom旅行吧。
+
+![makrdown](./Markdown.jpg)
