@@ -59,7 +59,10 @@ sudo ./INSTALL
 
 ## 破解
 
-将`_SolidSQUAD_/ANSYS.16.2.LOCAL.LICENSING.LINUX64.CRACK-SSQ.tar.gz`解压到`<ANSYS>/ansys_inc/` 中，其中`<ANSYS>`为安装目录。在本例中为`/home/yangdawei/`
+将`_SolidSQUAD_/ANSYS.16.2.LOCAL.LICENSING.LINUX64.CRACK-SSQ.tar.gz`解压后，将`shared_files`拷贝到`<ANSYS>/ansys_inc/` 中，其中`<ANSYS>`为安装目录。在本例中为`/home/yangdawei/`
+```
+tar -zxvf ANSYS.16.2.LOCAL.LICENSING.LINUX64.CRACK-SSQ.tar.gz 
+``
 
 ## 配置
 
