@@ -1,6 +1,6 @@
 # 安装
 
-系统：Debian
+系统：Debian jessie amd64
 
 版本：ansys 16.2
 
