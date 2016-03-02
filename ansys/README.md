@@ -12,6 +12,12 @@ sudo apt-get install xterm libstdc++-4.8-dev libmotif-dev libxtst-dev  libxt-dev
 sudo apt-get install tcl8.5-dev tk8.5-dev
 sudo apt-get install lsb csh xfonts-75dpi xfonts-100dpi wine
 ```
+## 镜像加载
+```
+sudo mkdir /mnt/ansys1 /mnt/ansys2
+sudo mount ANSYS162_LINX64_Disk1.iso /mnt/ansys1
+sudo mount ANSYS162_LINX64_Disk2.iso /mnt/ansys2
+```
 
 ## 安装
 
