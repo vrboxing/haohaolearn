@@ -15,7 +15,8 @@ sudo apt-get install lsb csh xfonts-75dpi xfonts-100dpi wine
 
 ## 镜像镜像与加载
 
-镜像下载：[](http://pt.hit.edu.cn/details.php?id=45453&hit=1)
+镜像下载：http://pt.hit.edu.cn/details.php?id=45453&hit=1
+加载镜像：
 
 ```
 sudo mkdir /mnt/ansys1 /mnt/ansys2
