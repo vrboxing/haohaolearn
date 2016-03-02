@@ -1,8 +1,8 @@
 # 安装
 
-系统：Debian jessie amd64
+系统：Debian jessie x64
 
-版本：ansys 16.2
+版本：ANSYS 16.2
 
 ## 环境准备
 
