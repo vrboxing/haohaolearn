@@ -12,7 +12,9 @@ sudo apt-get install xterm libstdc++-4.8-dev libmotif-dev libxtst-dev  libxt-dev
 sudo apt-get install tcl8.5-dev tk8.5-dev
 sudo apt-get install lsb csh xfonts-75dpi xfonts-100dpi wine
 ```
+
 ## 镜像加载
+
 ```
 sudo mkdir /mnt/ansys1 /mnt/ansys2
 sudo mount ANSYS162_LINX64_Disk1.iso /mnt/ansys1
@@ -29,39 +31,39 @@ sudo ./INSTALL
 
 - 选择`Install ANSYS Products`
 
-  ![](./snap1.jpg)
+  ![](./Pic_1.jpg)
 
 - 选择`I AGREE`
 
-  ![](./snap2.jpg)
+  ![](./Pic_2.jpg)
 
 - 选择安装目录。我预留的`/usr`空间有限，选择了`/home/yangdawei`分区。
 
-  ![](./snap3.jpg)
+  ![](./Pic_3.jpg)
 
 - 跳过服务器主机名定义。
 
-  ![](./snap4.jpg)
+  ![](./Pic_4.jpg)
 
 - 去掉其它模块，仅留下`ANSYS Structural Products`。
 
-  ![](./snap5.jpg)
+  ![](./Pic_5.jpg)
 
 - 跳过`NX information`设置。
 
-  ![](./snap6.jpg)
+  ![](./Pic_6.jpg)
 
 - 确认设置，开始安装。
 
-  ![](./snap7.jpg)
+  ![](./Pic_7.jpg)
 
 - 耐心等待，中间会弹出对话框要求换镜像文件。
 
-  ![](./snap8.jpg)
+  ![](./Pic_8.jpg)
 
 - 退出。
 
-  ![](./snap9.jpg)
+  ![](./Pic_9.jpg)
 
 ## 破解
 
@@ -82,7 +84,7 @@ sudo ln -s /home/yangdawei/ansys_inc/v162/ansys/bin/launcher162 /usr/bin/launche
 
 - 此时运行`ansys162 -g`会启动ansys，然而退出时会报错：
 
-  ![](./snap10.jpg)
+  ![](./Pic_10.jpg)
 
   为此需要在执行路径(/usr/bin)中建立一个脚本`ansys`：
 
@@ -114,3 +116,5 @@ sudo ln -s /home/yangdawei/ansys_inc/v162/ansys/bin/launcher162 /usr/bin/launche
 
 - 在终端中运行`ansys`即可运行ansys的窗口程序。
 - 运行`launcher162`亦可实现launcher方式的启动。
+
+  ![](./Pic_11.jpg)
