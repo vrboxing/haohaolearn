@@ -13,7 +13,9 @@ sudo apt-get install tcl8.5-dev tk8.5-dev
 sudo apt-get install lsb csh xfonts-75dpi xfonts-100dpi wine
 ```
 
-## 镜像加载
+## 镜像镜像与加载
+
+镜像下载：[]http://pt.hit.edu.cn/details.php?id=45453&hit=1)
 
 ```
 sudo mkdir /mnt/ansys1 /mnt/ansys2
