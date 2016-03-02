@@ -66,6 +66,6 @@ sudo ./INSTALL
 - 建立软链接。为方便运行`ansys162`，在`/usr/bin`中建立可执行程序的软链接。
 
 ```
-sudo ln -s /home/yangdawei/ansys_inc/v162/ansys/bin/ansys162  /usr/bin/ansys162
-sudo ln -s /home/yangdawei/ansys_inc/v162/ansys/bin/launcher162   /usr/bin/launcher162
+sudo ln -s /home/yangdawei/ansys_inc/v162/ansys/bin/ansys162 /usr/bin/ansys162
+sudo ln -s /home/yangdawei/ansys_inc/v162/ansys/bin/launcher162 /usr/bin/launcher162
 ```
