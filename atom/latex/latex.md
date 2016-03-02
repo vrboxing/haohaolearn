@@ -1,9 +1,9 @@
-# LaTeX编译 
+# LaTeX 
 
 ## 插件
   	* latex-autocomplete 自动补全
 	* latextools 自动插入和编译配置
-	* language-latex 高视语法
+	* language-latex 高亮语法
 
 
 ## 编译
