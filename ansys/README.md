@@ -74,7 +74,7 @@ sudo ln -s /home/yangdawei/ansys_inc/v162/ansys/bin/ansys162 /usr/bin/ansys162
 sudo ln -s /home/yangdawei/ansys_inc/v162/ansys/bin/launcher162 /usr/bin/launcher162
 ```
 
-- 此时运行`ansys162 -g`会启动ansys，然而退出进会报错：
+- 此时运行`ansys162 -g`会启动ansys，然而退出时会报错：
 
   ![](./snap10.jpg)
 
