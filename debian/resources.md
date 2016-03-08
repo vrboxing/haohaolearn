@@ -1,5 +1,7 @@
 # 源的设置
 
+## 源文件
+
 编译文件：`sudo vi /etc/apt/sources.list`
 
 ```
@@ -17,3 +19,13 @@ deb http://ppa.launchpad.net/peterlevi/ppa/ubuntu/ trusty main  #variety墙纸
 deb http://ppa.launchpad.net/tiheum/equinox/ubuntu trusty main #faenza图标主题
 deb http://ppa.launchpad.net/timxx/xmradio/ubuntu trusty main  #虾米音乐广播
 ```
+
+## 源速度测试
+
+- 比较镜像网站
+
+  `sudo netselect ftp.debian.org http.us.debian.org  mirrors.163.com mirros.sohu.com`
+
+- 查找stable版本中最快的镜像网站
+
+`sudo netselect-apt stable`
