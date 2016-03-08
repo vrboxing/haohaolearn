@@ -1,5 +1,11 @@
 # 源的设置
 
+参考：
+
+- <https://wiki.debian.org/SourcesList>
+- <https://www.debian.org/doc/manuals/apt-howto/ch-basico.en.html>
+- <https://www.debian.org/doc/manuals/debian-handbook/apt.en.html#sect.apt-sources.list>
+
 ## 源文件
 
 编译文件：`sudo vi /etc/apt/sources.list`
