@@ -28,4 +28,4 @@ deb http://ppa.launchpad.net/timxx/xmradio/ubuntu trusty main  #虾米音乐广�
 
 - 查找stable版本中最快的镜像网站
 
-`sudo netselect-apt stable`
+  `sudo netselect-apt stable`
