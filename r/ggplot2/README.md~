@@ -1,11 +1,8 @@
-本文档汇总r数据图示例。
-# 准备
-## 安装
-    `install.packages("ggplot2")`
-## 加载
-    `library(ggplot2)`
+# 安装
+`install.packages("ggplot2")`
 
-# 示例
+本文档汇总r数据图示例。
+
 ## 索力柱状图
 
 - 描述：给定索力数据文件data.txt，绘制索力柱状图。
