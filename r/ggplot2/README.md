@@ -1,9 +1,9 @@
 本文档汇总r数据图示例。
 # 准备
 ## 安装
-    `install.packages("ggplot2")`
+    install.packages("ggplot2")
 ## 加载
-    `library(ggplot2)`
+    library(ggplot2)
 
 # 示例
 ## 索力柱状图
