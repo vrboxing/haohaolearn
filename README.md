@@ -5,6 +5,8 @@
 - atom/
 - ansys/
 - debian/
+- r/
+- cmake/
 
 # 注意事项
 
