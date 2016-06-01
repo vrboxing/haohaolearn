@@ -1,6 +1,6 @@
 Emacs Speaks Statistics(ESS) 是Emacs的插件，用于支持各类统计分析程序的脚本编辑和交互。
 http://ess.r-project.org/
-
+# 准备
 - 下载 
   - http://ess.r-project.org/index.php?Section=download 下载压缩包
   - https://github.com/emacs-ess/ESS git克隆
@@ -13,6 +13,9 @@ http://ess.r-project.org/
   编译ess时如果卡在`loading ess...`了，是拜GFW所赐。该怎么做，你懂的。
 - 文档
   http://ess.r-project.org/Manual/ess.html#Command_002dline-editing	
+# 使用
+- 启动
+  `M-x R`
 - 交互
   - RET 发送命令
   - C-c C-w 删除前一个命令
