@@ -9,4 +9,6 @@ http://ess.r-project.org/
   - sudo make install
 - 配置
   - 在Emacs配置文件(init.el或.emacs)中填加：`(require 'ess-site)`
+- 注释
+  编译ess时如果卡在`loading ess...`了，是拜GFW所赐。该怎么做，你懂的。
 
