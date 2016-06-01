@@ -1,4 +1,5 @@
-# plot
+# 安装
+`install.packages("ggplot2")`
 
 本文档汇总r数据图示例。
 
