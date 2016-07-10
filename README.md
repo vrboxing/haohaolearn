@@ -1,12 +1,15 @@
 # 说明书
 
-本项目用于和朋友们显摆好用的计算机软件。
+本项目用于向朋友们安利计算机软件。
 
-- atom/
 - ansys/
-- debian/
-- r/
+- atom/
 - cmake/
+- debian/
+- emacs/
+- git/
+- r/
+- statistics/
 
 # 注意事项
 
