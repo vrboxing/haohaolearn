@@ -33,3 +33,13 @@
 - branch
 
 - checkout 
+
+- merge
+
+- clone
+
+- pull
+
+- push
+
+- fetch
