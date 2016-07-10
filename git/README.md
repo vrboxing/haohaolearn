@@ -23,7 +23,7 @@
 - checksum：版本的校验和，由Git自动计算得出的40个十六进制字符，相当于版本的身份证号。
 - 文件状态：包括已提交(`commited`)、已修改(`modified`)、已暂存(`staged`)。
 - 工作区域：包括工作目录(`working directory`)、暂存区(`staging area`)、本地仓库(`repository`)。
-- 托管网站：提供代码托管的git服务网站，如![`github`](https://github.com)、`bitbucket.org`、`coding.net`、`git.oschina.net`。不管什么托管网站，于你而言，它只是`origin`。
+- 托管网站：提供代码托管的git服务网站，如![`github`](https://github.com)、![`bitbucket.org`](https://bitbucket.org)、![`coding.net`](https://coding.net)、![`git.oschina.net`](https://git.oschina.net)。不管什么托管网站，于你而言，它只是`origin`。
 
 
 ## Installation
