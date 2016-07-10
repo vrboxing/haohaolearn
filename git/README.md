@@ -1,6 +1,8 @@
 # Git
+
 ## What is Git
 - https://en.wikipedia.org/wiki/Git_%28software%29
+- /git/ or `技特`
 
 ## Resources
 - http://git.oschina.net/progit/index.html
@@ -31,26 +33,26 @@
 
 ## Commands
 
-- config
+- `config`
 
-- init
+- `init`
 
-- add
+- `add`
 
-- commit
+- `commit`
 
-- branch
+- `branch`
 
-- checkout 
+- `checkout`
 
-- status
+- `status`
 
-- merge
+- `merge` 
 
-- clone
+- `clone` 
 
-- pull
+- `pull` 
 
-- push
+- `push` 
 
-- fetch
+- `fetch` 
