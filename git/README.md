@@ -29,7 +29,7 @@
 - Windows: https://git-for-windows.github.io/
 - Mac: http://code.google.com/p/git-osx-installer
 
-## Commmands
+## Commands
 
 - config
 
