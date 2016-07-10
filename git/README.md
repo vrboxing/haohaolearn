@@ -43,6 +43,8 @@
 
 - checkout 
 
+- status
+
 - merge
 
 - clone
