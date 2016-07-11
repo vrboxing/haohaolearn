@@ -15,3 +15,6 @@
 
 ## Books
    - 刘海洋. LaTeX入门，2013, 电子工业出版社
+
+## Tutor
+   - https://github.com/yangdaweihit/latexreport
