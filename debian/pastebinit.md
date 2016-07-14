@@ -2,7 +2,7 @@
 在很多场景下我们需要将一段信息粘帖出来，比如：
 - 请对方检查我的代码；
 - 给对方示范程序；
-- 请对方了解本地机上的终端信息;
+- 请对方了解本地机上的终端信息；
 - ...(so many)
 
 # pastebinit
@@ -50,3 +50,5 @@ Supported pastebins:
 - slexy.org
 - sprunge.us
 ```
+## Windows用户
+自古以来每一位Windows用户都有被爱的权利，没有pastebinit不要紧，记住任何一个代码粘帖网站，如`paste.debian.net`或`paste.ubuntu.com`，然后手动`Ctrl-c`再`Ctrl-v`吧。
