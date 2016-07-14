@@ -51,4 +51,4 @@ Supported pastebins:
 - sprunge.us
 ```
 ## Windows用户
-自古以来每一位Windows用户都有被爱的权利，没有pastebinit不要紧，记住任何一个代码粘帖网站，如`paste.debian.net`或`paste.ubuntu.com`，然后手动`Ctrl-c`再`Ctrl-v`吧。
+自古以来每一位Windows用户都有被爱的权利，没有pastebinit不要紧，记住任何一个代码粘帖网站，如`paste.debian.net`或`paste.ubuntu.com`，勇敢地打开网页浏览器访问它吧。然后手动`Ctrl-c`再`Ctrl-v`！
