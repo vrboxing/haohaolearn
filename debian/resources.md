@@ -11,7 +11,7 @@
 编译文件：`sudo vi /etc/apt/sources.list`
 
 ```
-deb http://mirrors.162.com/debian stable main non-free contrib
+deb http://mirrors.163.com/debian stable main non-free contrib
 deb http://mirrors.163.com/debian/ stable-updates main non-free contrib
 deb http://security.debian.org/ stable/updates main contrib non-free
 
