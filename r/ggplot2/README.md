@@ -4,6 +4,12 @@
     install.packages("ggplot2")
 ## 加载
     library(ggplot2)
+## 教材
+   - Hadley Wickham, ggplot2: Elegant Graphics for Data Analysis, Springer, 2009
+## 参考
+   - <http://docs.ggplot2.org/current/>
+## 下载
+   - <https://pan.baidu.com/s/1skDlxQd>
 
 # 示例
 ## 索力柱状图
