@@ -5,6 +5,7 @@
 
 ## 参考
    - <http://docs.ggplot2.org/current/>
+   - <https://github.com/hadley/ggplot2/wiki>
 
 ## 下载
    - <https://pan.baidu.com/s/1skDlxQd>
