@@ -1,10 +1,4 @@
-本文档汇总r数据图示例。
 # 准备
-## 安装
-    install.packages("ggplot2")
-
-## 加载
-    library(ggplot2)
 
 ## 教材
    - Hadley Wickham, ggplot2: Elegant Graphics for Data Analysis, Springer, 2009
