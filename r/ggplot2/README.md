@@ -21,3 +21,11 @@
 #  Harbin Institute of Technology
 #  Mar. 10 2016
 ```
+## 矩阵热图
+
+- 描述：将矩阵用热图表达，直观而简洁。
+- 参考：<http://www.sthda.com/english/wiki/ggplot2-quick-correlation-matrix-heatmap-r-software-and-data-visualization>
+
+![相关系数矩阵](./p002.png)
+
+
