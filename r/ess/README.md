@@ -27,14 +27,14 @@ http://ess.r-project.org/
 ```
   
 - 文档
-  <http://ess.r-project.org/Manual/ess.html#Command_002dline-editing>
-  [常用命令](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjc1LDKzLnPAhXI9x4KHckjDAwQFggcMAA&url=http%3A%2F%2Fess.r-project.org%2Frefcard.pdf&usg=AFQjCNGgVjKkGEAYjmuzJGBuN5RGEMnP5A&sig2=H5Yx-0VZYcEof1DBTxdxww&bvm=bv.134495766,d.dmo)
+  - [使用文档](http://ess.r-project.org/Manual/ess.html#Command_002dline-editingy)
+  - [常用命令](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjc1LDKzLnPAhXI9x4KHckjDAwQFggcMAA&url=http%3A%2F%2Fess.r-project.org%2Frefcard.pdf&usg=AFQjCNGgVjKkGEAYjmuzJGBuN5RGEMnP5A&sig2=H5Yx-0VZYcEof1DBTxdxww&bvm=bv.134495766,d.dmo)
 
 # 使用
-- 启动
-  `M-x R`
-
-- 交互
+  
+  ## 交互界面
+  - `M-x R`
+  - 直接输入命令，`RET`。
   - RET 发送命令
   - C-c C-w 删除前一个命令
   - C-c C-u 删除提示符到当前点内容，用于放弃还未执行命令
@@ -45,4 +45,18 @@ http://ess.r-project.org/
   - C-c RET 将命令拷贝到当前命令行，编辑后可再执行
   - M-p 输入历史中选择之前的命令
   - M-n 输入历史中选择之后的命令
+  - [up] [down] 重复前一个和后一个命令
+ 
+  ## 脚本
 
+  - C-c C-c 运算区域或段落
+  - C-<RET> 运算区域或行
+  - C-c C-l 加载缓冲区内的源文件
+  - C-c C-j 运算本行
+  - C-c M-j 运算本行及以下
+  - C-c C-f 运算函数
+  - C-c M-f 运算函数及以下
+  - C-c C-r 运算区域
+  - C-c M-r 运算区域及以下
+  - C-c C-b 运算缓冲区
+  - C-c M-b 运算缓冲区及以下
