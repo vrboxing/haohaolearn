@@ -9,15 +9,31 @@ http://ess.r-project.org/
   - make
   - sudo make install
 - 配置
-  - 在Emacs配置文件(init.el或.emacs)中填加：`(require 'ess-site)`
-- 注释
-  编译ess时如果卡在`loading ess...`了，是拜GFW所赐。该怎么做，你懂的。
+```
+(require 'ess-site)
+(setq tramp-ssh-controlmaster-options nil) ;;解决启动卡死的问题。这个是关于TRAMP的bug，解决方案来自于<https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=810640>。
+(eval-after-load "comint"
+  '(progn
+      (define-key comint-mode-map [up]
+        'comint-previous-matching-input-from-input)
+      (define-key comint-mode-map [down]
+        'comint-next-matching-input-from-input)
+      ;; also recommended for ESS use --
+      (setq comint-scroll-to-bottom-on-output 'others)
+      (setq comint-scroll-show-maximum-output t)
+      ;; somewhat extreme, almost disabling writing in *R*, *shell* buffers above promp
+      (setq comint-scroll-to-bottom-on-input 'this)
+))
+```
+  
 - 文档
-  http://ess.r-project.org/Manual/ess.html#Command_002dline-editing	
+  <http://ess.r-project.org/Manual/ess.html#Command_002dline-editing>
+  [常用命令](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjc1LDKzLnPAhXI9x4KHckjDAwQFggcMAA&url=http%3A%2F%2Fess.r-project.org%2Frefcard.pdf&usg=AFQjCNGgVjKkGEAYjmuzJGBuN5RGEMnP5A&sig2=H5Yx-0VZYcEof1DBTxdxww&bvm=bv.134495766,d.dmo)
 
 # 使用
 - 启动
   `M-x R`
+
 - 交互
   - RET 发送命令
   - C-c C-w 删除前一个命令
