@@ -36,7 +36,7 @@ Emacs Speaks Statistics(ESS) 是Emacs的插件，用于支持各类统计分析�
 
   - `M-x R`
   - 直接输入命令，`RET`。
-  - RET 发送命令
+  - <RET> 发送命令
   - C-c C-w 删除前一个命令
   - C-c C-u 删除提示符到当前点内容，用于放弃还未执行命令
   - C-c C-a 移动到本行启始处
@@ -50,14 +50,15 @@ Emacs Speaks Statistics(ESS) 是Emacs的插件，用于支持各类统计分析�
 
 ## 脚本
 
-  - C-c C-c 运算区域或段落
-  - C-<RET> 运算区域或行
+  - M-C-x 运算区域或函数或段落
+  - C-c C-c 运算区域或段落，并向前一步
+  - C-<RET> 运算区域或行，并向前一步
   - C-c C-l 加载缓冲区内的源文件
   - C-c C-j 运算本行
-  - C-c M-j 运算本行及以下
+  - C-c M-j 运算本行并离开(文本转至交互界面)
   - C-c C-f 运算函数
-  - C-c M-f 运算函数及以下
+  - C-c M-f 运算函数并离开
   - C-c C-r 运算区域
-  - C-c M-r 运算区域及以下
+  - C-c M-r 运算区域并离开
   - C-c C-b 运算缓冲区
-  - C-c M-b 运算缓冲区及以下
+  - C-c M-b 运算缓冲区并离开
