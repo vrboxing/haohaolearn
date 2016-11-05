@@ -116,6 +116,26 @@ sudo ln -s /home/yangdawei/ansys_inc/v162/ansys/bin/launcher162 /usr/bin/launche
 
   sudo chmod +x /usr/bin/ansys
 
+- 同理还要建立一个`launcher`的脚本，内容如下：
+
+
+  ```
+  #! /bin/bash
+  #
+  unset XMODIFIERS
+  unset GTK_IM_MODULE
+  unset QT_IM_MODULE
+  unset QT4_IM_MODULE
+  unset CLUTTER_IM_MODULE
+
+  launcher162 
+
+  export XMODIFIERS="@im=fcitx"
+  export GTK_IM_MODULE=fcitx
+  export QT_IM_MODULE=fcitx
+  export QT4_IM_MODULE=fcitx
+  export CLUTTER_IM_MODULE=xim
+  ```
 ## 运行程序
 
 - 在终端中运行`ansys`即可运行ansys的窗口程序。
