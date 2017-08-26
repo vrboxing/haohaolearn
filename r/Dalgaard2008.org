@@ -1,0 +1,21 @@
+#+TITLE: Introducotry Statistics with R
+#+AUTHOR: 杨大伟 
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [a4paper]
+#+LATEX_HEADER: \usepackage[utf8]{ctex}
+#+LATEX_HEADER: \usepackage{ulem}
+#+LATEX_HEADER: \usepackage{tikz}
+#+LATEX_HEADER: \usetikzlibrary{shapes,arrows}
+#+HTML_HEAD_EXTRA: <style> blockquote {background:#EEEEEE; padding: 3px 13px}</style>
+#+LATEX_HEADER: \usepackage[bottom=2.5cm]{geometry}
+
+* Basics
+* The R environment
+* Probability and distributions
+ADER: \usetikzlibrary{shapes,arrows}
+#+HTML_HEAD_EXTRA: <style> blockquote {background:#EEEEEE; padding: 3px 13px}</style>
+#+LATEX_HEADER: \usepackage[bottom=2.5cm]{geometry}
+
+* Basics
+* The R environment
+* Probability and distributions
