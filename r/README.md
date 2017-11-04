@@ -10,6 +10,6 @@
 
 - Dalgaard2008, Introducotry Statistics with R
 
+  + describes applications of R for actual sta- tistical analysis
   + 在基本学会R和统计学的基础上，示范统计计算的教程。
   + 适合作为统计学的配套练习教材。
-  + 将本书中常用的命令及注意事项在前2章作了介绍。

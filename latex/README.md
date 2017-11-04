@@ -27,3 +27,11 @@
    - figsize 自动定义图片大小。
    - wrapfig 图形被文字包围。
 
+
+## Manualy Macros
+
+    - make directory in home path: `.texmf`
+    - edit `/usr/local/texlive/2017/texmf.cnf`
+    - add: TEXMFHOME=~/.texmf
+    - create texmf tds in .texmf
+    - copy cls and sty files in to tds of .texmf
