@@ -15,13 +15,12 @@ deb http://mirrors.ustc.edu.cn/debian/ stable main contrib non-free
 deb http://mirrors.ustc.edu.cn/debian/ stable-updates main contrib non-free
 deb http://mirrors.ustc.edu.cn/debiancn/ stable/updates main contrib non-free
 deb http://security.debian.org/ stable/updates main 
-
-# 以下源取自launchpad，需要下载密钥
-# sudo apt-key adv --keyserver keyserver.ubuntu.com --recv < PUBKEY >
-# <PUBKEY>在首次更新后列出缺失的密钥
-deb http://ppa.launchpad.net/wiznote-team/ppa/ubuntu/ trusty main  # 为知笔记
-deb http://ppa.launchpad.net/timxx/xmradio/ubuntu trusty main  # 虾米音乐广播
 ```
+某些源取自launchpad，需要下载密钥
+```
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv < PUBKEY >
+```
+
 
 ## 源速度测试
 
@@ -53,4 +52,9 @@ LC_CTYPE=zh_CN.UTF-8
 
 ```
 sudo dpkg-reconfigure tzdata
+```
+
+## NVIDIA显卡安装
+```
+sudo apt install nvidia-driver
 ```
