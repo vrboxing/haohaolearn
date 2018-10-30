@@ -1,4 +1,10 @@
 # Debian
+
+本文记录安装Debian/Linux系统的个人习惯。操作前提为：
+
+- 熟悉`vi/vim`的一般编辑功能；
+- u盘容量大于`1G`。
+
 # 下载镜像
 - http://mirrors.hust.edu.cn/debian-cd/current/amd64/iso-cd/debian-9.5.0-amd64-xfce-CD-1.iso
 
