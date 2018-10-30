@@ -1,0 +1,64 @@
+#+TITLE: Pro Git
+* Getting Started
+
+* Git Basics
+** Getting a Git Repository
+** Recording Changes to the Repository
+** Viewing the Commit History
+** Undoing Things
+** Working with Remotes
+** Tagging
+
+* Git Branching
+** Branches in Nutshell
+** Basic Branching and Merging
+** Remote Branches
+   - git checkout [brachname]
+   - create: git branch [branchname]
+   - delete: git branch -d [branchname]
+   - merge: git merge [targetbranch]
+   - list branches: git branch
+   - list branches with last commit : git branch -v
+   - list branches merged into current branch: git branch --merged 
+   - list branches not yet merged into current branch: git branch --nomerged 
+** Rebasing
+*** The Basic Rebase
+    - git checkout experiment
+    - git rebase master
+    - git checkout master
+    - git merge experiment
+*** More Interesting Rebases
+    - git rebase --onto master server client
+    - git checkout master
+    - git merge client
+    - git rebase master server [set the base of server branch as master]
+    - git checkout master
+    - git merge server
+*** The Perils of Rebasing
+    - 
+
+
+* Distributed Git
+
+** Distributed Workflows
+
+** Contributing to a Project
+
+*** Private Small Team
+    - 
+
+*** Private Managed Team
+
+    - Jessica建分支并推送featureA
+    - 通知John下拉featureA并继续工作
+    - Jessica建分支并提交featureB
+    - Jessica收到Josie邮件已推送分支featureBee
+    - Jessica下拉并合并featureBee到featureB
+    - Jessica将featureB推送到远程featureBee上
+    - 管理者合并featureA和featureBee
+
+*** Forked Public Project
+
+*** Public Project over Email
+
+** Maintaining a Project
