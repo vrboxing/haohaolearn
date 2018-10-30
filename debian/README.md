@@ -134,9 +134,10 @@ sudo apt install thunderbird
 
 ## 中文字体下载
 
-```
-https://github.com/adobe-fonts/source-han-sans
-```
+Adobe公司提供的开源字体：
+
+[思源无衬线](https://github.com/adobe-fonts/source-han-sans/tree/release)
+[思源有衬线](https://github.com/adobe-fonts/source-han-serif/tree/release)
 
 ##  粘帖代码
 
