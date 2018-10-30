@@ -4,12 +4,24 @@
 
 # 制作启动u盘
 
-- 确定u盘的设备名称`sdc`，注意不是分区`sdc1`
+## Windows
+- 启动盘制作工具，如`UltraISO`
+
+## Debian/Unbuntu
+
+- 插入u盘，查看u盘设备名称。
+```
+sudo df  # 以/dev/sdc1为例，其挂载点为 /media/wall-e/sony
+sudo umount /media/wall-e/sony  # 卸载u盘
+
+```
+
+- 确定u盘的设备名称`sdc`，注意不是分区`sdc1`，写入iso镜像文件 
 
 ```
 sudo dd if=<xxx.iso> of=/dev/sdc bs=2M
+sync # 注意要做同步，确保完成拷贝
 ```
-
 
 # 配置
 
