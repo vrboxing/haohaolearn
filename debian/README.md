@@ -6,7 +6,7 @@
 - u盘容量大于`1G`。
 
 # 下载镜像
-- `[mirrors.ustc.edu.cn](mirrors.ustc.edu.cn)`中有获取镜像的入口，可由链接下载镜像。 
+- [mirrors.ustc.edu.cn](mirrors.ustc.edu.cn)中有获取镜像的入口，可由链接下载镜像。 
 - `http://mirrors.hust.edu.cn/debian-cd/current/amd64/iso-cd/debian-9.5.0-amd64-xfce-CD-1.iso`
 
 # 制作启动u盘
