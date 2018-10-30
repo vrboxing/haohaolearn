@@ -121,6 +121,7 @@ sudo apt install cinnamon cinnamon-settings-daemon cinnamon-session
 
 ```
 sudo apt install git emacs vim gimp inkscape fcitx fcitx-table-wbpy pastebinit
+sudo apt install thunderbird
 ```
 
 ## 中文字体下载
