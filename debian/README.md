@@ -6,7 +6,8 @@
 - u盘容量大于`1G`。
 
 # 下载镜像
-- http://mirrors.hust.edu.cn/debian-cd/current/amd64/iso-cd/debian-9.5.0-amd64-xfce-CD-1.iso
+- `[mirrors.ustc.edu.cn](mirrors.ustc.edu.cn)`中有获取镜像的入口，可由链接下载镜像。 
+- `http://mirrors.hust.edu.cn/debian-cd/current/amd64/iso-cd/debian-9.5.0-amd64-xfce-CD-1.iso`
 
 # 制作启动u盘
 
@@ -41,8 +42,8 @@ vi /etc/apt/sources.list
 ```
 
 ```
-deb http://mirrors.163.com/debian/ buster main contrib non-free
-deb http://mirrors.163.com/debian/ buster-updates main contrib non-free
+deb http://mirrors.ustc.edu.cn/debian/ buster main contrib non-free
+deb http://mirrors.ustc.edu.cn/debian/ buster-updates main contrib non-free
 ```
 
 - 详见：[源的设置](resources.md)
