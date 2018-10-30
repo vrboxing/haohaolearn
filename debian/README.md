@@ -8,6 +8,7 @@
 # 下载镜像
 - [mirrors.ustc.edu.cn](http://mirrors.ustc.edu.cn)中有获取镜像的入口，可由链接下载镜像。 
 - 亦可直接下载：[http://mirrors.ustc.edu.cn/debian-cd/current/amd64/iso-cd/debian-9.5.0-amd64-xfce-CD-1.iso ](http://mirrors.ustc.edu.cn/debian-cd/current/amd64/iso-cd/debian-9.5.0-amd64-xfce-CD-1.iso)
+- 若版本有变，可访问文件夹下载：[http://mirrors.ustc.edu.cn/debian-cd/current/amd64/iso-cd](http://mirrors.ustc.edu.cn/debian-cd/current/amd64/iso-cd)
 
 # 制作启动u盘
 
