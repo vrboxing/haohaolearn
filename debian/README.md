@@ -98,10 +98,11 @@ XKBOPTIONS="ctrl:nocaps"
 ```
 
 
-## 桌面主题配置
+## 桌面主题配置和`Cinnamon`桌面
 
 ```
-sudo apt install numix-gtk-theme faenza-icon-theme 
+sudo apt install numix-gtk-theme faenza-icon-theme
+sudo apt install cinnamon cinnamon-settings-daemon cinnamon-session
 ```
 
 ## 常用工具
