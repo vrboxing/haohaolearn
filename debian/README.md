@@ -126,6 +126,9 @@ sudo apt install cinnamon cinnamon-settings-daemon cinnamon-session
 sudo apt install papirus-icon-theme
 ```
 
+LibreOffice Calc: Options > LibreOffice > View > User Inferface > Icon style = Epapirus
+
+
 ## 常用工具
 
 ```
