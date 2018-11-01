@@ -123,6 +123,7 @@ XKBOPTIONS="ctrl:nocaps"
 ```
 sudo apt install numix-gtk-theme faenza-icon-theme
 sudo apt install cinnamon cinnamon-settings-daemon cinnamon-session
+sudo apt install papirus-icon-theme
 ```
 
 ## 常用工具
