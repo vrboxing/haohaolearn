@@ -135,6 +135,7 @@ LibreOffice Calc: Options > LibreOffice > View > User Inferface > Icon style = E
 ```
 sudo apt install git emacs vim gimp inkscape fcitx fcitx-table-wbpy pastebinit
 sudo apt install thunderbird
+sudo apt install gparted variety 
 ```
 
 ## 中文字体下载
