@@ -125,6 +125,7 @@ sudo apt install numix-gtk-theme faenza-icon-theme
 sudo apt install cinnamon cinnamon-settings-daemon cinnamon-session
 sudo apt install papirus-icon-theme
 ```
+[papirus-libreoffice-theme](https://github.com/PapirusDevelopmentTeam/papirus-libreoffice-theme)
 
 LibreOffice Calc: Options > LibreOffice > View > User Inferface > Icon style = Epapirus
 
