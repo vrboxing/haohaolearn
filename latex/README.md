@@ -7,7 +7,7 @@
    https://en.wikibooks.org/wiki/LaTeX
 
 ## Installation
-   - [TeXLive](./TexLive.md)
+   - [TeXLive](./TeXLive.md)
 
 ## Editor
    - TexMaker
