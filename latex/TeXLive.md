@@ -16,4 +16,4 @@ TeXLive每年发布一个新版本，下载目录中的任意镜像文件即可�
 - Linux: `sudo ./install-tl`；若安装了`perl-tk`，还可以图形界面安装：`sudo ./install-tl --gui`
 - 注意安装中选择：`修改注册表中的PATH设置`
 
-[](./gui.png)
+![](./gui.jpg)
