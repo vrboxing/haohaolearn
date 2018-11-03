@@ -7,7 +7,7 @@
    https://en.wikibooks.org/wiki/LaTeX
 
 ## Installation
-   - TexLive http://mirrors.ustc.edu.cn/CTAN/systems/texlive/Images/
+   - [TeXLive](TexLive.md)
 
 ## Editor
    - TexMaker
