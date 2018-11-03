@@ -12,6 +12,13 @@
    - C-c ETR: eval current line
    - C-S-x eval all script
    - C-c C-t b: set Bp
+*** tracebug
+    - Note taken on [2018-10-30 Tue 21:58]
+    - Note taken on [2018-10-30 Tue 21:58]
+    - evaluating function: C-c C-c
+    - goto error: C-x `, M-g n, M-g M-n
+    - 
+
 ** Org
    - C-ERT:
    - M-ERT:

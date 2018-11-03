@@ -1,5 +1,7 @@
 # GIMP
 
+[The Book of GIMP](book.md)
+
 
 ## 插件
 
