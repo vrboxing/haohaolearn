@@ -4,7 +4,8 @@
    拉泰赫
 
 ## What is LaTeX?
-   https://en.wikibooks.org/wiki/LaTeX
+   - LaTeX是专业排版系统。
+   - https://en.wikibooks.org/wiki/LaTeX
 
 ## Installation
    - [TeXLive](./TeXLive.md)
@@ -14,7 +15,7 @@
    - Emacs+Auctex
 
 ## Books
-   - 刘海洋. LaTeX入门，2013, 电子工业出版社
+   - 刘海洋. [LaTeX入门](http://item.jd.com/11258469.html)，2013, 电子工业出版社
 
 ## Tutor
    - https://github.com/yangdaweihit/latexreport
