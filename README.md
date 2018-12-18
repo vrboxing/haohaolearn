@@ -6,6 +6,7 @@
 - atom/
 - cmake/
 - debian/
+- ubuntu/
 - emacs/
 - git/
 - r/

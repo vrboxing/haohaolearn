@@ -17,8 +17,6 @@
 (unless (eq 'org-mode major-mode)
    (setq-default fill-column 72))
 
-(require 'ess-smart-underscore) 
-
 (setq-default truncate-lines t) ;; which is default
 (setq truncate-partial-width-windows t)
 (setq-default auto-fill-function 'do-auto-fill)
@@ -53,7 +51,7 @@
  (setq-default TeX-master nil)
  (mapc (lambda (mode)
  (add-hook 'laTeX-mode-hook mode))
-       (list ;'auto-complete-mode
+       (list 'auto-complete-mode
     'auto-fill-mode
     'LaTeX-math-mode
     'turn-on-reftex
@@ -145,3 +143,5 @@
 
 (require 'ess-site)
 (add-hook 'ess-post-run-hook 'ess-tracebug)
+(require 'ess-smart-underscore) 
+(setq eim-wb-use-gbk t)
