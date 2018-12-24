@@ -1,0 +1,17 @@
+{
+"server":"1.128-ctr.ruyun.club",
+"server_ipv6":"::",
+"server_port":10783,
+"local_address":"127.0.0.1",
+"local_port":1080,
+"password":"5Rs46qs9dO",
+"timeout":300,
+"udp_timeout":60,
+"method":"aes-128-ctr",
+"protocol":"auth_aes128_md5",
+"protocol_param":"",
+"obfs":"tls1.2_ticket_auth",
+"obfs_param":"",
+"fast_open":false,
+"workers":1
+}
