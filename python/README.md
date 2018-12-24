@@ -11,3 +11,5 @@
 sudo snap install pycharm-community --classic
 ```
 
+### Run and Debug
+- C-S-F10: run
