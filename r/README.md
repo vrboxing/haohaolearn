@@ -13,3 +13,7 @@
   + describes applications of R for actual sta- tistical analysis
   + 在基本学会R和统计学的基础上，示范统计计算的教程。
   + 适合作为统计学的配套练习教材。
+
+## rJava & xlsx
+  + rJava安装不了
+    解决：https://stackoverflow.com/questions/12872699/error-unable-to-load-installed-packages-just-now
