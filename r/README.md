@@ -14,7 +14,7 @@ local({
   options(repos = r)
 })
 ```
-
+参考：https://www.r-bloggers.com/permanently-setting-the-cran-repository/
 
 ## 书评
 
