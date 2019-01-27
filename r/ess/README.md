@@ -11,7 +11,7 @@ Emacs Speaks Statistics(ESS) 是Emacs的插件，用于支持各类统计分析�
 - 配置
 ```
 (require 'ess-site)
-(setq tramp-ssh-controlmaster-options nil) ;;解决启动卡死的问题。这个是关于TRAMP的bug，解决方案来自于<https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=810640>。
+(setq tramp-ssh-controlmaster-options nil) ;;解决启动卡死的问题。这个是关于TRAMP的bug，解决方案来自于<https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=810640>。dsfadfsdaf
 (eval-after-load "comint"
   '(progn
       (define-key comint-mode-map [up]
@@ -62,3 +62,10 @@ Emacs Speaks Statistics(ESS) 是Emacs的插件，用于支持各类统计分析�
   - C-c M-r 运算区域并离开
   - C-c C-b 运算缓冲区
   - C-c M-b 运算缓冲区并离开
+
+# 调试
+
+  - 设置断点(C-c C-t b)后，加载文件(C-c C-l)
+  - 在开启的Browser中，用`n`或`c`或`f`控制执行
+  - 打开观察窗口(C-c C-t w)，填加观察变量
+  - 在Browser中，按`Q`退出，或按`f`执行并退出。
