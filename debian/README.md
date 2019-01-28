@@ -177,3 +177,20 @@ Categories=Network
 # 命令行
 
 [CMD](./cmd.md)
+
+# apt-mark
+标记`sudo`为手动安装，避免因其它程序卸载而被连带卸载。
+```
+  apt-mark manual sudo
+```
+# crontab
+
+启机时自动执行脚本，需要`root`权限。
+
+```
+sudo crontab -e
+```
+填加：
+```
+@reboot bash /path/to/script.sh
+```
