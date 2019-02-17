@@ -3,8 +3,7 @@
 ## textbook
 
 - Python3程序开发指南(中文第二版)
-- [菜鸟教程](http://www.runoob.com/python/python-tutorial.html)
-
+- [python2](http://www.runoob.com/python/python-tutorial.html)或[python3](http://www.runoob.com/python3/python3-tutorial.html)
 
 ## pycharm
 
