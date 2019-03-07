@@ -23,3 +23,10 @@ unzip -O GB18030 xxx.zip -d target_dir
 iconv -f GB18030 -t UTF-8 xxx.rst -o xxx_utf8.rst
 ```
 
+## 网易云音乐
+
+
+```
+sudo vi /usr/share/applications/netease-cloud-music.desktop
+Exec=sh -c "unset SESSION_MANAGER && netease-cloud-music %U"
+```
