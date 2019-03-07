@@ -6,6 +6,15 @@
 - hp 1020
   https://blog.hostonnet.com/how-to-install-hp-laserjet-1020-plus-printer-drivers-in-ubuntu-16-04
 
+# PATH 
+
+`/etc/enviornment` --> `.profile`
+
+```
+PATH=$PATH:~/.local/bin;
+export PATH
+```
+
 ## unzip
 
 - [字符集](https://www.iana.org/assignments/character-sets/character-sets.xhtml)
