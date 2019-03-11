@@ -32,3 +32,5 @@ local({
   + rJava安装不了
     - 解决：https://stackoverflow.com/questions/12872699/error-unable-to-load-installed-packages-just-now
     - 解决：https://www.r-bloggers.com/installing-rjava-on-ubuntu/
+
+

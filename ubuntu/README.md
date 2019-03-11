@@ -17,6 +17,12 @@ unzip -O GB18030 xxx.zip -d target_dir
 ```
 
 ## iconv
+
+- 查看文档编码
+```
+file -i xxx.srt
+```
+
 - [转换命令](https://www.tecmint.com/convert-files-to-utf-8-encoding-in-linux/)
 - 示例
 ```
