@@ -6,6 +6,15 @@
 - hp 1020
   https://blog.hostonnet.com/how-to-install-hp-laserjet-1020-plus-printer-drivers-in-ubuntu-16-04
 
+# PATH 
+
+`/etc/enviornment` --> `.profile`
+
+```
+PATH=$PATH:~/.local/bin;
+export PATH
+```
+
 ## unzip
 
 - [字符集](https://www.iana.org/assignments/character-sets/character-sets.xhtml)
@@ -29,3 +38,10 @@ file -i xxx.srt
 iconv -f GB18030 -t UTF-8 xxx.rst -o xxx_utf8.rst
 ```
 
+## 网易云音乐
+
+
+```
+sudo vi /usr/share/applications/netease-cloud-music.desktop
+Exec=sh -c "unset SESSION_MANAGER && netease-cloud-music %U"
+```
