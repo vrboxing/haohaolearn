@@ -1,37 +1,52 @@
 # 安装
 
-系统：Debian jessie x64
+系统：Ubuntu 18.04
 
-版本：ANSYS 16.2
+版本：ANSYS 19.0
 
 ## 环境准备
 
 ```
 sudo apt-get install build-essential
-sudo apt-get install xterm libstdc++-4.8-dev libmotif-dev libxtst-dev  libxt-dev libzip-dev  libxmu-dev libxp6
+sudo apt-get install xterm libstdc++-4.8-dev libmotif-dev libxtst-dev  libxt-dev libzip-dev  libxmu-dev
 sudo apt-get install tcl8.5-dev tk8.5-dev
-sudo apt-get install lsb csh xfonts-75dpi xfonts-100dpi wine
+sudo apt-get install lsb csh xfonts-75dpi xfonts-100dpi wine-stable
 ```
+
+安装trusty版本的`libxp6`
 
 ## 镜像镜像与加载
 
-镜像下载：http://pt.hit.edu.cn/details.php?id=45453&hit=1
 
 加载镜像：
 
 ```
-sudo mkdir /mnt/ansys1 /mnt/ansys2
-sudo mount ANSYS162_LINX64_Disk1.iso /mnt/ansys1
-sudo mount ANSYS162_LINX64_Disk2.iso /mnt/ansys2
+sudo mount ANSYS190_LINX64_DVD.iso /mnt
 ```
 
 ## 安装
 
-镜像加载后进入目录执行INSTALL:
+N镜像加载后进入目录执行INSTALL:
 
 ```
 sudo ./INSTALL
 ```
+
+若无法启动安装画面，需执行：
+
+```
+xhost +
+```
+
+或将该行命令加于`/.profile`中使其启动时自动执行。
+
+```
+sudo mv /usr/bin/sh /usr/bin/sh.bak
+sudo ln -s /usr/bin/bash /usr/bin/sh
+```
+
+ubuntu中的`sh`默认链接是`dash`，将其改为`bash`
+
 
 - 选择`Install ANSYS Products`
 
@@ -71,19 +86,19 @@ sudo ./INSTALL
 
 ## 破解
 
-将`_SolidSQUAD_/ANSYS.16.2.LOCAL.LICENSING.LINUX64.CRACK-SSQ.tar.gz`解压后，将文件夹`shared_files`拷贝到`<ANSYS>/ansys_inc/` 中，其中`<ANSYS>`为安装目录。在本例中为`/home/yangdawei/`
+将`_SolidSQUAD_/ANSYS.19.0.LOCAL.LICENSING.LINUX64.CRACK-SSQ.tar.gz`解压后，将文件夹`shared_files`拷贝到`<ANSYS>/ansys_inc/` 中，其中`<ANSYS>`为安装目录。
 
 ```
-tar -zxvf ANSYS.16.2.LOCAL.LICENSING.LINUX64.CRACK-SSQ.tar.gz
+tar -zxvf ANSYS.19.0.LOCAL.LICENSING.LINUX64.CRACK-SSQ.tar.gz
 ```
 
 ## 配置
 
-- 建立软链接。为方便运行`ansys162`，在`/usr/bin`中建立可执行程序的软链接。
+- 建立软链接。为方便运行`ansys190`，在`/usr/bin`中建立可执行程序的软链接。
 
 ```
-sudo ln -s /home/yangdawei/ansys_inc/v162/ansys/bin/ansys162 /usr/bin/ansys162
-sudo ln -s /home/yangdawei/ansys_inc/v162/ansys/bin/launcher162 /usr/bin/launcher162
+sudo ln -s /usr/ansys_inc/v190/ansys/bin/ansys190 /usr/bin/ansys190
+sudo ln -s /usr/ansys_inc/v190/ansys/bin/launcher190 /usr/bin/launcher190
 ```
 
 - 此时运行`ansys162 -g`会启动ansys，然而退出时会报错：
@@ -103,7 +118,7 @@ sudo ln -s /home/yangdawei/ansys_inc/v162/ansys/bin/launcher162 /usr/bin/launche
   unset QT4_IM_MODULE
   unset CLUTTER_IM_MODULE
 
-  ansys162 -g
+  ansys190 -g
 
   export XMODIFIERS="@im=fcitx"
   export GTK_IM_MODULE=fcitx
@@ -128,7 +143,7 @@ sudo ln -s /home/yangdawei/ansys_inc/v162/ansys/bin/launcher162 /usr/bin/launche
   unset QT4_IM_MODULE
   unset CLUTTER_IM_MODULE
 
-  launcher162 
+  launcher190
 
   export XMODIFIERS="@im=fcitx"
   export GTK_IM_MODULE=fcitx
@@ -139,6 +154,6 @@ sudo ln -s /home/yangdawei/ansys_inc/v162/ansys/bin/launcher162 /usr/bin/launche
 ## 运行程序
 
 - 在终端中运行`ansys`即可运行ansys的窗口程序。
-- 运行`launcher162`亦可实现launcher方式的启动。
+- 运行`launcher`亦可实现launcher方式的启动。
 
   ![](./Pic_11.jpg)
