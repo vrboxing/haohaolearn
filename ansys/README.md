@@ -156,4 +156,4 @@ sudo ln -s /usr/ansys_inc/v190/ansys/bin/launcher190 /usr/bin/launcher190
 - 在终端中运行`ansys`即可运行ansys的窗口程序。
 - 运行`launcher`亦可实现launcher方式的启动。
 
-  ![](./Pic_11.png)
+  ![](./Pic_11.jpg)
