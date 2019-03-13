@@ -101,7 +101,7 @@ sudo ln -s /usr/ansys_inc/v190/ansys/bin/ansys190 /usr/bin/ansys190
 sudo ln -s /usr/ansys_inc/v190/ansys/bin/launcher190 /usr/bin/launcher190
 ```
 
-- 此时运行`ansys162 -g`会启动ansys，然而退出时会报错：
+- 此时运行`ansys190 -g`会启动ansys，然而退出时会报错：
 
   ![](./Pic_10.jpg)
 
