@@ -15,6 +15,18 @@ PATH=$PATH:~/.local/bin;
 export PATH
 ```
 
+# 启动时自动执行脚本 
+
+`/etc/rc.local`
+
+```
+#! /bin/sh 
+ssr
+exit 0
+```
+
+`sudo chmod +x /etc/rc.local`
+
 ## 重命名
 
 安装`rename`
