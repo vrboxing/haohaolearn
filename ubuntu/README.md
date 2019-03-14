@@ -15,6 +15,16 @@ PATH=$PATH:~/.local/bin;
 export PATH
 ```
 
+## 重命名
+
+安装`rename`
+
+例如重命名`[NS]D[1-13]索力时程.png`为`[NS]D[1-3].png`：
+
+```
+rename 's/索力时程//' *.png
+```
+
 ## unzip
 
 - [字符集](https://www.iana.org/assignments/character-sets/character-sets.xhtml)
