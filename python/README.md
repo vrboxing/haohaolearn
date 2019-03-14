@@ -6,6 +6,7 @@
 - [python2](http://www.runoob.com/python/python-tutorial.html)
 - [python3](http://www.runoob.com/python3/python3-tutorial.html)
 - [python3入门指南](http://www.runoob.com/manual/pythontutorial3/docs/html/index.html)
+- [Python Course](https://www.python-course.eu/index.php)
 
 ## pycharm
 
