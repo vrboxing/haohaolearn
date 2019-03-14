@@ -1,5 +1,7 @@
 # 安装
 
+ANSYS在Linux系统中的安装说明见安装手册，然而官方称所支持的Linux系统不支持Debian和Ubuntu。幸运的是，经过不懈搜索和尝试，我们可以在Debian和Ubuntu中安装并运行ANSYS了。下面是安装说明。
+
 系统：Ubuntu 18.04
 
 版本：ANSYS 19.0
@@ -13,7 +15,7 @@ sudo apt-get install tcl8.5-dev tk8.5-dev
 sudo apt-get install lsb csh xfonts-75dpi xfonts-100dpi wine-stable
 ```
 
-安装trusty版本的`libxp6`
+安装trusty版本的[`libxp6`](https://packages.ubuntu.com/trusty/libxp6)和xenial版本的[`libpng12`](https://packages.ubuntu.com/xenial/libpng12-0)
 
 ## 镜像镜像与加载
 
@@ -46,6 +48,9 @@ sudo ln -s /usr/bin/bash /usr/bin/sh
 ```
 
 ubuntu中的`sh`默认链接是`dash`，将其改为`bash`
+
+- 安装过程中会在进度条`91 %`的地方卡住，强行关闭安装对话框即可。当然这会导致`\mnt`不能卸载镜像，精细的办法有，但简单粗暴的办法就是重启系统。
+
 
 
 - 选择`Install ANSYS Products`
@@ -152,6 +157,11 @@ sudo ln -s /usr/ansys_inc/v190/ansys/bin/launcher190 /usr/bin/launcher190
   export CLUTTER_IM_MODULE=xim
   ```
 ## 运行程序
+
+- 运行时会报错无法找到所需要的`libz.so.1`，将`/usr/ansys_inc/.../libz.so.1`中的文件移除，做一个软连接：
+```
+sudo ln -s /usr/lib/x86_64-linux-gnu/libz.so libz.so.1
+```
 
 - 在终端中运行`ansys`即可运行ansys的窗口程序。
 - 运行`launcher`亦可实现launcher方式的启动。
