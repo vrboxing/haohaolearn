@@ -34,3 +34,8 @@ local({
     - 解决：https://www.r-bloggers.com/installing-rjava-on-ubuntu/
 
 
+## 3D曲面绘制
+
+- [plotly 3D](https://plot.ly/r/3d-surface-plots/)
+- [plotly](https://plot.ly/r/getting-started/)
+
