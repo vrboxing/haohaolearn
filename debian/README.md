@@ -194,3 +194,6 @@ sudo crontab -e
 ```
 @reboot bash /path/to/script.sh
 ```
+
+# 图标hardcode
+- [Hardcode-Tray](https://github.com/bilelmoussaoui/Hardcode-Tray)
