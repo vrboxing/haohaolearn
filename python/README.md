@@ -18,7 +18,6 @@ pycharm帮助系统见：<https://www.jetbrains.com/help/pycharm/meet-pycharm.ht
 sudo snap install pycharm-community --classic
 ```
 
-
 ### Run and Debug
 - C-S-F10: run
 
@@ -30,3 +29,23 @@ sudo snap install pycharm-community --classic
 
 - [面向对象](https://realpython.com/python3-object-oriented-programming/)
 - [运算符重载](https://realpython.com/operator-function-overloading/)
+
+## venv
+
+- [venv](https://docs.python.org/3/library/venv.html)
+- [在Pycharm中的项目与虚拟环境关联](https://www.techcoil.com/blog/how-to-associate-a-virtualenv-environment-with-a-python-project-in-pycharm/)
+- [安装pip和virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtualenv/)
+
+## realgud
+
+- `M-x` `load-library` `realgud`
+- `M-x` `realgud:pdb`
+- `M-x` `python3 -m pdb myscipt.py`
+- [use realgud](https://github.com/realgud/realgud/wiki/How-to-Use#supported-debuggers)
+- [No Module Error](https://github.com/realgud/realgud/issues/211)
+
+## pdb
+
+- [pdb文档](https://docs.python.org/3/library/pdb.html)
+- [Python Debugging With Pdb](https://realpython.com/python-debugging-pdb/)
+- [用pdb调试代码](https://pybit.es/pdb-debugger.html)
