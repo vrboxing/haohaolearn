@@ -21,7 +21,7 @@
 
 ## 统计学及应用
 
-- Julius S. Bendat, Allan G. Piersol.Engineering Applications of
+- Julius S. Bendat, Allan G. Piersol, Engineering Applications of
   Correlation and Spectral Analysis(2nd). Wiley-Interscience, 2013
   
 - Jeffrey M. Stanton, Reasoning with data : an introduction to
