@@ -17,6 +17,7 @@
 # AUCTEX
 - `sudo apt install auctex`
 
+
 # Emacs快捷键
 
 https://kb.iu.edu/d/abis
@@ -42,3 +43,10 @@ https://kb.iu.edu/d/abis
   6. `y`
   
 - 测试工具：https://www.debuggex.com/
+
+# iedit 
+
+- [iedit](https://www.emacswiki.org/emacs/Iedit)
+- 使用：
+  + `C-;`切换到iedit模式，自动识别光标所在文字，高亮所有相同文字。
+  + 再次`C-;`关闭iedit模式。

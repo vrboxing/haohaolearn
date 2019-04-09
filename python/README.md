@@ -49,3 +49,10 @@ sudo snap install pycharm-community --classic
 - [pdb文档](https://docs.python.org/3/library/pdb.html)
 - [Python Debugging With Pdb](https://realpython.com/python-debugging-pdb/)
 - [用pdb调试代码](https://pybit.es/pdb-debugger.html)
+
+## elpy
+
+- 加载已存在的虚拟环境：`M-x pyvenv-workon` 
+- 激活虚拟环境：`M-x pyvenv-active` 
+- 关闭虚拟环境：`M-x pyvenv-deactive` 
+- 检查配置：`M-x` `elpy-config`

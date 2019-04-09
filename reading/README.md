@@ -5,6 +5,12 @@
 - Athanaisos Papoulis, S. Unnikrishna Pillai, Probability, Random
   Variables, and Stochastic Progress(4th). Mc Graw Hill, 2002 
 
+## 统计学基础
+
+- Jeffrey M. Stanton, Reasoning with data : an introduction to
+  traditional and Bayesian statistics using R. The Guilford Press, 2017
+
+
 ## 随机过程和时序及应用
 
 - Julius S. Bendat, Allan G. Piersol, Random Data: Analysis and
@@ -19,18 +25,18 @@
 - Mike West, Jeff Harrison, Bayesian Forecasting and Dynamic
   Models(2nd). Springer, 1997
 
-## 统计学及应用
+## 统计学应用
 
 - Julius S. Bendat, Allan G. Piersol, Engineering Applications of
   Correlation and Spectral Analysis(2nd). Wiley-Interscience, 2013
   
-- Jeffrey M. Stanton, Reasoning with data : an introduction to
-  traditional and Bayesian statistics using R. The Guilford Press, 2017
-
 ## 估计理论与应用
 
 - Jerry M. Mendel, Lessons in Estimation Theory for Singal, Processing,
   Communications, and Control. Prentice Hall, Inc., 1995
+  
+- David Lunn, etc., The BUGS Book: A Practical Introduction to Bayesian
+  Analysis. CRC Press, 2012
 
 ## 最优控制
 
