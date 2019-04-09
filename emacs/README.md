@@ -1,6 +1,6 @@
 # 为什么要用Emacs
 
-- [一年成为 Emacs 高手 (像神一样使用编辑器)](一年成为 Emacs 高手 (像神一样使用编辑器))
+- [一年成为 Emacs 高手 (像神一样使用编辑器)](https://github.com/redguardtoo/mastering-emacs-in-one-year-guide/blob/master/guide-zh.org)
 
 # 配置
 
