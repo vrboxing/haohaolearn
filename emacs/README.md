@@ -1,4 +1,9 @@
+# 为什么要用Emacs
+
+- [一年成为 Emacs 高手 (像神一样使用编辑器)](一年成为 Emacs 高手 (像神一样使用编辑器))
+
 # 配置
+
 - [陈斌配置](https://github.com/redguardtoo/emacs.d) 
 - `cd ~; git clone https://github.com/redguardtoo/emacs.d.git .emacs.d`
 - [自定义配置](custom.el)
