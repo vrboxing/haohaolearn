@@ -1,0 +1,11 @@
+#+TITLE: Pandas
+#+AUTHOR: 杨大伟
+#+LATEX_CLASS: article 
+#+LATEX_CLASS_OPTIONS: [a4paper]
+#+LATEX_HEADER: \usepackage[utf-8]{ctex}
+#+LATEX_HEADER: \usepackage[margin=2cm]{geometry}
+
+** 教程
+
+- [[https://www.python-course.eu/pandas_python_binning.php][Binning in Python and Pandas]]
+
