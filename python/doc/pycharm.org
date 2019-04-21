@@ -1,0 +1,24 @@
+* Pycharm
+** 安装
+
+pycharm是一款优秀的python开发集成环境软件，建议初学python使用pycharm作为
+练习的环境。
+
+[pycharm](https://www.jetbrains.com/pycharm/?fromMenu)是
+[jetbrains](https://www.jetbrains.com)开发的python IDE。
+
+pycharm帮助系统见：
+<https://www.jetbrains.com/help/pycharm/meet-pycharm.html>
+
+```
+sudo snap install pycharm-community --classic
+```
+
+** 设置
+
+- 关掉beep提示音：`\sudo rmmod pcspkr`
+
+** 快捷键
+- C-S-F10: 运行
+- C-/：注释
+- C-S-M l: 格式化代码

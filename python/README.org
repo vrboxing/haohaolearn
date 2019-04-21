@@ -1,164 +1,24 @@
-* python
+#+TITLE: Python
+#+AUTHOR: 杨大伟
+#+LATEX_CLASS: article 
+#+LATEX_CLASS_OPTIONS: [a4paper]
+#+LATEX_HEADER: \usepackage[utf-8]{ctex}
+#+LATEX_HEADER: \usepackage[margin=2cm]{geometry}
+
   
-** 教程 
+* 教程 
 
-- Python3程序开发指南(中文第二版)
-- [python2](http://www.runoob.com/python/python-tutorial.html)
-- [python3](http://www.runoob.com/python3/python3-tutorial.html)
-- [python3入门指南](http://www.runoob.com/manual/pythontutorial3/docs/html/index.html)
-- [Python Course](https://www.python-course.eu/index.php)
-- [realpython](https://realpython.com) 
+- [[http://www.runoob.com/python3/python3-tutorial.html][python3]]
+- [[https://www.python-course.eu/index.php][python-course]]
+- [[https://realpython.com][realpython]]
 
-*** 专题 
+* 笔记 
 
-- [面向对象](https://realpython.com/python3-object-oriented-programming/)
-- [运算符重载](https://realpython.com/operator-function-overloading/)
-- [import](http://codingpy.com/article/python-import-101/)
-- [字符串格式化](https://realpython.com/python-f-strings/)
+** 环境
+- [[file:doc/elpy.org][elpy]]
+- [[file:doc/jupyter.org][jupyter]]
+- [[file:doc/pycharm.org][pycharm]]
 
-*** Notes
-
+** 语法
 - [[file:doc/string.org][string]] 
-
-** Jupyter
-   
-*** 安装
-
-   - pip3 install jupyter
-
-** 配置
-
-#+BEGIN_SRC lisp
-(setq python-shell-interpreter "jupyter"
-      python-shell-interpreter-args "console --simple-prompt"
-      python-shell-prompt-detect-failure-warning nil)
-(add-to-list 'python-shell-completion-native-disabled-interpreters
-             "jupyter")
-
-#+END_SRC
-
-** Pycharm
-*** 安装
-
-pycharm是一款优秀的python开发集成环境软件，建议初学python使用pycharm作为
-练习的环境。
-
-[pycharm](https://www.jetbrains.com/pycharm/?fromMenu)是
-[jetbrains](https://www.jetbrains.com)开发的python IDE。
-
-pycharm帮助系统见：
-<https://www.jetbrains.com/help/pycharm/meet-pycharm.html>
-
-```
-sudo snap install pycharm-community --classic
-```
-
-*** 设置
-
-- 关掉beep提示音：`\sudo rmmod pcspkr`
-
-*** 快捷键
-- C-S-F10: 运行
-- C-/：注释
-- C-S-M l: 格式化代码
-
-** Elpy
-[elpy](https://elpy.readthedocs.io/en/latest/index.html)是Emacs中的
-Python开发环境。在Debian中可以通过安装`elpa-elpy`包获得Elpa。
-
-*** 配置：
-
-参照：
-1. https://elpy.readthedocs.io/en/latest/introduction.html
-2. https://elpy.readthedocs.io/en/latest/ide.html#interactive-python
-
-#+BEGIN_SRC lisp
-
-(require 'elpy)
-(elpy-enable)
-
-(setq python-shell-interpreter "jupyter"
-      python-shell-interpreter-args "console --simple-prompt"
-      python-shell-prompt-detect-failure-warning nil)
-(add-to-list 'python-shell-completion-native-disabled-interpreters
-             "jupyter")
-#+END_SRC
-
-
-    
-*** 检查配置
-
-- 检查配置： *M-x elpy-config*
-- 开启内部python线程：*,-r-p-y*
-- 当Eply模式开启时，可以 *C-Enter* 执行当前行语句，并输出到内部Python交
-互界面中
-
-*** 虚拟环境venv
-
-参考：https://www.digitalocean.com/community/tutorials/how-to-set-up-jupyter-notebook-with-python-3-on-debian-9
-
-- 建立虚拟环境：
-  + mkdir ~/.virutalevns/myevn
-  + cd ~/.virtualevns/myevn
-  + virtualenv myevn
-  + source myevn/bin/active # 激活
-  + 激活后即可在该环境中安装需要的包
-- 
-- 加载已存在的虚拟环境：`M-x pyvenv-workon` 
-- 激活虚拟环境：`M-x pyvenv-active` 
-- 关闭虚拟环境：`M-x pyvenv-deactive` 
-
-- [venv](https://docs.python.org/3/library/venv.html)
-- [在Pycharm中的项目与虚拟环境关联](https://www.techcoil.com/blog/how-to-associate-a-virtualenv-environment-with-a-python-project-in-pycharm/)
-- [安装pip和virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtualenv/)
-
-*** 功能
-**** 文档 
-     - C-c C-d
-       显示当前符号的文档 
-
-**** Refactoring
-
-见：https://elpy.readthedocs.io/en/latest/ide.html
-
-     - C-c C-e
-       对当前光标所属的符号的同现进行编辑
-     
-     - C-c C-r f
-       用当前格式化工具格式化代码，使用了yapf, autopep8和black。
-*** 调试
-
-**** realgud:pdb
-
-- 安装：M-x package-install realgud
-- 加载: M-x load-library realgud
-- 卸载：M-x realgud-unload-features
-- 调试：M-x realgud:pdb 
-- 在minibuffer中：M-x python3 -m pdb myscipt.py
-- [use realgud](https://github.com/realgud/realgud/wiki/How-to-Use#supported-debuggers)
-- [No Module Error](https://github.com/realgud/realgud/issues/211)
-
-*** 短键模式 
-
-- s: step into
-- n: next step
-- b: 设置断点
-- c: 继续执行
-- q: 中止并退出
-- pp: 打印当前量的值
-
-- [pdb文档](https://docs.python.org/3/library/pdb.html)
-- [Python Debugging With Pdb](https://realpython.com/python-debugging-pdb/)
-- [用pdb调试代码](https://pybit.es/pdb-debugger.html)
-- [Python调试利器详解](https://www.jianshu.com/p/1c2212fc28a6)
-
-## 在虚拟环境中安装包
-
-- 在终端操作
-- `soure /path/to/vitualenvname/bin/active`，激活环境
-- `python3 -m pip install <package>` 
-- `deactive`j</q>
-
-
-
 

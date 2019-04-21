@@ -1,0 +1,16 @@
+* Jupyter
+   
+** 安装
+
+   - pip3 install jupyter
+
+** 配置
+
+#+BEGIN_SRC lisp
+(setq python-shell-interpreter "jupyter"
+      python-shell-interpreter-args "console --simple-prompt"
+      python-shell-prompt-detect-failure-warning nil)
+(add-to-list 'python-shell-completion-native-disabled-interpreters
+             "jupyter")
+
+#+END_SRC
