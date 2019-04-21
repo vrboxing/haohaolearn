@@ -1,0 +1,37 @@
+#+TITLE: Debug 
+#+AUTHOR: 杨大伟
+#+LATEX_CLASS: article 
+#+LATEX_CLASS_OPTIONS: [a4paper]
+#+LATEX_HEADER: \usepackage[utf-8]{ctex}
+#+LATEX_HEADER: \usepackage[margin=2cm]{geometry}
+
+** 参照
+
+- [[https://docs.python.org/3/library/pdb.html][pdb文档]]
+- [[https://realpython.com/python-debugging-pdb/][Python Debugging With Pdb]]
+- [[https://pybit.es/pdb-debugger.html][用pdb调试代码]]
+- [[https://www.jianshu.com/p/1c2212fc28a6][Python调试利器详解]]
+
+
+** realgud:pdb
+
+- 安装：M-x package-install realgud
+- 加载: M-x load-library realgud
+- 卸载：M-x realgud-unload-features
+- 调试：M-x realgud:pdb 
+- 在minibuffer中：M-x python3 -m pdb myscipt.py
+- [[https://github.com/realgud/realgud/wiki/How-to-Use#supported-debuggers][use realgud]]
+- [[https://github.com/realgud/realgud/issues/211][No Module Error]]
+
+** 短键模式 
+
+- s: step into
+- n: next step
+- b: 设置断点
+- c: 继续执行
+- q: 中止并退出
+- pp: 打印当前量的值
+
+
+
+
