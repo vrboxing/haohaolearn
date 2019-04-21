@@ -26,3 +26,8 @@
 
 - [[file:doc/string.org][string]] 
 
+** 实践
+
+- [[file:practice/p001-numpy.py][p001-numpy]]
+- [[file:practice/p002-numpy.py][p002-numpy]]
+- [[file:practice/p003-string.py][p003-string]]
