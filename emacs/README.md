@@ -9,18 +9,22 @@
 - [自定义配置](custom.el)
 - `custom.el`改名为`.custom.el`，置于`home`路径
 
-# ESS
-- `sudo apt install ess`
+# 常用命令 
 
+- 以`M-x`引导以下命令。
+- list-packages: 列出包 
+- package-install: 安装包 
+- `, e b` 重新加载当前文件
+- SPC ss: 存储缓冲布局
+- SPC ll: 加载缓冲布局
+- , sh: 从搜索命令中查找 
 
-## ess-smart-underscore
-- [ess-smart-underscore](https://github.com/mattfidler/ess-smart-underscore.el)
-- 将`ess-smart-underscore.el`拷贝到
-  `~/.emacs.d/site-lisp/ess-smart-underscore`中
-- 在`.custom.el`中填加`(require 'ess-smart-underscore)`
- 
-# AUCTEX
-- `sudo apt install auctex`
+# 常用包
+
+- ess
+- auctex
+- ess-smart-underscore
+
 
 
 # Emacs快捷键

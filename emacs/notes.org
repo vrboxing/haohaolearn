@@ -1,0 +1,7 @@
+* COMMENT Day 2
+
+C-c > 日历
+<s TAB 插入源码块
+#+begin_src emacs-lisp ; <C-c '>
+(setq cursor-type 'bar)
+#+end_src
