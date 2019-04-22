@@ -9,7 +9,7 @@
 * 前言
 
   - str是内建类，将参数转换为字符串，它有很多自己的方法，然而为了丰富功
-能，还有一个string模块，提供了公共的字符串操作函数。
+    能，还有一个string模块，提供了公共的字符串操作函数。
   - 见[[https://stackoverflow.com/questions/2026038/relationship-between-string-module-and-str][str vs. string]]
   - 练习：p003-string.py 
 
