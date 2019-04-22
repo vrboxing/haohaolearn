@@ -21,9 +21,10 @@
   - 可用str.join()和io.String()由多个片断快速构建字符串。
 
 ** 字符串方法(String Method)  
-   - 支持两种格式化：
-     + str.format(), Formatting String Syntax, Custom String Formatting
+   - 支持三种格式化：
      + C printf 
+     + str.format(), Formatting String Syntax, Custom String Formatting
+     + f-字符串
    - 方法见示例。
 
 ** printf风格字符串格式化

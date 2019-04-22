@@ -1,6 +1,7 @@
 # 为什么要用Emacs
 
-- [一年成为 Emacs 高手 (像神一样使用编辑器)](https://github.com/redguardtoo/mastering-emacs-in-one-year-guide/blob/master/guide-zh.org)
+- [一年成为Emacs高手(像神一样使用编辑器)](https://github.com/redguardtoo/mastering-emacs-in-one-year-guide/blob/master/guide-zh.org)
+
 
 # 配置
 
@@ -18,6 +19,10 @@
 - SPC ss: 存储缓冲布局
 - SPC ll: 加载缓冲布局
 - , sh: 从搜索命令中查找 
+
+# 链接
+
+
 
 # 常用包
 

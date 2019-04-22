@@ -20,7 +20,7 @@
 - 加载已存在的虚拟环境：`M-x pyvenv-workon` 
 - 激活虚拟环境：`M-x pyvenv-active` 
 - 关闭虚拟环境：`M-x pyvenv-deactive` 
-
+  
 ** 安装包
 - `soure /path/to/vitualenvname/bin/active`，激活环境
 - `python3 -m pip install <package>` 

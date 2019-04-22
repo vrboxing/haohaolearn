@@ -1,4 +1,4 @@
-#  note: /home/wall-e/haohaolearn/python/doc
+#  note: doc/string.org
 
 import string
 
@@ -25,7 +25,7 @@ if __name__ == '__main__':
     a.casefold()
 
     # 按width中心化字符串
-    a.center(20, "=")
+    a.center(30, "=")
 
     # 返回子串的个数
     a.count('o')
@@ -50,7 +50,7 @@ if __name__ == '__main__':
     # 格式化字符串语法
     b = 1343242.345
     c = 123
-    print(f"{b:>20,.2f} , {c:^20.0f}")
+    print(f"{b:+> 20,.2f} , {c:^20.0f}")
     print(f"{b} + {c} = {b+c:>20.2E}")
 
     # align对齐符号，采用space形式
@@ -59,7 +59,8 @@ if __name__ == '__main__':
     print(f"{d: 5.0f}\n{e: 5.0f}")
 
     f = 0.12345
-    print(f"{f:10.3%}")
+    print(f"{{{f:10.3%}}}")
+    print(f"f:10.3%")
 
     coord = (3, 5)
-    print(f"x={coord[0]},y={coord[1]}")
+    print(f"x={coord[0]:10d},y={coord[1]}")

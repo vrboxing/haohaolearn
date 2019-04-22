@@ -5,7 +5,10 @@
 #+LATEX_HEADER: \usepackage[utf-8]{ctex}
 #+LATEX_HEADER: \usepackage[margin=2cm]{geometry}
 
-  
+** 视频
+
+- [[https://www.bilibili.com/video/av39110187/?spm_id_from=333.788.videocard.5][bilibili]]: 据说真的是从零起步
+
 ** 教程 
 
 - [[http://www.runoob.com/python3/python3-tutorial.html][python3]]: 菜鸟教程
@@ -27,7 +30,6 @@
 - [[file:doc/string.org][string]]: 字符串
 - [[file:doc/regex.org][regex]]: 正则表达式 
 - [[file:doc/pandas.org][pandas]]: 数据处理 
-
 
 ** 实践
 
