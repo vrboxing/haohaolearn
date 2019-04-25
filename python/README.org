@@ -10,7 +10,7 @@
 - [[https://www.bilibili.com/video/av39110187/?spm_id_from=333.788.videocard.5][bilibili]]: 据说真的是从零起步
 
 ** 教程 
-
+   
 - [[http://www.runoob.com/python3/python3-tutorial.html][python3]]: 菜鸟教程
 - [[https://www.python-course.eu/index.php][python-course]]: Bernd.C.Klein
 - [[https://realpython.com][realpython]]: real python团队
@@ -29,10 +29,12 @@
 
 - [[file:doc/string.org][string]]: 字符串
 - [[file:doc/regex.org][regex]]: 正则表达式 
-- [[file:doc/pandas.org][pandas]]: 数据处理 
+- [[file:doc/pandas.org][pandas]]: 数据处理
+- [[file:doc/argparse.org][argparse]]: 参数解析
 
 ** 实践
 
 - [[file:practice/p001-numpy.py][p001-numpy]]
 - [[file:practice/p002-numpy.py][p002-numpy]]
 - [[file:practice/p003-string.py][p003-string]]
+- [[file:practice/p004-argparse.py][p004-argparse]]
