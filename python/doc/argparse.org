@@ -7,7 +7,8 @@
 
 ** 文档
 
-[[https:docs.python.org/3/library/argparse.html][argparse]]
+- [[https://docs.python.org/3.7/howto/argparse.html][tuorial]]: 介绍命令参数基本概念
+- [[https:docs.python.org/3/library/argparse.html][argparse]]: 模块文档
 
 ** 简介
 
@@ -98,8 +99,6 @@ ArgumentParser对象列表，其参数也应被包含。有时若干个解释需
 *** allow_abbreviate 
 
 允许长选项被缩写，若缩写无模糊，默认：True。
-
-
 
 
 ** add_argument()方法
