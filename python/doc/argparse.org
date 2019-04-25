@@ -5,6 +5,11 @@
 #+LATEX_HEADER: \usepackage[utf-8]{ctex}
 #+LATEX_HEADER: \usepackage[margin=2cm]{geometry}
 
+
+** 实验
+
+- [[file:~/haohaolearn/python/practice/p004-argparse.py][p004-argparse.py]] 
+
 ** 文档
 
 - [[https://docs.python.org/3.7/howto/argparse.html][tuorial]]: 介绍命令参数基本概念
@@ -14,7 +19,7 @@
 
 argparse是命令行选项、参数和子命令的解释器。基本步骤如下：
 
-1. 创建解释器
+- 创建解释器
 
 先创建一个ArgumentParser对象。
 
@@ -22,7 +27,7 @@ argparse是命令行选项、参数和子命令的解释器。基本步骤如下
 parser = argparse.ArgumentParser(description='Process some integers.')
 #+END_EXPORT
 
-2. 增加参数
+- 增加参数
 
 用ArgumentParser对象的函数add_argument函数增加参数。
 
@@ -37,8 +42,8 @@ parser.add_argument('--sum', dest='accumulate', action='store_const',
 
 调用parse_args()将会返回一个带有两个属性的对象，integers和accumulate。
 
-3. 解析参数
-
+- 解析参数
+  
 ArgumentParser通过parse_args()方法解析参数。监视命令行，将每个参数转变为
 合适的的类型，并调用合适的动作。
 

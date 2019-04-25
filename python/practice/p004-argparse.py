@@ -124,8 +124,8 @@ if __name__ == '__main__':
     # parser.add_argument('--version', action='version', version='%(prog)s 2.0')
     # parser.parse_args(['--version'])
 
-
     # nargs选项 --------------------------------------------------------
+    # 用以描述参数的数量
 
     # # N个参数将归于一个列表。注意，当nargs=1时，产生了一个容量为1的列表。
     # parser = argparse.ArgumentParser()
@@ -133,10 +133,10 @@ if __name__ == '__main__':
     # parser.add_argument('bar', nargs=1)
     # parser.parse_args('c --foo a b'.split())
 
-    # '?'参数
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--foo', nargs='?', const='c', default='d')
-    parser.add_argument('bar', nargs='?', default='d')
-    parser.parse_args(['XX', '--foo', 'YY'])
-    parser.parse_args(['XX', '--foo'])
-    parser.parse_args([])
+    # # '?'参数
+    # parser = argparse.ArgumentParser()
+    # parser.add_argument('--foo', nargs='?', const='c', default='d')
+    # parser.add_argument('bar', nargs='?', default='d')
+    # parser.parse_args(['XX', '--foo', 'YY'])
+    # parser.parse_args(['XX', '--foo'])
+    # parser.parse_args([])
