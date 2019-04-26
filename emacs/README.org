@@ -22,7 +22,7 @@ mv custom.el .custom.el
 - auctex
 - ess-smart-underscore
 
-* 常用命令 
+** 常用命令 
 
 - 以`M-x`引导以下命令。
 - list-packages: 列出包 
@@ -31,16 +31,17 @@ mv custom.el .custom.el
 - SPC ss: 存储缓冲布局
 - SPC ll: 加载缓冲布局
 - , sh: 从搜索命令中查找 
+- =viw=, gS, 符号： 在词首尾做标记
 
-** org
+*** org
 
 - 光标在题目之上，<  或 >  改变层级
 
 
-** 链接
+*** 链接
 
 
-**** Emacs快捷键
+***** Emacs快捷键
 
 https://kb.iu.edu/d/abis
 
@@ -52,7 +53,7 @@ https://kb.iu.edu/d/abis
 - Making words all lowercase: `M-l` or `M-x upcase-word`
 - Making regions all lowercase: `C-x C-l` or `M-x downcase-region`
 
-** align-regexp
+*** align-regexp
 
 - [[https://deerchao.net/tutorials/regex/regex.htm][正则表达式30分钟入门教程]]
 - [[https://emacs-china.org/t/align-regexp/2159][align-regexp的说明]]

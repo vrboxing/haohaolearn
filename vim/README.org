@@ -1,0 +1,9 @@
+#+TITLE: VIM
+#+AUTHOR: 杨大伟
+#+LATEX_CLASS: article 
+#+LATEX_CLASS_OPTIONS: [a4paper]
+#+LATEX_HEADER: \usepackage[utf-8]{ctex}
+#+LATEX_HEADER: \usepackage[margin=2cm]{geometry}
+
+- =viw=: 切换到可视化模式，选中光标所在的词。
+- =yaw=: 选中光标所在的词。
