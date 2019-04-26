@@ -113,10 +113,10 @@ if __name__ == '__main__':
     #                     const=int)
     # parser.parse_args('--str --int'.split())
 
-    # count用来统计一个关键定参数的个数
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--verbose', '-v', action='count')
-    parser.parse_args(['-vvv'])
+    # # count用来统计一个关键定参数的个数
+    # parser = argparse.ArgumentParser()
+    # parser.add_argument('--verbose', '-v', action='count')
+    # parser.parse_args(['-vvv'])
 
     # # 针对version参数，返回版本信息
     # # 运行时有错误
@@ -140,3 +140,11 @@ if __name__ == '__main__':
     # parser.parse_args(['XX', '--foo', 'YY'])
     # parser.parse_args(['XX', '--foo'])
     # parser.parse_args([])
+
+    # # '*'参数，将参数赋予一个列表
+    # parser = argparse.ArgumentParser()
+    # parser.add_argument('--foo', nargs='*')
+    # parser.add_argument('--bar', nargs='*')
+    # parser.add_argument('baz', nargs='*')
+    # parser.parse_args('a b --foo x y z --bar 1 2 3 4'.split())
+    
