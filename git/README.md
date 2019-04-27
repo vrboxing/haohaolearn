@@ -56,3 +56,6 @@
 - `push` 
 
 - `fetch` 
+## Minor mode in Emacs
+
+- `, v a`: git-add-current-file 
