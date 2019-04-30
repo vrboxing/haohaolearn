@@ -14,6 +14,8 @@
 - [[http://www.runoob.com/python3/python3-tutorial.html][python3]]: 菜鸟教程
 - [[https://www.python-course.eu/index.php][python-course]]: Bernd.C.Klein
 - [[https://realpython.com][realpython]]: real python团队
+- [[https://www.bogotobogo.com/python/pytut.php][BogoToBogo]]: BogoToBogo
+
 
 ** 笔记 
 
@@ -31,6 +33,7 @@
 - [[file:doc/regex.org][regex]]: 正则表达式 
 - [[file:doc/pandas.org][pandas]]: 数据处理
 - [[file:doc/argparse.org][argparse]]: 参数解析
+- [[file:doc/os-path.org][os.path]]: 目录和文件
 
 ** 实践
 
