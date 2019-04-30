@@ -5,17 +5,14 @@
 - 熟悉`vi/vim`的一般编辑功能；
 - u盘容量大于`1G`。
 
-# 下载镜像
-- [mirrors.ustc.edu.cn](http://mirrors.ustc.edu.cn)中有获取镜像的入口，可由链接下载镜像。 
-- 亦可直接下载：[http://mirrors.ustc.edu.cn/debian-cd/current/amd64/iso-cd/debian-9.9.0-amd64-xfce-CD-1.iso](http://mirrors.ustc.edu.cn/debian-cd/current/amd64/iso-cd/debian-9.9.0-amd64-xfce-CD-1.iso)
-- 若版本有变，可访问文件夹下载：[http://mirrors.ustc.edu.cn/debian-cd/current/amd64/iso-cd](http://mirrors.ustc.edu.cn/debian-cd/current/amd64/iso-cd)
+## 下载镜像
+
+ 从[mirrors.ustc.edu.cn](中国科技大学镜像网站)下载镜像文件：
+ [http://mirrors.ustc.edu.cn/debian-cd/current/amd64/iso-cd](`debian-[version]-amd-xfce-CD-1.iso`)。
 
 # 制作启动u盘
 
-## Windows
-- 启动盘制作工具，如`UltraISO`
-
-## Debian/Unbuntu
+Windows系统使用`UltraISO`或其它类似工具。在Linux系统中，一般使用`dd`命令。
 
 - 插入u盘，查看u盘设备名称。
 ```
