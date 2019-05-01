@@ -41,3 +41,5 @@
 - [[file:practice/p002-numpy.py][p002-numpy]]
 - [[file:practice/p003-string.py][p003-string]]
 - [[file:practice/p004-argparse.py][p004-argparse]]
+- [[file:practice/p005-set.py][p004-set]]: 见[[https://www.programiz.com/python-programming/set][set]]介绍
+- [[file:practice/p006-map.py][p006-map]]: 见[[https://www.geeksforgeeks.org/python-map-function/][map]]函数介绍
