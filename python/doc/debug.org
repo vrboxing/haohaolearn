@@ -1,9 +1,4 @@
-#+TITLE: Debug 
-#+AUTHOR: 杨大伟
-#+LATEX_CLASS: article 
-#+LATEX_CLASS_OPTIONS: [a4paper]
-#+LATEX_HEADER: \usepackage[utf-8]{ctex}
-#+LATEX_HEADER: \usepackage[margin=2cm]{geometry}
+* Debug 
 
 ** 参照
 
@@ -11,7 +6,6 @@
 - [[https://realpython.com/python-debugging-pdb/][Python Debugging With Pdb]]
 - [[https://pybit.es/pdb-debugger.html][用pdb调试代码]]
 - [[https://www.jianshu.com/p/1c2212fc28a6][Python调试利器详解]]
-
 
 ** realgud:pdb
 

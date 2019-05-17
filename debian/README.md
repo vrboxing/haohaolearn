@@ -192,6 +192,10 @@ sudo crontab -e
 @reboot bash /path/to/script.sh
 ```
 
+# Spotify
+
+- [Spotfiy](https://www.spotify.com/hk-en/download/linux/)
+
 # 图标hardcode
 - [Hardcode-Tray](https://github.com/bilelmoussaoui/Hardcode-Tray)
 
