@@ -1,11 +1,11 @@
 * Debug 
 
 ** 参照
-    - [[https://github.com/realgud/realgud/wiki/pdb-notes][realgud:pdb notes]]
-    - [[https://docs.python.org/3/library/pdb.html][pdb文档]]
-    - [[https://realpython.com/python-debugging-pdb/][Python Debugging With Pdb]]
-    - [[https://pybit.es/pdb-debugger.html][用pdb调试代码]]
-    - [[https://www.jianshu.com/p/1c2212fc28a6][Python调试利器详解]]
+- [[https://docs.python.org/3/library/pdb.html][pdb文档]]
+- [[https://realpython.com/python-debugging-pdb/][Python Debugging With Pdb]]
+- [[https://pybit.es/pdb-debugger.html][用pdb调试代码]]
+- [[https://www.jianshu.com/p/1c2212fc28a6][Python调试利器详解]]
+
 ** realgud:pdb
     realgud是Emacs的一个插件，用来与外部调试工具交互。安装和启动参见：[[https://github.com/realgud/realgud][realgud]]。
 *** 安装

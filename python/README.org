@@ -1,9 +1,4 @@
-#+TITLE: Python
-#+AUTHOR: 杨大伟
-#+LATEX_CLASS: article 
-#+LATEX_CLASS_OPTIONS: [a4paper]
-#+LATEX_HEADER: \usepackage[utf-8]{ctex}
-#+LATEX_HEADER: \usepackage[margin=2cm]{geometry}
+* Python
 
 ** 视频
 - [[https://www.bilibili.com/video/av39110187/?spm_id_from=333.788.videocard.5][bilibili]]: 据说真的是从零起步
