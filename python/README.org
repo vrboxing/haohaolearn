@@ -6,40 +6,31 @@
 #+LATEX_HEADER: \usepackage[margin=2cm]{geometry}
 
 ** 视频
-
 - [[https://www.bilibili.com/video/av39110187/?spm_id_from=333.788.videocard.5][bilibili]]: 据说真的是从零起步
-
 ** 教程 
-   
 - [[http://www.runoob.com/python3/python3-tutorial.html][python3]]: 菜鸟教程
 - [[https://www.python-course.eu/index.php][python-course]]: Bernd.C.Klein
-- [[https://realpython.com][realpython]]: real python团队
+- [[https://realpython.com][realpytho]]: real python团队
 - [[https://www.bogotobogo.com/python/pytut.php][BogoToBogo]]: BogoToBogo
-
-
 ** 笔记 
-
 *** 环境和工具
-
-- [[file:doc/pycharm.org][pycharm]]: Windows系统中的集成开发环境
-- [[file:doc/elpy.org][elpy]]: Emacs中Python的编辑环境
-- [[file:doc/jupyter.org][jupyter]]: 优秀的交互环境
-- [[file:doc/debug.org][debug]]: Linux下的调试工具
-- [[file:doc/virtualenv.org][virtualenv]]: 虚拟环境
-
+    - [[file:doc/pycharm.org][pycharm]]: Windows系统中的集成开发环境
+    - [[file:doc/elpy.org][elpy]]: Emacs中Python的编辑环境
+    - [[file:doc/jupyter.org][jupyter]]: 优秀的交互环境
+    - [[file:doc/debug.org][debug]]: Linux下的调试工具
+    - [[file:doc/virtualenv.org][virtualenv]]: 虚拟环境
 *** 语法
-
-- [[file:doc/string.org][string]]: 字符串
-- [[file:doc/regex.org][regex]]: 正则表达式 
-- [[file:doc/pandas.org][pandas]]: 数据处理
-- [[file:doc/argparse.org][argparse]]: 参数解析
-- [[file:doc/os-path.org][os.path]]: 目录和文件
-
+    - [[file:doc/string.org][string]]: 字符串
+    - [[file:doc/regex.org][regex]]: 正则表达式 
+    - [[file:doc/pandas.org][pandas]]: 数据处理
+    - [[file:doc/argparse.org][argparse]]: 参数解析
+    - [[file:doc/os-path.org][os.path]]: 目录和文件
+    - [[file:doc/sympy.org][sympy]]: 解方程
 ** 实践
-
-- [[file:practice/p001-numpy.py][p001-numpy]]
-- [[file:practice/p002-numpy.py][p002-numpy]]
-- [[file:practice/p003-string.py][p003-string]]
-- [[file:practice/p004-argparse.py][p004-argparse]]
-- [[file:practice/p005-set.py][p004-set]]: 见[[https://www.programiz.com/python-programming/set][set]]介绍
-- [[file:practice/p006-map.py][p006-map]]: 见[[https://www.geeksforgeeks.org/python-map-function/][map]]函数介绍
+    - [[file:practice/p001-numpy.py][p001-numpy]]
+    - [[file:practice/p002-numpy.py][p002-numpy]]
+    - [[file:practice/p003-string.py][p003-string]]
+    - [[file:practice/p004-argparse.py][p004-argparse]]
+    - [[file:practice/p005-set.py][p004-set]]: 见[[https://www.programiz.com/python-programming/set][set]]介绍
+    - [[file:practice/p006-map.py][p006-map]]: 见[[https://www.geeksforgeeks.org/python-map-function/][map]]函数介绍
+    - [[file:practice/p007-sympy.py][p006-sympy]]

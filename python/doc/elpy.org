@@ -14,10 +14,12 @@ Elpy。
 1. https://elpy.readthedocs.io/en/latest/introduction.html
 2. https://elpy.readthedocs.io/en/latest/ide.html#interactive-python
 3. https://elpy.readthedocs.io/en/latest/ide.html
+4. [[https://github.com/jorgenschaefer/elpy/issues/1300%0A][elpy-shell-use-project-root]]
 
 #+BEGIN_SRC lisp
 (require 'elpy)
 (elpy-enable)
+(setq elpy-shell-use-project-root nil)
 #+END_SRC
     
 ** 检查配置
