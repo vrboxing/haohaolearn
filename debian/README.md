@@ -1,5 +1,8 @@
 # Debian
 
+优雅的`Qogir-win-dark`暗色主题，精致的`Suru++ Dark`图标，还有Emacs，就是
+我的世界。
+
 本文记录安装Debian/Linux系统的个人习惯。操作前提为：
 
 - 熟悉`vi/vim`的一般编辑功能；
@@ -196,8 +199,6 @@ sudo crontab -e
 
 - [Spotfiy](https://www.spotify.com/hk-en/download/linux/)
 
-# 图标hardcode
-- [Hardcode-Tray](https://github.com/bilelmoussaoui/Hardcode-Tray)
 
 # variety
 

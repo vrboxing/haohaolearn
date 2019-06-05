@@ -7,6 +7,8 @@
 - [[https://www.python-course.eu/index.php][python-course]]: Bernd.C.Klein
 - [[https://realpython.com][realpytho]]: real python团队
 - [[https://www.bogotobogo.com/python/pytut.php][BogoToBogo]]: BogoToBogo
+- [[https://github.com/jackfrued/Python-100-Days][Python-100天从新手到大师]]: 骆昊
+
 ** 笔记 
 *** 环境和工具
     - [[file:doc/pycharm.org][pycharm]]: Windows系统中的集成开发环境
