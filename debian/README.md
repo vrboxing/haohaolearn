@@ -66,6 +66,38 @@ vi /etc/sudoers
 <用户名>  ALL=(ALL) ALL
 ```
 
+## 字体配置
+
+有时系统内未安装目标字体，系统会自动将既有字体与目标字体对比，将最接近的字体替换目标字体。编辑`fonts.conf`即可人工配置替换字体。
+```
+vi .config/fontconfig/fonts.conf
+```
+
+```
+<?xml version="1.0"?>
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+<fontconfig>
+
+  <match target="pattern">
+    <test name="family" qual="any" >
+      <string>Times</string>
+    </test>
+    <edit name="family" mode="assign" binding="strong">
+      <string>Times New Roman</string>
+    </edit>
+  </match>
+
+  <match target="pattern">
+    <test name="family" qual="any" >
+      <string>Courier</string>
+    </test>
+    <edit name="family" mode="assign" binding="strong">
+      <string>Free Courier</string>
+    </edit>
+  </match>
+
+</fontconfig>
+```
 
 ## 安装中文字体
 
@@ -117,17 +149,19 @@ XKBOPTIONS="ctrl:nocaps"
 
 ```
 
-
-## 桌面主题配置和`Cinnamon`桌面
+# Emacs服务器开机启动
 
 ```
-sudo apt install numix-gtk-theme faenza-icon-theme
-sudo apt install cinnamon cinnamon-settings-daemon cinnamon-session
-sudo apt install papirus-icon-theme moka-icon-theme
+crontab -u <用户名> -e
 ```
-[papirus-libreoffice-theme](https://github.com/PapirusDevelopmentTeam/papirus-libreoffice-theme)
-
-LibreOffice Calc: Options > LibreOffice > View > User Inferface > Icon style = Epapirus
+编辑开机启动项：
+```
+@reboot LC_CTYPE=zh_CN.UTF-8 emacs --daemon
+```
+将开启emacs命令与快捷键绑定：
+```
+/usr/bin/emacsclient -c -a "" -F "((fullscreen . maximized))"
+```
 
 
 ## 常用工具
@@ -143,6 +177,10 @@ sudo apt install gparted variety
 Adobe公司提供的开源字体： 
 [思源无衬线](https://github.com/adobe-fonts/source-han-sans/tree/release)，
 [思源有衬线](https://github.com/adobe-fonts/source-han-serif/tree/release)
+
+##  fcitx
+
+- Addon/Clipboard/Trigger Key ....将C-; 改成Empty，用Esc键修改
 
 ##  粘帖代码
 
