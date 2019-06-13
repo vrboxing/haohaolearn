@@ -2,8 +2,22 @@
 * Getting Started
 
 * Git Basics
-** Getting a Git Repository
-** Recording Changes to the Repository
+
+** 获得一个仓库
+   - 在既有目录下初始化仓库
+     + git init
+   - 克隆既有仓库
+     + git clone https://github.com/libgit2/libgit2
+** 记录仓库变化
+   - 文件状态：追踪、未追踪
+   - 追踪文件：未修改、修改、暂存
+   - 检查文件状态
+     + git clone
+   - 跟踪新文件/暂存文件/标明合并冲突已被解决 
+     + git add [files]
+   -  
+
+
 ** Viewing the Commit History
 ** Undoing Things
 ** Working with Remotes
