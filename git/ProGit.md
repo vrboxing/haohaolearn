@@ -1,3 +1,5 @@
+[ProGit](https://git-scm.com/book/zh/v2)
+
 # 开始
 
 ## 首次设置
@@ -142,3 +144,17 @@
   * git branch --no-merged : 列出当前分支尚未合并过的分支
   * git branch -d testing : 删除分支
   * git branch -D testing : 强制删除分支
+  * 变基
+    - 示例1
+  ```
+  git checkout experiment # 先切换到待处理分支上
+  git rebase master  # 将当前分支变基到主分支上
+  git checkout master  #  切换到主分支上
+  git merge experiment  # 合并分支
+  ```
+  
+  - 示例2: 取出 client 分支，找出处于 client 分支和 server 分支的共同祖先之后的修改，然后把它们在 master 分支上重放一遍
+  ```
+  git rebase --onto master server client  # 
+  ```
+# 服务器
