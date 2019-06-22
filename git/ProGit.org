@@ -75,3 +75,46 @@
 *** Public Project over Email
 
 ** Maintaining a Project
+
+* 7. Git工具
+
+** 7.14 凭证存储
+
+- Credential，即凭证。用来在本地存储用户名和密码，使得用户使用HTTP协义
+  时免于输入用户名和密码。
+- Git有一个所谓凭证系统的工具：
+  + 默认情况下，需要用户输入用户名和系统，即无缓存模式。
+  + “cache” 模式会将凭证存放在内存中一段时间。 密码永远不会被存储在磁
+    盘中，并且在15分钟后从内存中清除。缓冲时间还可以人为修改。
+#+BEGIN_SRC 
+git config --global credential.helper cache
+#+END_SRC
+  + “store” 模式会将凭证用明文的形式存放在磁盘中，并且永不过期。 这意
+    味着除非你修改了你在 Git 服务器上的密码，否则你永远不需要再次输入你
+    的凭证信息。 这种方式的缺点是你的密码是用明文的方式存放在你的 home
+    目录下。
+#+BEGIN_SRC 
+git config --global credential.helper store
+#+END_SRC
+
+- "cache"模式
+  + --timeout <seconds>
+    设置后台进程的存活时间。
+  + 实际操作
+    1. 设置缓冲模式: git config --global credential.helper cache
+    2. 正常执行下拉或推送，输入用户名和密码。Git系统将在存活时间内记住该
+       凭证信息。
+  
+- "store"模式
+
+  + --file <path>
+    明文文件默认为~/.git-credentials，也可以定义为其它文件。
+
+  + 凭证信息格式
+    * 用户名：密码@宿主位置
+    * https://bob:s3cre7@mygithost
+    * 一般宿主位置为：github.com
+
+  + 实际操作
+    1. 建立一个凭证明文文件，如.git-credentials。输入凭证信息：如https://bob.s4cre7@mygithost
+    2. 设置凭证模式：git config --global credential.helper store 
