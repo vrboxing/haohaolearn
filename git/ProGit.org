@@ -15,7 +15,6 @@
      + git clone
    - 跟踪新文件/暂存文件/标明合并冲突已被解决 
      + git add [files]
-   -  
 
 
 ** Viewing the Commit History
