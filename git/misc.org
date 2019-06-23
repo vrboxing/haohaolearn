@@ -2,7 +2,6 @@
 
 ** 概念
 
-- `VCS`: version control system，版本控制系统。
 - 本地版本控制系统：在本地机上运行的版本控制系统。
 - checksum：版本的校验和，由Git自动计算得出的40个十六进制字符，相当于版本的身份证号。
 - 文件状态：包括已提交(`commited`)、已修改(`modified`)、已暂存(`staged`)。
