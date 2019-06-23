@@ -46,7 +46,6 @@
 - man git-<verb>
 
 * 2. Git基础
-
 ** 2.1 获得一个仓库
    - 在既有目录下初始化仓库
      + git init
@@ -57,9 +56,27 @@
    - 文件状态：追踪、未追踪
    - 追踪文件：未修改、修改、暂存
    - 检查文件状态
-     + git clone
-   - 跟踪新文件/暂存文件/标明合并冲突已被解决 
-     + git add [files]
+     + git status
+   - 跟踪新文件
+     - git status
+   - 暂存文件
+     - git add <files>
+   - 状态简览
+     - git status -s
+   - 忽略文件
+     - .gitignore文件列出要忽略的文件
+   - 查看已暂存和未暂存的修改
+     - git diff: 比较修改之后还没有暂存起来的变化内容
+   - 提交更新
+     - git commit -m <msg>
+   - 跳过使用暂存区域
+     - git commit -m -a <msg>: 自动暂存已跟踪文件并提交
+   - 移除文件
+     + git rm <file>: 从暂存区和工作区中删除文件，文件不再被git管理
+     + git rm --cached <file>: 从仓库中删除，即从暂存区删除，仍保留在工
+       作目录中。 
+   - 移动文件
+     + git mv file_from file_to
 
 ** 2.3 查看提交历史
    - git log：不用参数时，按提交时间列出所有的更新，最近的更新排在最上面。
