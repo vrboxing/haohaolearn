@@ -1,14 +1,15 @@
 #+TITLE: Pro Git
 * Getting Started
 
-* Git Basics
+* 2. Git基础
 
-** 获得一个仓库
+** 2.1 获得一个仓库
    - 在既有目录下初始化仓库
      + git init
    - 克隆既有仓库
      + git clone https://github.com/libgit2/libgit2
-** 记录仓库变化
+
+** 2.2 记录仓库变化
    - 文件状态：追踪、未追踪
    - 追踪文件：未修改、修改、暂存
    - 检查文件状态
@@ -16,10 +17,33 @@
    - 跟踪新文件/暂存文件/标明合并冲突已被解决 
      + git add [files]
 
+** 2.3 查看提交历史
+   - git log：不用参数时，按提交时间列出所有的更新，最近的更新排在最上面。
+     列出每个提交的 SHA-1 校验和、作者的名字和电子邮件地址、提交时间以及
+     提交说明。
+   - git log -p -2: 显示每次的提交差异，显示最近2次提交。
+   - git log --stat: 显示提交的统计信息。
+   - git log --pretty=[子选项]: 按特定格式显示提交历史。
+     + oneline: 每个提交在一行内显示
+     + short, full, fuller: 展示不同程度的信息
+     + format:"...": 自定义格式
+   - git log --graph: 用ASCII字符串展示分支、合并历史
+   - git log --since=2.weeks: 显示近2周提交
+   - git log -S<function_name>: 添加或删除了某个关键字的提交
+   - git log -- <dir path>: 只显示某些文件或者目录的历史提交
 
-** Viewing the Commit History
-** Undoing Things
-** Working with Remotes
+** 2.4 撤销操作
+*** amend
+    - 重新提交
+#+BEGIN_SRC 
+git commit -m 'initial commit'
+git add forgotten_file
+git commit --amend
+#+END_SRC
+    - 补充上的文件填加上到本次提交中，并不改变快照。
+
+** 2.5 远程仓库使用
+
 ** Tagging
 
 * Git Branching

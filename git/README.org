@@ -1,0 +1,17 @@
+* Git
+
+** Git是什么
+- 在Bitkeeper不再免费提供代码托管服务后，为了解决全世界Linux开发者协同工
+  作的问题，Linus Torvalds于2005年4月花了三个星期开发出的世界上最优秀的
+  版本控制系统。
+
+** 资源
+
+- [[https://git-scm.com/book/zh/v2][Pro Git(ch)]]
+- [[https://git-scm.com/book/en/v2][Pro Git(en)]]
+
+** 笔记
+
+- [[file:ProGit.org][Pro Git]]
+- [[file:misc.org][杂项]]
+
