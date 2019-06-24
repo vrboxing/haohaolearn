@@ -94,32 +94,86 @@
    - git log -- <dir path>: 只显示某些文件或者目录的历史提交
 
 ** 2.4 撤销操作
-*** amend
-    - 重新提交
+*** 重新提交
+    - git commit --amend
 #+BEGIN_SRC 
 git commit -m 'initial commit'
 git add forgotten_file
 git commit --amend
 #+END_SRC
     - 补充上的文件填加上到本次提交中，并不改变快照。
+*** 取消暂存的文件
+    - 误将文档暂取后需要取消暂取
+    - git reset HEAD <file>... 
+*** 撤消对文件的修改
+    - git checkout -- <file>
+    - 这是一个很危险的动作，将git仓库中的文件检出覆盖已修改文件
 
 ** 2.5 远程仓库使用
+*** 查看远程仓库
+    - git remote -v
+*** 添加远程仓库
+    - git remote add <shortname> <url>
+*** 从远程仓库中抓取与拉取
+    - git fetch [remote-name]
+*** 推送到远程仓库
+    - git push [remote-name] [branch-name]
+*** 查看远程仓库
+    - git remote show [remote-name] 
+*** 远程仓库的移除与重命令
+    - git remote rename pb paul
+    - git remote rm paul
 
-** Tagging
+** 2.6 打标签
+*** 列出标签
+    - git tag
+    - git tag -l 'v1.8.5*'
+*** 创建标签
+    - Git 使用两种主要类型的标签：轻量标签（lightweight）与附注标签
+      （annotated）。
+    - 一个轻量标签很像一个不会改变的分支 - 它只是一个特定提交的引用。
+*** 附注标签
+    - git tag -a v1.4 -m 'my version 1.4'
+    - -m 选项指定了一条将会存储在标签中的信息。
+*** 轻量标签
+    - git tag v1.4-lw
+    - git show v1.4-lw: 显示该分支信息
+*** 后期打标签
+    - git log --pretty=oneline
+    - git tag -a v1.2 9fceb02
+*** 共享标签
+    - 默认情况下，git push 命令并不会传送标签到远程仓库服务器上。
+    - git push origin [tagname]
+    - git push origin --tags: 把所有不在远程仓库服务器上的标签全部传送到
+      那里。
+*** 删除标签
+    - git tag -d v1.4-lw
+    - git push <remote> :refs/tags/<tagname> : 从远程库中删除标签
+*** 检出标签
+    - git checkout 2.0.0
+    - 危险没看懂
 
 * 3. 分支
-** Branches in Nutshell
-** Basic Branching and Merging
-** Remote Branches
-   - git checkout [brachname]
-   - create: git branch [branchname]
-   - delete: git branch -d [branchname]
-   - merge: git merge [targetbranch]
-   - list branches: git branch
-   - list branches with last commit : git branch -v
-   - list branches merged into current branch: git branch --merged 
-   - list branches not yet merged into current branch: git branch --nomerged 
-** Rebasing
+** 3.1 分支简介
+*** 建立新分支
+    - git branch testing
+    - HEAD指针指向的分支为当前分支
+    - git log --oneline --decorate： 显示HEAD所指向的分支
+*** 切换分支
+    - git checkout testing
+** 3.2 分支基础和合并
+** 3.3 远程分支 
+*** 推送
+    - git push (remote) (branch)
+*** 追踪分支
+    - 克隆仓库时，自动生成master分支跟踪origin/master。
+    - git checkout -b [branch] [remotename]/[branch]
+    - git checkout -b sf origin/serverfix
+    - git checkout --track origin/serverfix:  本地serverfix追踪origin/serverfix
+    - git branch -u origin/serverfix
+*** 删除远程分支
+    - git push origin --delete serverfix
+** 3.4 变基
 *** The Basic Rebase
     - git checkout experiment
     - git rebase master
@@ -134,12 +188,10 @@ git commit --amend
     - git merge server
 *** The Perils of Rebasing
     - 
-
-
+      
 * 4. 服务器上的Git
 
 * 5. 分式布
-
 ** Distributed Workflows
 
 ** Contributing to a Project
@@ -163,12 +215,9 @@ git commit --amend
 
 ** Maintaining a Project
 
-
 * 6. GitHub
 * 7. Git工具
-
 ** 7.14 凭证存储
-
 - Credential，即凭证。用来在本地存储用户名和密码，使得用户使用HTTP协义
   时免于输入用户名和密码。
 - Git有一个所谓凭证系统的工具：
