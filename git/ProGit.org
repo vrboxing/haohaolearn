@@ -166,55 +166,73 @@ git commit --amend
 *** 推送
     - git push (remote) (branch)
 *** 追踪分支
+    - 从远程追踪分支自动检出本地分支，称为“追踪分支”，或“上游分支”。
+      追踪分支为本地分支，该分支与远程分支直接联系。若位于追踪分支上并下
+      拉，git可自动知道从哪个远程分支获取并合并。
     - 克隆仓库时，自动生成master分支跟踪origin/master。
-    - git checkout -b [branch] [remotename]/[branch]
-    - git checkout -b sf origin/serverfix
-    - git checkout --track origin/serverfix:  本地serverfix追踪origin/serverfix
-    - git branch -u origin/serverfix
+      + git checkout -b [branch] [remotename]/[branch]
+      + git checkout -b sf origin/serverfix
+      + git checkout --track origin/serverfix:  本地serverfix追踪origin/serverfix
+    - 若已经有本地分支，想将其与远程分程直接连接，可
+      用-u或--set-upstream-to选项显示设定：
+      + git branch -u origin/serverfix
+    - @{upstream}和@{u}是当前分支的远程分支的短名。
+    - git branch -vv: 显示远程分支。
+*** 下拉
+    - git pull = git fectch + git merge
 *** 删除远程分支
     - git push origin --delete serverfix
 ** 3.4 变基
-*** The Basic Rebase
-    - git checkout experiment
-    - git rebase master
-    - git checkout master
-    - git merge experiment
-*** More Interesting Rebases
-    - git rebase --onto master server client
-    - git checkout master
-    - git merge client
-    - git rebase master server [set the base of server branch as master]
-    - git checkout master
-    - git merge server
-*** The Perils of Rebasing
-    - 
+   将一个分支集成到另一个分支有两种方法：合并和变基。
+*** 变基的基本操作 
+    - 合并是将两个分支的最近快照和二者最近的共同祖先进行三方合并，生成一
+      个新的快照。
+    - 另一个方式为变基：提取一个分支的补丁，应用在当前分支上，这种操作为
+      变基。
+#+BEGIN_SRC 
+ git checkout experiment #首先找到当前分支
+ git rebase master #变基操作的基底分支为master
+ git checkout master #回到master分支
+ git merge experiment #进行一次快进合并
+#+END_SRC
+*** 更有趣的变基例子
+#+BEGIN_SRC 
+ git rebase --onto master server client # 将client变基到master上，但不含
+ server的修改
+ git checkout master # 切换到master上
+ git merge client # 快进合并
+ git rebase master server  # 将server变基到master上
+ git checkout master # 切换到master
+ git merge server  # 快进合并到master
+ git branch -d client # 删除client分支
+ git branch -d server # 删除server分支
+#+END_SRC
+*** 变基的风险
+    - 不要对在你的仓库外有副本的分支执行变基。
+    - 解释：当带有分支的仓库被做了克隆后，即为仓库外有副本的分支。若对这
+      样的分支做了变基，即切掉了某些分支，则仓库外再次推送时，将恢复这些
+      分支。这会使得明明被抛弃的分支再次出现。从而造成混乱。
+*** 变基原则
+    - 只对尚未推送或分享给别人的本地修改执行变基操作清理历史，从不对已推
+      送至别处的提交执行变基操作，这样，你才能享受到两种方式带来的便利。
       
 * 4. 服务器上的Git
-
+** 4.1 协议
+   一个远程仓库通常只是一个裸仓库（bare repository）— 即一个没有当前工作
+   目录的仓库。简单的说，裸仓库就是你工程目录内的 .git 子目录内容，不包
+   含其他资料。
+** 4.2 在服务器上搭建 Git 
+** 4.3 生成 SSH 公钥
+** 4.4 配置服务器
+** 4.5 Git 守护进程
+** 4.6 Smart HTTP
+** 4.7 GitWeb
+** 4.8 GitLab
+** 4.9 第三方托管的选择
 * 5. 分式布
-** Distributed Workflows
-
-** Contributing to a Project
-
-*** Private Small Team
-    - 
-
-*** Private Managed Team
-
-    - Jessica建分支并推送featureA
-    - 通知John下拉featureA并继续工作
-    - Jessica建分支并提交featureB
-    - Jessica收到Josie邮件已推送分支featureBee
-    - Jessica下拉并合并featureBee到featureB
-    - Jessica将featureB推送到远程featureBee上
-    - 管理者合并featureA和featureBee
-
-*** Forked Public Project
-
-*** Public Project over Email
-
-** Maintaining a Project
-
+** 5.1 分布式工作流程
+** 5.2 向一个项目贡献
+** 5.3 维护项目
 * 6. GitHub
 * 7. Git工具
 ** 7.14 凭证存储
