@@ -6,7 +6,7 @@ Git是由Linus Torvalds在2005年创造的软件版本管理和控制软件，�
 
 ** 下载
 
-[[https://git-scm.com/download/win][git]]默认下载地址可得到最新版本，但由于访问速度太慢，这里提供了一个存在百度云盘上的[[https://pan.baidu.com/s/1ftLJr-1j5XQdlWWstl5VSw][版本]]，提取密码：`5iid`。
+Windows版的Git安装包可从[[https://git-scm.com/download/win][默认下载地址]]可得到最新版本，但由于访问速度太慢，这里提供了一个存在百度云盘上的[[https://pan.baidu.com/s/1ftLJr-1j5XQdlWWstl5VSw][版本]]，提取密码：5iid。
 
 ** 资源
 
