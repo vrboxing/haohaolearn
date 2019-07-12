@@ -28,7 +28,9 @@ sync # 注意要做同步，确保完成拷贝
 
 # 配置
 
-[源的设置](resources.md)
+# 源配置 
+
+- [源的设置](resources.md)
 
 ## 安装并配置`sudo`
 
