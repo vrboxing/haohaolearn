@@ -33,27 +33,14 @@ sync # 注意要做同步，确保完成拷贝
 
 # 配置
 
-## 配置`sources.list`
-
-- 切换到`root`帐号，编辑`sources.list`
-
-```
-su
-vi /etc/apt/sources.list
-```
-
-```
-deb http://mirrors.ustc.edu.cn/debian/ buster main contrib non-free
-deb http://mirrors.ustc.edu.cn/debian/ buster-updates main contrib non-free
-```
-
-- 详见：[源的设置](resources.md)
+[源的设置](resources.md)
 
 ## 安装并配置`sudo`
 
 安装`sudo`可方便软件安装和配置
 
 ```
+su
 apt update
 apt install sudo
 chmod +w /etc/suders
