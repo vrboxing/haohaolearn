@@ -6,7 +6,7 @@
 ## 下载镜像
 
  从[中国科技大学镜像网站](https://mirrors.ustc.edu.cn)下载镜像文件：
- [debian-[version]-amd-xfce-CD-1.iso](https://mirrors.ustc.edu.cn/debian-cd/current/amd64/iso-cd)。
+ [debian-live-[version]-amd64-gnome.iso](https://mirrors.ustc.edu.cn/debian-cd/current-live/amd64/iso-hybrid)。
 
 # 制作启动u盘
 
