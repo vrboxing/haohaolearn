@@ -1,12 +1,7 @@
 # Debian
 
-优雅的`Qogir-win-dark`暗色主题，精致的`Suru++ Dark`图标，还有Emacs，就是
-我的世界。
-
-本文记录安装Debian/Linux系统的个人习惯。操作前提为：
-
-- 熟悉`vi/vim`的一般编辑功能；
-- u盘容量大于`1G`。
+- 主题：[Qogir-win-dark](https://github.com/vinceliuice/Qogir-theme)
+- 图标：[Suru++ Dark](https://github.com/gusbemacbe/suru-plus-dark)
 
 ## 下载镜像
 
@@ -32,27 +27,16 @@ sync # 注意要做同步，确保完成拷贝
 
 # 配置
 
-## 配置`sources.list`
+## 源配置 
 
-- 切换到`root`帐号，编辑`sources.list`
-
-```
-su
-vi /etc/apt/sources.list
-```
-
-```
-deb http://mirrors.ustc.edu.cn/debian/ buster main contrib non-free
-deb http://mirrors.ustc.edu.cn/debian/ buster-updates main contrib non-free
-```
-
-- 详见：[源的设置](resources.md)
+- [源的设置](resources.md)
 
 ## 安装并配置`sudo`
 
 安装`sudo`可方便软件安装和配置
 
 ```
+su
 apt update
 apt install sudo
 chmod +w /etc/suders
