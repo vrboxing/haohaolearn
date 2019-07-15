@@ -21,7 +21,6 @@ Windows系统使用`UltraISO`或其它类似工具。在Linux系统中，一般�
 ```
 sudo df  # 以/dev/sdc1为例，其挂载点为 /media/wall-e/sony
 sudo umount /media/wall-e/sony  # 卸载u盘
-
 ```
 
 - 确定u盘的设备名称`sdc`，注意不是分区`sdc1`，写入iso镜像文件 
