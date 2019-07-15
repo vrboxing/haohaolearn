@@ -163,7 +163,8 @@ Adobe公司提供的开源字体：
 
 ##  fcitx
 
-- Addon/Clipboard/Trigger Key ....将C-; 改成Empty，用Esc键修改
+去除fcitx关于`C-;`的快捷键定义：
+- Configure/Addon/Clipboard/Trigger Key ....将`C-;` 改成Empty，用Esc键修改
 
 ##  粘帖代码
 
