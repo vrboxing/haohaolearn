@@ -10,6 +10,22 @@
 - [[https://www.bogotobogo.com/python/pytut.php][BogoToBogo]]: BogoToBogo
 - [[https://github.com/jackfrued/Python-100-Days][Python-100天从新手到大师]]: 骆昊
 
+** 源配置
+
+*** Linux
+修改`~/.pip/pip.conf`（若没有就新建一个）：
+```
+[global]
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+```
+*** Windows
+直接在user目录中创建一个pip目录，如：`C:\Users\xx\pip`，新建文件`pip.ini`，内容如下：
+```
+[global]
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+ 
 ** 笔记 
 *** 环境和工具
     - [[file:doc/pycharm.org][pycharm]]: Windows系统中的集成开发环境
