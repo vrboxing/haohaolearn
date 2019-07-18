@@ -9,9 +9,13 @@
 - [[https://realpython.com][realpytho]]: real python团队
 - [[https://www.bogotobogo.com/python/pytut.php][BogoToBogo]]: BogoToBogo
 - [[https://github.com/jackfrued/Python-100-Days][Python-100天从新手到大师]]: 骆昊
+- [[http://c.biancheng.net/python/][Python基础教程]]: C语言中文网
+
+** 参考 
+- [[https://docs.python.org/3/library/index.html][标准库]]: Pythons标准库包括C语言写的内建模块，以及常见问题的标准化解决
+  方案的模块。
 
 ** 源配置
-
 *** Linux
 
 修改~/.pip/pip.conf（若没有就新建一个）：
@@ -30,7 +34,6 @@ index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 #+END_SRC
 
- 
 ** 笔记 
 *** 环境和工具
     - [[file:doc/pycharm.org][pycharm]]: Windows系统中的集成开发环境
@@ -54,4 +57,14 @@ index-url = https://pypi.tuna.tsinghua.edu.cn/simple
     - [[file:practice/p004-argparse.py][p004-argparse]]
     - [[file:practice/p005-set.py][p004-set]]: 见[[https://www.programiz.com/python-programming/set][set]]介绍
     - [[file:practice/p006-map.py][p006-map]]: 见[[https://www.geeksforgeeks.org/python-map-function/][map]]函数介绍
-    - [[file:practice/p007-sympy.py][p006-sympy]]
+    - [[file:practice/p007-sympy.py][p007-sympy]]
+    - [[file:practice/p008-scipy.py][p008-scipy]]
+    - [[file:practice/p009-numpy-io.py][p009-numpy-io]]
+    - [[file:practice/p010-scipy-interpolation.py][p010-scipy-interpolation]]
+    - [[file:practice/p011-os.py][p011-os]]
+    - [[file:practice/p012-builtin-function.py][p012-builtin-function]]
+    - [[file:practice/p013-stdtypes.py][p013-stdtypes]]
+    - [[file:practice/p014-json.py][p014-json]]
+
+
+
