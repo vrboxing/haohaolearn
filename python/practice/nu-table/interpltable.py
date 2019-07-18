@@ -1,6 +1,16 @@
 #! /usr/bin/python3
 # -*- coding: utf-8 -*-
 
+#
+# 圆形截面钢筋混凝土偏心受压构件正截面相对抗压承载力n_u表格
+#
+# nu(re, rho)
+# 由 \eta e_0 / r 和 \rho f_sd / f_cd 插值 n_u
+#
+# rho(re, nuval)
+# 由 \eta e_0 / r 和  n_u 反向推测 \rho f_sd / f_cd
+#
+
 import numpy as np
 from scipy import interpolate
 import bisect
@@ -11,13 +21,13 @@ def nu(re, rho):
     由于相对偏心距re和折算配筋率rho查找nu
     """
 
-    nu = np.genfromtxt("./data.csv", delimiter=",")
+    nutbl = np.genfromtxt("./data.csv", delimiter=",")
     # 横轴: \rho f_sd / f_cd
-    tblx = nu[0, 1:]
-    # 纵轴：\eta \e0 / r
-    tbly = nu[1:, 0]
-    # n_u
-    tblz = nu[1:, 1:]
+    tblx = nutbl[0, 1:]
+    # 纵轴：\eta e0 / r
+    tbly = nutbl[1:, 0]
+    # n_u 数值
+    tblz = nutbl[1:, 1:]
     tbl = interpolate.interp2d(tblx, tbly, tblz, kind='linear')
 
     res = tbl(re, rho)
@@ -28,43 +38,46 @@ def rho(re, nuval):
     """
     由于相对偏心距re和承载力系数nu查找折算配筋率rho
     """
-    return 0
+
+    nutbl = np.genfromtxt("./data.csv", delimiter=",")
+    # 横轴: \rho f_sd / f_cd
+    tblx = nutbl[0, 1:]
+    # 纵轴：\eta \e0 / r
+    tbly = nutbl[1:, 0]
+
+    # 由re查找所在区间, idy为区间序号
+    # 若为0或大于序列长度，则表示re超出范围
+    idy = bisect.bisect_left(tbly, re)
+    if idy < 1 or idy > len(tbly):
+        res = -1
+
+    # 找出idy和idy+1两行nu值
+    nux1 = nutbl[idy, 1:]
+    nux2 = nutbl[idy + 1, 1:]
+
+    # 在两行nu中插值出对应re的nu行
+    nui = np.array([])
+    for nu1, nu2 in zip(nux1, nux2):
+        interf = interpolate.interp1d([0.35, 0.4], [nu1, nu2], kind='linear')
+        nui = np.append(nui, interf(re))
+
+    # 由nuval找到nui序列中的区间
+    idx = bisect.bisect_left(nui, nuval)
+
+    if idx < 1:
+        res = -1
+
+    interf = interpolate.interp1d([nui[idx - 1], nui[idx]],
+                                  [tblx[idx - 1], tblx[idx]],
+                                  kind='linear')
+
+    res = interf(nuval)
+    res = np.format_float_positional(res, 3)
+    return res
 
 
 if __name__ == '__main__':
 
-    nu(0.24, 0.4)
-
-    nu = np.genfromtxt("./data.csv", delimiter=",")
-    # 横轴: \rho f_sd / f_cd
-    tblx = nu[0, 1:]
-    # 纵轴：\eta \e0 / r
-    tbly = nu[1:, 0]
-    # n_u
-    tblz = nu[1:, 1:]
-
-    re = 0.38
-    nuval = 0.623
-
-    idy = bisect.bisect_left(tbly, re)
-    if idy < 1 or idy > len(tbly):
-        res = False
-
-    nux1 = nu[idy, 1:]
-    nux2 = nu[idy + 1, 1:]
-
-    nui = np.array([])
-    for nu1, nu2 in zip(nux1, nux2):
-        f = interpolate.interp1d([0.35, 0.4], [nu1, nu2], kind='linear')
-        nui = np.append(nui, f(re))
-
-    idx = bisect.bisect_left(nui, nuval) - 1
-
-    if idx < 0:
-        res = False
-
-    rho1 = tblx[idx]
-    rho2 = tblx[idx + 1]
-    f = interpolate.interp1d([nui[idx], nui[idx + 1]], [rho1, rho2],
-                             kind='linear')
-    nures = f(nuval)[0,0]
+    # nu(0.24, 0.4)
+    res = rho(0.38, 0.623)
+    print(res)
