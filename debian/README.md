@@ -49,6 +49,19 @@ vi /etc/sudoers
 <用户名>  ALL=(ALL) ALL
 ```
 
+## 显卡配置
+
+### 查看显卡驱动
+```
+sudo apt install lshw
+suo lshw -c video
+```
+
+### 英伟达显卡驱动
+```
+sudo apt install nvidia-detect nvidia-driver
+```
+
 ## 字体配置
 
 有时系统内未安装目标字体，系统会自动将既有字体与目标字体对比，将最接近的字体替换目标字体。编辑`fonts.conf`即可人工配置替换字体。
