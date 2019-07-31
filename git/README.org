@@ -18,7 +18,7 @@ https://github.com/waylau/git-for-win/。
 - [[https://git-scm.com/book/zh/v2][Pro Git(ch)]]
 - [[https://git-scm.com/book/en/v2][Pro Git(en)]]
 - [[https://github.com/geeeeeeeeek/git-recipes][Zhongyi Tong 教程]]
-- [[http://nicolasgallagher.com/git-checkout-specific-files-from-another-branch/][命令清单]]  
+- [[http://www.codeceo.com/article/git-command-list.html][命令清单]]
 
 *** 高级
 - Jakub Narebski. Mastering Git, 2016, Packt Publishing
