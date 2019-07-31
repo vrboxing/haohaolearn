@@ -160,7 +160,8 @@ sudo ln -s /usr/ansys_inc/v190/ansys/bin/launcher190 /usr/bin/launcher190
 
 - 运行时会报错无法找到所需要的`libz.so.1`，将`/usr/ansys_inc/.../libz.so.1`中的文件移除，做一个软连接：
 ```
-sudo ln -s /usr/lib/x86_64-linux-gnu/libz.so libz.so.1
+sudo ln -s /usr/lib/x86_64-linux-gnu/libz.so /usr/ansys_inc/v190/aisol/lib/linx64/libz.so.1
+sudo ln -s /usr/lib/x86_64-linux-gnu/libstdc++.so.6 /usr/ansys_inc/v190/ansys/syslib/AnsMechSolverMesh/libstdc++.so.6
 ```
 
 - 在终端中运行`ansys`即可运行ansys的窗口程序。

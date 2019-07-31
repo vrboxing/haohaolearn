@@ -155,34 +155,58 @@ git commit --amend
 
 * 3. 分支
 ** 3.1 分支简介
+   - 分支模型是git必杀技特性。
+   - 每创建一个分支，就是创建一个可以移动的新指针。
+   - 当前所在分支是有一个HEAD指针指向了当前分支的指针。
+   - 由于 Git 的分支实质上仅是包含所指对象校验和（长度为 40 的 SHA-1
+     值字符串）的文件，所以它的创建和销毁都异常高效。 创建一个新分支就
+     相当于往一个文件中写入 41 个字节（40 个字符和 1 个换行符）。
+
+** 3.2 分支新建和合并
 *** 建立新分支
     - git branch testing
     - HEAD指针指向的分支为当前分支
     - git log --oneline --decorate： 显示HEAD所指向的分支
 *** 切换分支
     - git checkout testing
-** 3.2 分支基础和合并
-** 3.3 远程分支 
-*** 推送
-    - git push (remote) (branch)
-*** 追踪分支
-    - 从远程追踪分支自动检出本地分支，称为“追踪分支”，或“上游分支”。
-      追踪分支为本地分支，该分支与远程分支直接联系。若位于追踪分支上并下
-      拉，git可自动知道从哪个远程分支获取并合并。
-    - 克隆仓库时，自动生成master分支跟踪origin/master。
-      + git checkout -b [branch] [remotename]/[branch]
-      + git checkout -b sf origin/serverfix
-      + git checkout --track origin/serverfix:  本地serverfix追踪origin/serverfix
-    - 若已经有本地分支，想将其与远程分程直接连接，可
-      用-u或--set-upstream-to选项显示设定：
-      + git branch -u origin/serverfix
-    - @{upstream}和@{u}是当前分支的远程分支的短名。
-    - git branch -vv: 显示远程分支。
+** 3.3 分支管理
+   - git branch 不加参数显示所有分支列表
+   - git branch -v 查看每一个分支的最后一次提交
+   - git branch --merged 显示当分支合并了哪些分支
+   - git branch --no-merged 显示还有哪些分支尚未合并到当前分支
+   - git branch -d [分支名] 将[分支名]所指的分支删除
+   - git branch -D [分支名] 将[分支名]所指的分支强制删除
+** 3.4 分支开发工作流
+   - 长期分支
+   - 特性分支
+   - 更多工作流在分布式Git中
+** 3.5 远程分支 
+   - 远程引用是对远程仓库的引用（指针），包括分支、标签等等。
+   - git remote 显示远程仓库
+   - 远程仓库的默认名为 origin
+*** 跟踪分支
+   - 远程跟踪分支：[remote]/[branch]，上一次连接到远程仓库时分支所处状态的标签。
+   - git push [remote] [branch] 将分支[branch]推送到[remote]仓库中的[branch]分支上。
+   - git push push origin [branch]:[branch] 将本地[branch]分推送到
+     [brach]上，并成为[branch]分支。
+   - git push push origin [branch1]:[branch2] 将本地[branch1]分推送到
+     [origin]上，并成为[branch2]分支。
+   - 从一个远程跟踪分支检出一个本地分支会自动创建所谓的 “跟踪分
+     支”（它跟踪的分支叫做 “上游分支”）。
+   - 如果在一个跟踪分支上输入 git pull，Git 能自动地识别去哪个服务器上
+     抓取、合并到哪个分支。
+   - 当克隆一个仓库时，它通常会自动地创建一个跟踪 origin/master 的
+     master 分支。
+   - git checkout -b [branch] [remotename]/[branch]  建立一个跟踪分支
+   - git checkout --track origin/serverfix  建立serverfix跟踪分支的快捷方式
+   - git checkout -b sf origin/serverfix 建立了一个不同的名字的跟踪分
+     支，现在分支sf会自动从origin/serverfix拉取。
+   - git branch -u origin/serverfix 设置已有的分支跟踪一个刚刚拉取下来
 *** 下拉
     - git pull = git fectch + git merge
 *** 删除远程分支
     - git push origin --delete serverfix
-** 3.4 变基
+** 3.6 变基
    将一个分支集成到另一个分支有两种方法：合并和变基。
 *** 变基的基本操作 
     - 合并是将两个分支的最近快照和二者最近的共同祖先进行三方合并，生成一

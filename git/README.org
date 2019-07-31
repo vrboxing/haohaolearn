@@ -1,18 +1,26 @@
 * Git
 
-Git是由Linus Torvalds在2005年创造的软件版本管理和控制软件，如今已被广泛应用于所有文档版本控制场景中，成为团队协同工作不可或缺的工具。本项目为Git笔记，用于记录学习资源和心得。
+Git是由Linus Torvalds在2005年创造的软件版本管理和控制软件，如今已被广
+泛应用于所有文档版本控制场景中，成为团队协同工作不可或缺的工具。本项目
+为Git笔记，用于记录学习资源和心得。
 
-使用Git很容易，但学习它绝非是10分钟之内就能搞定的事。只要遵循好的教程耐心阅读、勤于实践，相信很快就会掌握Git，给你的工作带来便利。
+使用Git很容易，但学习它绝非是10分钟之内就能搞定的事。只要遵循好的教程
+耐心阅读、勤于实践，相信很快就会掌握Git，给你的工作带来便利。
 
 ** 下载
 
 Windows版的Git安装包可从[[https://git-scm.com/download/win][默认下载地址]]得到。
 
-** 资源
+** 教程
 
+*** 初级
 - [[https://git-scm.com/book/zh/v2][Pro Git(ch)]]
 - [[https://git-scm.com/book/en/v2][Pro Git(en)]]
 - [[https://github.com/geeeeeeeeek/git-recipes][Zhongyi Tong 教程]]
+- [[http://nicolasgallagher.com/git-checkout-specific-files-from-another-branch/][命令清单]]  
+
+*** 高级
+- Jakub Narebski. Mastering Git, 2016, Packt Publishing
 
 ** 笔记
 
