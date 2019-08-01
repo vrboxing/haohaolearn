@@ -249,3 +249,19 @@ sudo crontab -e
 ```
 rm ~/.local/share/keyrings/*
 ```
+
+# 自动登录和列出用户
+
+- [LightDM](https://wiki.debian.org/LightDM) 
+- `/etc/lightdm/lightdm.conf`
+```
+[Seat:*]
+#autologin-user=
+#autologin-user-timeout=0
+```
+- `/usr/share/lightdm/lightdm.conf.d/01_my.conf`
+```
+[Seat:*]
+greeter-hide-users=false
+```
+
