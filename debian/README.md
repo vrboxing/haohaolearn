@@ -265,3 +265,9 @@ rm ~/.local/share/keyrings/*
 greeter-hide-users=false
 ```
 
+# 查看启动中的错误
+
+```
+sudo dmesg | grep <错误信息关键字>
+```
+
