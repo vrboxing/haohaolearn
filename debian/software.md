@@ -2,7 +2,7 @@
 
 ## 输入法
 
-- fcitx
+- [fcitx](fcitx.md)
 
 ## 编辑器
 
@@ -26,15 +26,21 @@
 
 ## 网络
 
+- uget/curl
 - google-chrome
 - thunderbird
+- telegram
+- bearychat
+- filezilla
+- transmission
 
 ## 系统工具
 
 - git
+- teamviewer
 - pastebinit
 - variety
-
+- crossover 
 
 ## 常用工具
 

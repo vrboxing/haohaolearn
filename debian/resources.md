@@ -42,29 +42,3 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv < PUBKEY >
 
   `sudo netselect-apt stable`
 
-## 语言配置
-
-- 一般安装时应选择系统语言时为英文，稍后还要安装上中文编码：
-
-  `sudo dpkg-reconfigure locales`
-
-  在弹出的的对话框中选择`zh_CN.UTF-8`、`zh_CN.GB2312`等，按SPC确认。
-
-- 但这会使得稍后在Emacs中无法输入中文。
-  因此需要编辑`/etc/default/locale`：
-
-```
-LANG=en_US.UTF-8
-LC_CTYPE=zh_CN.UTF-8
-```
-
-## 时间配置 
-
-```
-sudo dpkg-reconfigure tzdata
-```
-
-## NVIDIA显卡安装
-```
-sudo apt install nvidia-driver
-```
