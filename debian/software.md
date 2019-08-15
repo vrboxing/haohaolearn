@@ -4,6 +4,7 @@
 
 - [fcitx](fcitx.md)
 
+
 ## 编辑器
 
 - vim
