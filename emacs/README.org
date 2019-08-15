@@ -32,6 +32,23 @@ mv custom.el .custom.el
     - Making words all lowercase: `M-l` or `M-x upcase-word`
     - Making regions all lowercase: `C-x C-l` or `M-x downcase-region`
     - https://kb.iu.edu/d/abis
+
+**  Emacs服务器开机启动
+
+#+BEGIN_EXAMPLE
+crontab -u <用户名> -e
+#+END_EXAMPLE
+
+编辑开机启动项：
+#+BEGIN_EXAMPLE
+@reboot LC_CTYPE=zh_CN.UTF-8 emacs --daemon
+#+END_EXAMPLE
+将开启emacs命令与快捷键绑定：
+#+BEGIN_EXAMPLE
+
+/usr/bin/emacsclient -c -a "" -F "((fullscreen . maximized))"
+#+END_EXAMPLE
+
       
 ** org-mode
     - 光标在题目之上，<  或 >  改变层级
