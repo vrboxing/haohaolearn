@@ -19,11 +19,11 @@
 
 ## 影片编辑
 
-- flowblade
+- [flowblade](flowblade.md)
 
 ## 排版 
 
-- texlive
+- [texlive](texlive.md)
 
 ## 网络
 
