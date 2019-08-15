@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-05-06 Mon 09:45 -->
+<!-- 2019-08-15 Thu 11:10 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
@@ -233,22 +233,23 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org172a43e">1. VIM</a>
+<li><a href="#orgc9ee75d">1. VIM</a>
 <ul>
-<li><a href="#orga85ae13">1.1. 翻屏</a></li>
-<li><a href="#orgda7376f">1.2. 标记</a></li>
-<li><a href="#orgd9ef379">1.3. 选择</a></li>
+<li><a href="#org30fb195">1.1. 翻屏</a></li>
+<li><a href="#orgf4f479e">1.2. 标记</a></li>
+<li><a href="#org40597e3">1.3. 移动</a></li>
+<li><a href="#orgb312bff">1.4. 选择</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org172a43e" class="outline-2">
-<h2 id="org172a43e"><span class="section-number-2">1</span> VIM</h2>
+<div id="outline-container-orgc9ee75d" class="outline-2">
+<h2 id="orgc9ee75d"><span class="section-number-2">1</span> VIM</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-orga85ae13" class="outline-3">
-<h3 id="orga85ae13"><span class="section-number-3">1.1</span> 翻屏</h3>
+<div id="outline-container-org30fb195" class="outline-3">
+<h3 id="org30fb195"><span class="section-number-3">1.1</span> 翻屏</h3>
 <div class="outline-text-3" id="text-1-1">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -314,8 +315,8 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-orgda7376f" class="outline-3">
-<h3 id="orgda7376f"><span class="section-number-3">1.2</span> 标记</h3>
+<div id="outline-container-orgf4f479e" class="outline-3">
+<h3 id="orgf4f479e"><span class="section-number-3">1.2</span> 标记</h3>
 <div class="outline-text-3" id="text-1-2">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -354,42 +355,6 @@ for the JavaScript code in this tag.
 </tr>
 
 <tr>
-<td class="org-left">`{a-z}</td>
-<td class="org-left">移动到标记位置</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
-<td class="org-left">'(a-z)</td>
-<td class="org-left">移动到标记行的行首</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
-<td class="org-left">``</td>
-<td class="org-left">移动到上次编辑的位置</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
-<td class="org-left">C-o</td>
-<td class="org-left">跳转到更老的位置。经试验，似乎是可以跨文档跳跃</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
-<td class="org-left">`"</td>
-<td class="org-left">移动到上次离开的地方</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
-<td class="org-left">`.</td>
-<td class="org-left">移动到上次编辑的地方</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
 <td class="org-left">:marks</td>
 <td class="org-left">显示所有标记</td>
 <td class="org-left">&#xa0;</td>
@@ -399,9 +364,149 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-orgd9ef379" class="outline-3">
-<h3 id="orgd9ef379"><span class="section-number-3">1.3</span> 选择</h3>
+<div id="outline-container-org40597e3" class="outline-3">
+<h3 id="org40597e3"><span class="section-number-3">1.3</span> 移动</h3>
 <div class="outline-text-3" id="text-1-3">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">键</th>
+<th scope="col" class="org-left">功能</th>
+<th scope="col" class="org-left">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">e</td>
+<td class="org-left">词尾</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">w</td>
+<td class="org-left">词首</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">3w</td>
+<td class="org-left">3个词前的词首</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">W</td>
+<td class="org-left">词首(任意非空白字符)</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">b</td>
+<td class="org-left">后面1个词的词首</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">3b</td>
+<td class="org-left">后面3个词的词首</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">$</td>
+<td class="org-left">行尾</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">0</td>
+<td class="org-left">行首</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">^</td>
+<td class="org-left">行首第一个空白符</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">j</td>
+<td class="org-left">向上1行</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">10j</td>
+<td class="org-left">向上10行</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">I</td>
+<td class="org-left">本行第1列</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">10I</td>
+<td class="org-left">本行第10列</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">``</td>
+<td class="org-left">上次所在位置</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">`"</td>
+<td class="org-left">上次离开地方</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">`.</td>
+<td class="org-left">上次编辑地方</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">`{a-z}</td>
+<td class="org-left">标记位置</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">'(a-z)</td>
+<td class="org-left">标记行的行首</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">C-o</td>
+<td class="org-left">更老的位置。经试验，似乎是可以跨文档跳跃</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+<div id="outline-container-orgb312bff" class="outline-3">
+<h3 id="orgb312bff"><span class="section-number-3">1.4</span> 选择</h3>
+<div class="outline-text-3" id="text-1-4">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -456,7 +561,7 @@ for the JavaScript code in this tag.
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: wall-e</p>
-<p class="date">Created: 2019-05-06 Mon 09:45</p>
+<p class="date">Created: 2019-08-15 Thu 11:10</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
