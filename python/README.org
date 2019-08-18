@@ -10,11 +10,11 @@
 - [[https://www.bogotobogo.com/python/pytut.php][BogoToBogo]]: BogoToBogo
 - [[https://github.com/jackfrued/Python-100-Days][Python-100天从新手到大师]]: 骆昊
 - [[http://c.biancheng.net/python/][Python基础教程]]: C语言中文网
-
+  
 ** 参考 
 - [[https://docs.python.org/3/library/index.html][标准库]]: Pythons标准库包括C语言写的内建模块，以及常见问题的标准化解决
   方案的模块。
-
+  
 ** 源配置
 *** Linux
 

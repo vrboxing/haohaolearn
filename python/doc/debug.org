@@ -9,12 +9,12 @@
 ** realgud:pdb
     realgud是Emacs的一个插件，用来与外部调试工具交互。安装和启动参见：[[https://github.com/realgud/realgud][realgud]]。
 *** 安装
-    - *M-x package-install RET realgud RET* 
+    - M-x *package-install* RET *realgud* RET 
 *** 加载和卸载
-    - *M-x load-library RET realgud RET*
-    - *M-x realgud-unload-features* 
+    - M-x *load-library* RET *realgud* RET
+    - M-x *realgud-unload-features*
 *** 启动调试工具
-    - *M-x realgud:pdb*
+    - M-x *realgud:pdb*
     - 启动调试工具后，RealGUD打开两个窗口：命令窗口和源码窗口。
     - 一个实心三角箭头提示源码窗口中的当前行。灰色箭头提示前一个位置。
 *** 使用调试工具
