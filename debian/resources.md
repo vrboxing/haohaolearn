@@ -32,7 +32,7 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv < PUBKEY >
 ```
 ## 中文软件仓库
 
-- [Debian中文软件仓库](https://repo.debiancn.org)收录了一件软件包，方便中文用户使用Debian。
+- [Debian中文软件仓库](https://repo.debiancn.org)收录了一些软件包，这些包未能被Debian官方收录，但对于中文用户使用Debian非常方便。
 - 启用源方法见：https://github.com/debiancn/repo/blob/master/README.rst 
 
 ## 源速度测试
