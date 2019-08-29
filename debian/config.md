@@ -2,7 +2,7 @@
 
 ## 源配置 
 
-- [源的设置](resources.md)
+- [源的设置](sources.md)
 
 ## 安装并配置`sudo`
 

@@ -17,6 +17,7 @@ sudo apt install apt-transport-https
 ```
 deb https://mirrors.ustc.edu.cn/debian/ buster main contrib non-free
 deb https://mirrors.ustc.edu.cn/debian/ buster-updates main contrib non-free
+deb https://mirrors.ustc.edu.cn/debiancn/ buster main
 deb https://mirrors.ustc.edu.cn/debian-security buster/updates main contrib non-free
 ```
 
@@ -32,8 +33,12 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv < PUBKEY >
 ```
 ## 中文软件仓库
 
-- [Debian中文软件仓库](https://repo.debiancn.org)收录了一些软件包，这些包未能被Debian官方收录，但对于中文用户使用Debian非常方便。
-- 启用源方法见：https://github.com/debiancn/repo/blob/master/README.rst 
+- [Debian中文软件仓库](https://repo.debiancn.org)收录了一些非官方软件包，这些软件对于中文用户使用Debian非常方便。
+- 启用源方法：https://github.com/debiancn/repo/blob/master/README.rst 
+- 实际应用中发现repo.debiancn.org的访问速度慢，故真正启用方法为：在sources.list中加入：
+```
+deb https://mirrors.ustc.edu.cn/debiancn buster main
+```
 
 ## 源速度测试
 
