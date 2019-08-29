@@ -30,7 +30,10 @@ deb https://mirrors.ustc.edu.cn/debian-security buster/updates main contrib non-
 ```
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv < PUBKEY >
 ```
+## 中文软件仓库
 
+- [Debian中文软件仓库](https://repo.debiancn.org)收录了一件软件包，方便中文用户使用Debian。
+- 启用源方法见：https://github.com/debiancn/repo/blob/master/README.rst 
 
 ## 源速度测试
 
