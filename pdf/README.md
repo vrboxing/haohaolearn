@@ -11,3 +11,8 @@ gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=se
 - /screen: 最低分辨率，最小； 
 - /ebook: 中度分辨率；
 - /printer, /prepress: 较高清晰度，适用于打印。
+
+
+### python脚本
+
+- 有人提供了现成的[python脚本](https://github.com/theeko74/pdfc)。
