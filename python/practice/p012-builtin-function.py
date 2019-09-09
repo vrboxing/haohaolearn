@@ -8,6 +8,10 @@
 if __name__ == '__main__':
 
     # str()
+    # 将数字转化为字符串 
+    x = 5
+    print("x is"+ str(x))
+
     # type()
 
     # len(s)

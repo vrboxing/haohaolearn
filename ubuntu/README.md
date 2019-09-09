@@ -1,17 +1,22 @@
 # Ubuntu
 
-- switch only on current workspace in GNOME shell
-  https://askubuntu.com/questions/464946/force-alt-tab-to-switch-only-on-current-workspace-in-gnome-shell
+## 下载和源
+- mirrors.ustc.edu.cn
+- 页面上有`获取安装镜像`的按钮，选择安装发行版Ubuntu，选择倾向的版本，点击`获取ISO`按钮。
+- 源配置：`/etc/apt/sources.list`
+``` 
+deb https://mirrors.ustc.edu.cn/ubuntu/ disco main restricted universe multiverse
+deb https://mirrors.ustc.edu.cn/ubuntu/ disco-security main restricted universe multiverse
+deb https://mirrors.ustc.edu.cn/ubuntu/ disco-updates main restricted universe multiverse
+deb https://mirrors.ustc.edu.cn/ubuntu/ disco-backports main restricted universe multiverse
+```
 
-- hp 1020
-  https://blog.hostonnet.com/how-to-install-hp-laserjet-1020-plus-printer-drivers-in-ubuntu-16-04
-
-# 将capslock设置为ctrl
+## 将capslock设置为ctrl
 - 编辑`/etc/profile`
 - /usr/bin/setxkbmap -option "ctrl:nocaps"
  
 
-# Themes 
+## Themes 
 
 - Applications: Numix
 
@@ -19,7 +24,7 @@
 
 - Icons: Faenza-Ambiance
 
-# PATH 
+## PATH 
 
 `/etc/enviornment` --> `.profile`
 
@@ -28,7 +33,7 @@ PATH=$PATH:~/.local/bin;
 export PATH
 ```
 
-# 启动时自动执行脚本 
+## 启动时自动执行脚本 
 
 `/etc/rc.local`
 
@@ -74,7 +79,6 @@ iconv -f GB18030 -t UTF-8 xxx.rst -o xxx_utf8.rst
 ```
 
 ## 网易云音乐
-
 
 ```
 sudo vi /usr/share/applications/netease-cloud-music.desktop
