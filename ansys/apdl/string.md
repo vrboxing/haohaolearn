@@ -113,21 +113,21 @@ job3  db
 
 
 ```
-% 定义一个长度为10的字符参数数组
-*dim, mychars, char, 10
-mychars(1) = 'dog'
-mychars(2) = 'cat'
-/com,%mychars(1)%
-/com,%mychars(2)%
+    % 定义一个长度为10的字符参数数组
+    *dim, mychars, char, 10
+    mychars(1) = 'dog'
+    mychars(2) = 'cat'
+    /com,%mychars(1)%
+    /com,%mychars(2)%
 
-% 定义一个80x3(80行3列)的2维字符数组，也可称为字符串数组
-% 每个字符数组沿列存储
-*dim,comp,string,80,3
-comp(1,1) = 'leftSide'  % 第1列值
-comp(1,2) = 'rightside' % 第2列值
-comp(1,3) = 'topside'   % 第3列值
+    % 定义一个80x3(80行3列)的2维字符数组，也可称为字符串数组
+    % 每个字符数组沿列存储
+    *dim,comp,string,80,3
+    comp(1,1) = 'leftSide'  % 第1列值
+    comp(1,2) = 'rightside' % 第2列值
+    comp(1,3) = 'topside'   % 第3列值
 
-*stat
+    *stat
 ```
 
 显示结果，如图：
