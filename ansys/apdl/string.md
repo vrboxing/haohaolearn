@@ -58,9 +58,56 @@ myChr = 'yeehah'
 事实上，`IMAX`表示的都是数组的行数，而`JMAX`表示的是数组的列数。
 `STRING`数组是将每个字符串沿列方向存储的，相应大小自然受到行数的限制。
 
-## 从文件读入字符串
+## 从文件读入CHAR数组
 
+若有文件name.txt：
+```
+job1 txt
+job2 jpg
+job3  db
+```
+则定义CHAR数组后，即可由`*vread`读入：
 
+```
+    /inquire,my_lines,lines,name,txt
+    *dim,filename,char,my_lines,2
+    *vread,filename,name,txt,,jik,2,my_lines
+    (2A4)
+    parsav,all,text,parm
+```
+
+## 从文件读入STRING数组
+如果想从文本文件中读取STRING数组，方式要简单得多，用`*sread`命令：
+```
+    *dim,filename,string
+    *sread,filename,name,txt
+```
+刚可读入：
+```
+    filename(1,1)内容为'job1 txt'
+    filename(1,2)内容为'job2 jpg'
+    filename(1,3)内容为'job3  db'
+```
+分析以上代码可知：
+- STRING数组定义其实是不必定义大小的，它会在读入文本时自动确定所需维数。
+- 虽然STRING数组的索引一定使用起始指标，然而在读入时却不必使用指标。
+- 每行文字按顺序存入数组的列，数组行数取为可容纳最多行字符的8的倍数。
+  （比如第一行含9个字符，则filename的行数变为16，相应所有列的维数为16）
+
+又，读入sectionname.txt中的所有文件名：
+```
+    % 从sectionname.txt中访问行数
+    /inquire,my_lines,lines,sectionname,txt
+    % 定义字符串数组，每个字符串最多16个字符
+    *dim,secfile,string,16,my_lines
+    % 从sectionname.txt中读取secfile字符串
+    *sread,secfile(1),sectionname,txt
+```
+
+## 区别
+
+我们还需要注意CHAR数组与STRING数组的重要区别：CHAR数组的单元（也就是最
+小单位）是一个不超过8个字符的字符串，而STRING数组的单元是一个字符。
 
 ## 测试
 
