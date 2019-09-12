@@ -104,10 +104,41 @@ job3  db
     *sread,secfile(1),sectionname,txt
 ```
 
-## 区别
+## CHAR数组和SRING数组的区别
 
 我们还需要注意CHAR数组与STRING数组的重要区别：CHAR数组的单元（也就是最
 小单位）是一个不超过8个字符的字符串，而STRING数组的单元是一个字符。
+
+## 字符串函数
+
+### 字符串转为和转自数字
+
+| 函数            | 描述         |
+| ---             | ----         |
+| VALCHR(string)  | 	转为数字 |
+| CHRVAL(num)	 | 转自数字     |
+
+### 标准字符串函数
+
+| 函数                    | 描述                                         |
+| ---                     | ----                                         |
+| STRSUB(Str1,nLoc,nChar) | 返回Str1的子串，从第nLoc字符到nLoc+nChar字符 |
+| STRCAT(Str1,Str2)	   | 返回 Str1 + Str2                             |
+| STRLENG(Str1)           | 返回Str1长度 ｜                              |
+| UPCASE(Str1)            | 返回大写                                     |
+| LWCASE(Str1)            | 返回小写                                     |
+
+### 文件名函数
+
+| 函数                               | 描述                           |
+| ---                                | ----                           |
+| JOIN(directory,filename,extension) | 在当前系统中生成一个路径字符串 |
+| Split(Path,Option)                 | 将一个完整路径名分解，选项为： |
+|                                    | DIR = 仅给出目录               |
+|                                    | FILE = 仅给出文件和扩展名      |
+|                                    | Name = 仅给出文件名            |
+|                                    | EXT = 仅给出扩展名             |
+
 
 ## 测试
 
