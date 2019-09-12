@@ -124,7 +124,7 @@ job3  db
 | ---                     | ----                                         |
 | STRSUB(Str1,nLoc,nChar) | 返回Str1的子串，从第nLoc字符到nLoc+nChar字符 |
 | STRCAT(Str1,Str2)	   | 返回 Str1 + Str2                             |
-| STRLENG(Str1)           | 返回Str1长度 ｜                              |
+| STRLENG(Str1)           | 返回Str1长度                                 |
 | UPCASE(Str1)            | 返回大写                                     |
 | LWCASE(Str1)            | 返回小写                                     |
 
@@ -139,6 +139,17 @@ job3  db
 |                                    | Name = 仅给出文件名            |
 |                                    | EXT = 仅给出扩展名             |
 
+## 字符替代
+
+任何CHAR或STRING字符参数被一对百分号包括后，即可被其内容所替换。比如：
+```
+/title, Results for Substep %isbstp%.  Freq = %frq%
+```
+另外，按这种方式，数字亦可替代，比如：
+```
+cmsel,s,ncmp%i%
+```
+当`i=32`时，程序执行时相当于`ncomp32`。
 
 ## 测试
 
