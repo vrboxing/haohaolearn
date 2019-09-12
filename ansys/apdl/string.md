@@ -40,13 +40,30 @@ myChr = 'yeehah'
 - 亦可用字符参数数组(CHAR)，此时即为若干字符参数构成的列表；
 - 查看哪些量是字符参数数组，哪些是2维字符数组，使用命令`*stat`。
 
+## 字符数组
 
-在定义数组时，
+在定义数组时，分别按类型为分为`字符参数`和`字符串`类型：
 
-- CHAR, 最多8个字符；
-- STRING, 最多为IMAX个字符，IMAX为8的整数倍，最大值为248。
+- `CHAR`, 最多8个字符；
+- `STRING`, 最多为IMAX个字符，IMAX为8的整数倍，最大值为248。
+
+`*dim`的语法为：
+```
+*DIM, Par, Type, IMAX, JMAX, KMAX, Var1, Var2, Var3, CSYSID
+```
+
+对于`Type=CHAR`时，`IMAX`表示数组的长度；而对于`Type=STRING`时，
+`IMAX`表示每个字符数组的大小，该值为8的整数倍，量大值为248。
+
+事实上，`IMAX`表示的都是数组的行数，而`JMAX`表示的是数组的列数。
+`STRING`数组是将每个字符串沿列方向存储的，相应大小自然受到行数的限制。
+
+## 从文件读入字符串
+
+
 
 ## 测试
+
 
 ```
 % 定义一个长度为10的字符参数数组
@@ -56,12 +73,12 @@ mychars(2) = 'cat'
 /com,%mychars(1)%
 /com,%mychars(2)%
 
-% 定义一个80x3(80行3列)的2维字符数组
+% 定义一个80x3(80行3列)的2维字符数组，也可称为字符串数组
 % 每个字符数组沿列存储
 *dim,comp,string,80,3
-comp(1,1) = 'leftSide'
-comp(1,2) = 'rightside'
-comp(1,3) = 'topside'
+comp(1,1) = 'leftSide'  % 第1列值
+comp(1,2) = 'rightside' % 第2列值
+comp(1,3) = 'topside'   % 第3列值
 
 *stat
 ```
@@ -69,6 +86,8 @@ comp(1,3) = 'topside'
 显示结果，如图：
 
 ![stat](stat.png)
+
+
 
 ## 参考
 
