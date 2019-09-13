@@ -27,7 +27,8 @@
 ```
 
 多维表定义示例：
-    ```
+
+```
     *dim,temptab,table,3,3,3
     *taxis,temptab(1,1,1),1,0,5,10
     *taxis,temptab(1,1,1),2,0,5,10
@@ -45,5 +46,4 @@
 
 ## 参考
 
-- [What Every User Should Know About Tables in ANSYS Mechanical
-  APDL](http://www.padtinc.com/blog/what-every-user-should-know-about-tables-in-ansys-mechanical-apdl/)
+- [What Every User Should Know About Tables in ANSYS Mechanical APDL](http://www.padtinc.com/blog/what-every-user-should-know-about-tables-in-ansys-mechanical-apdl/)
