@@ -76,6 +76,22 @@ Returns system information to a parameter.
   + LINES
 
     返回ASCII文件行数。
+    
+## 代码示例
+
+```
+! 查询文档是否存在，若存在则删除
+/inquire,isexist,exist,import_record,log
+*if,isexist,eq,1,then
+    /delete,import_record,log
+*endif
+
+! 查询文档行数，并按行数定义数组
+/inquire,my_lines,lines,sectionname,txt
+*dim,secfile,string,8,my_lines
+
+*sread,secfile(1),sectionname,txt
+```
   
 
 ## 参考
