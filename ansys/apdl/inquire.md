@@ -1,5 +1,7 @@
 # /INQUIRE
 
+## 查询系统信息
+
 ```
 /INQUIRE, StrArray, FUNC
 Returns system information to a parameter.
@@ -15,7 +17,7 @@ Returns system information to a parameter.
   + DIRECTORY: 当前文件夹路径。
   + JOBNAME: 返回当前Jobname。
   
-# 返回文件参数
+## 返回文件参数
 
 `/INQUIRE`命令亦可返回系统中特定文件的信息，格式为：
 ```
