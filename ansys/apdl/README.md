@@ -13,9 +13,6 @@ APDL是一种脚本语言，是ANSYS Parametric Design Language的缩写，用�
 
 ## 参考
 
-- [命令手
-  册
-  ](http://www.mm.bme.hu/~gyebro/files/ans_help_v182/ans_cmd/Hlp_C_CmdTOC.##
-  html)
-- [ANSYS APDL Programmer's Guide
-  ](http://mechanika2.fs.cvut.cz/old/pme/examples/ansys55/html/prog_55/g-apdl/AToc.htm)
+- [命令手册](http://www.mm.bme.hu/~gyebro/files/ans_help_v182/ans_cmd/Hlp_C_CmdTOC.html)
+- [ANSYS APDL Programmer's
+  Guide](http://mechanika2.fs.cvut.cz/old/pme/examples/ansys55/html/prog_55/g-apdl/AToc.htm)

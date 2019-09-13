@@ -4,15 +4,10 @@
 /INQUIRE, StrArray, FUNC
 Returns system information to a parameter.
 ```
-- StrArray
+- StrArray: 是一个字符数组型字符串，该字符串同于字符参数数组，只是每个单
+元可有248个字符。若参数未定义，可新生成。
 
-是一个字符数组型字符串，该字符串同于字符参数数组，只是每个单元可有248个
-字符。若参数未定义，可新生成。
-
-- FUNC
-
-定义了需返回的系统信息：
-
+- FUNC: 定义了需返回的系统信息
   + LOGIN: 返回Linux系统的登录路径名或Windows系统的默认路径（包括磁盘符）。
   + DOCU: ANSYS的文档目录路径。
   + APDL: ANSYS APDL目录路径。
@@ -28,11 +23,13 @@ Returns system information to a parameter.
 ```
 
 - FUNC
-
   + EXIST: 若文件存在返回1，若不存在返回0。
   + DATE: 以`yyyymmdd.hhmmss`形式返回文件时间戳。
   + SIZE: 以MB返回文件大小。
-  + WRITE: 返回文件写入特性。
+  + WRITE: 返回文件写入特性: 1表示可写，0表示不可写。
+  + READ: 返回可读特性：1表示可读，0表示不可读。
+  + EXEC: 返回可执行特性：1表示可执行，0表示不可执行。
+  + LINES: 返回ASCII文件行数。
   
 
 ## 参考
