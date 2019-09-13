@@ -18,3 +18,4 @@
 ## 命令流
 
 - [导入截面](scripts/importsat.md)
+- [向量写入文件](scripts/writeto.md)
