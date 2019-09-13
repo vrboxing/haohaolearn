@@ -17,4 +17,4 @@
 
 ## 命令流
 
-- [引入截面](scripts/importsat.md)
+- [导入截面](scripts/importsat.md)
