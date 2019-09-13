@@ -12,9 +12,20 @@
 ```
 
 示例：
-![](array.png)
+![](array.png)![](array1.png)
+
+```
+    *dim,ntemp,array,3
+    ntemp(1) = -5.2, 25, 86.5
+```
 
 ![](array2.png)
+
+```
+    *dim,compstrs,array,4,2
+    compstrs(1,1) = 814, 1057, 1033, 786
+    compstrs(1,2) = -386, -704, -713, -348
+```
 
 ![](array3.png)
 
