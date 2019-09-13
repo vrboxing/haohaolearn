@@ -1,8 +1,9 @@
 # ANSYS
 
-## 安装
+## 安装和运行
 
 - [安装](installation/README.md)
+- [运行](operation/README.md)
 
 ## 命令
 
