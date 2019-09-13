@@ -12,7 +12,7 @@
 ```
 
 示例：
-![](array.png)![](array1.png)
+![](array.png)
 
 ```
     *dim,ntemp,array,3
