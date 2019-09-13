@@ -9,13 +9,26 @@ Returns system information to a parameter.
 - StrArray: 是一个字符数组型字符串，该字符串同于字符参数数组，只是每个单
 元可有248个字符。若参数未定义，可新生成。
 
-- FUNC: 定义了需返回的系统信息
-  + LOGIN: 返回Linux系统的登录路径名或Windows系统的默认路径（包括磁盘符）。
-  + DOCU: ANSYS的文档目录路径。
-  + APDL: ANSYS APDL目录路径。
-  + PROG: ANSYS可执行程序路径。
-  + DIRECTORY: 当前文件夹路径。
-  + JOBNAME: 返回当前Jobname。
+- FUNC
+    定义了需返回的系统信息
+
+  + LOGIN
+  返回Linux系统的登录路径名或Windows系统的默认路径（包括磁盘符）。
+
+  + DOCU
+  ANSYS的文档目录路径。
+
+  + APDL
+  ANSYS APDL目录路径。
+
+  + PROG
+  ANSYS可执行程序路径。
+
+  + DIRECTORY
+  当前文件夹路径。
+
+  + JOBNAME
+  返回当前Jobname。
   
 ## 返回文件参数
 
