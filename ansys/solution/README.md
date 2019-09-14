@@ -37,9 +37,9 @@
 
 ## 单元生死
 
-- [EALIVE](brithdeath.md)
-- [EKILL](brithdeath.md)
-- [ESTIF](brithdeath.md)
+- [EALIVE](birthdeath.md)
+- [EKILL](birthdeath.md)
+- [ESTIF](birthdeath.md)
 
 ## FE约束
 
