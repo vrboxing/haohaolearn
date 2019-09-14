@@ -40,3 +40,7 @@ Specifies surface loads on beam and pipe elements.
   + 1
   
       用长度比例偏移(0.0到1.0)。
+
+## 参考
+
+- [帮助系统](http://www.mm.bme.hu/~gyebro/files/ans_help_v182/ans_cmd/Hlp_C_SFBEAM.html)
