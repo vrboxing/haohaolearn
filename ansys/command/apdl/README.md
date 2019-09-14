@@ -11,8 +11,9 @@ APDL是一种脚本语言，是ANSYS Parametric Design Language的缩写，用�
 
 ## 参数定义
 
-- [GET](get.md)
+- [*GET](get.md)
 - [/INQUIRE](inquire.md)
+- [VGET](vget.md)
 
 ## 宏文件
 
@@ -29,4 +30,3 @@ APDL是一种脚本语言，是ANSYS Parametric Design Language的缩写，用�
 ## 参考
 
 - [帮助系统](http://www.mm.bme.hu/~gyebro/files/ans_help_v182/ans_cmd/Hlp_C_CH2_4.html)
-- [命令手册](http://www.mm.bme.hu/~gyebro/files/ans_help_v182/ans_cmd/Hlp_C_CmdTOC.html)

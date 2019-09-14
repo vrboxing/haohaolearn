@@ -9,18 +9,25 @@ Git是由Linus Torvalds在2005年创造的软件版本管理和控制软件，�
 
 ** 下载
 
-Windows版的Git安装包可从[[https://git-scm.com/download/win][默认下载地址]]得到。也有访问速度更快的镜像：
+Windows版的Git安装包可从[[https://git-scm.com/download/win][默认下载地址]]得到，但有访问速度更快的镜像：
 https://github.com/waylau/git-for-win/。
 
 ** 教程
 
+*** 视频
+
+- [[https://www.bilibili.com/video/av46637991/?p=1][8小时入门Git之团队合作]]
+- [[https://www.bilibili.com/video/av59634634/?spm_id_from=333.788.videocard.0][16小时从入门到精通]]
+   
 *** 初级
+
 - [[https://git-scm.com/book/zh/v2][Pro Git(ch)]]
 - [[https://git-scm.com/book/en/v2][Pro Git(en)]]
 - [[https://github.com/geeeeeeeeek/git-recipes][Zhongyi Tong 教程]]
 - [[http://www.codeceo.com/article/git-command-list.html][命令清单]]
 
 *** 高级
+
 - Jakub Narebski. Mastering Git, 2016, Packt Publishing
 
 ** 笔记
