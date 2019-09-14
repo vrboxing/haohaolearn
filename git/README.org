@@ -12,7 +12,7 @@ Git是由Linus Torvalds在2005年创造的软件版本管理和控制软件，�
 - Windows
 
   Windows版的Git安装包可从[[https://git-scm.com/download/win][默认下载地址]]得到，但有访问速度更快的镜像：
-  https://github.com/waylau/git-for-win/。
+  https://github.com/waylau/git-for-win/
 
 - Debian/Ubuntu
 
