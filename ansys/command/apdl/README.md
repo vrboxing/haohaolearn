@@ -19,6 +19,7 @@ APDL是一种脚本语言，是ANSYS Parametric Design Language的缩写，用�
 
 ## 向量参数
 
+- [*MOPER](moper.md)
 - [*VWRITE](vwrite.md)
 
 ## 过程控制
