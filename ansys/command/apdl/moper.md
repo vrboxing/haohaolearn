@@ -50,6 +50,55 @@ Performs matrix operations on array parameter matrices.
 
 其它功能尚不理解。
 
+## 代码示例
+
+```
+!----------------------------------------------------------------------
+! math.inp
+! 矩阵操作示例
+! 定义向量p和矩阵grad
+! 求解 grad*x=p
+! 计算 grad逆矩阵ingrad
+! 计算 pp = grad*x
+!
+! yangdawei
+! HIT
+! 08/02/2015
+!----------------------------------------------------------------------
+
+fini
+/clear
+
+*dim,grad,,2,2
+*dim,p,,2
+!*dim,x,,2        !结果向量亦可不定义
+!*dim,ingrad,,2,2 !结果向量亦可不定义
+
+p(1)=2
+p(2)=3
+
+grad(1,1)=1.0
+grad(1,2)=2.0
+grad(2,1)=1.0
+grad(2,2)=4.0
+
+*moper,ingrad,grad,invert
+*moper,x,grad,solv,p
+*moper,pp,grad,mult,x
+
+*mwrite,grad,grad,txt,,jik,2,2
+(2f10.3)
+
+*mwrite,ingrad,ingrad,txt,,jik,2,2
+(2f10.3)
+
+*cfopen,result,txt
+*vwrite,p(1),pp(1),x(1)
+(3f10.3)
+*cfclos
+
+```
+
 ## 参考
 
 - [帮助系统](http://www.mm.bme.hu/~gyebro/files/ans_help_v182/ans_cmd/Hlp_C_MOPER.html)
