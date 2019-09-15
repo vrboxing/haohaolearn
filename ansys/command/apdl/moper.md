@@ -50,7 +50,9 @@ Performs matrix operations on array parameter matrices.
 
 其它功能尚不理解。
 
-## [帮助系统](http://www.mm.bme.hu/~gyebro/files/ans_help_v182/ans_cmd/Hlp_C_MOPER.html)
+## 参考
+
+- [帮助系统](http://www.mm.bme.hu/~gyebro/files/ans_help_v182/ans_cmd/Hlp_C_MOPER.html)
    
   
     
