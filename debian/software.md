@@ -20,6 +20,7 @@
 ## 影片编辑
 
 - [flowblade](flowblade.md)
+- [shotcut](shotcut.md)
 
 ## 排版 
 
