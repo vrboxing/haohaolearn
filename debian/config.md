@@ -146,13 +146,25 @@ XKBOPTIONS="ctrl:nocaps"
 - `/etc/lightdm/lightdm.conf`
 ```
 [Seat:*]
-#autologin-user=
-#autologin-user-timeout=0
+autologin-user=<username>
 ```
+将用户名加入`autologin`组：
+```
+sudo groupadd autologin
+sudo gpasswd -a <username> autologin
+```
+
 - `/usr/share/lightdm/lightdm.conf.d/01_my.conf`
 ```
 [Seat:*]
 greeter-hide-users=false
+```
+
+- `/etct/lightdm/lightdm-gtk-greeter.conf`
+```
+[greeter]
+theme-name=Numix
+icon-theme-name=Faenza-Ambiance
 ```
 
 # crontab

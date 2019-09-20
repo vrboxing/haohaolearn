@@ -12,6 +12,11 @@
 - vscode
 - sublime text
 
+## Emacs插件
+
+- auctex
+- ess
+
 ## 图形图像
 
 - inkscape
