@@ -43,6 +43,13 @@ local({
   + stringr
   + forcats
 
+    了解tidyverse的最佳方式是[R for Data Science](https://r4ds.had.co.nz)。
+
+## 参考
+
+- [R语言数据科学新类型tibble](http://blog.fens.me/r-tibble/#)
+- [用时间分组](https://stackoverflow.com/questions/37575785/r-group-by-date-and-summarize-the-values)
+
 ## rJava & xlsx
   + rJava安装不了
     - 解决：https://stackoverflow.com/questions/12872699/error-unable-to-load-installed-packages-just-now
