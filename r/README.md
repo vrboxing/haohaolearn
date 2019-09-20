@@ -24,9 +24,24 @@ local({
 
 - Dalgaard2008, Introducotry Statistics with R
 
-  + describes applications of R for actual sta- tistical analysis
+  + describes applications of R for actual statistical analysis
   + 在基本学会R和统计学的基础上，示范统计计算的教程。
   + 适合作为统计学的配套练习教材。
+
+## 工具集合
+
+- [tidyverse](https://tidyverse.tidyverse.org/)
+
+    tidyverse是一个宏包集合，版权归属于Rstudio，作者为Hadley Wickham。包括：
+
+  + ggplot2
+  + tibble
+  + tidyr
+  + readr
+  + purrr
+  + dplyr
+  + stringr
+  + forcats
 
 ## rJava & xlsx
   + rJava安装不了
