@@ -14,12 +14,11 @@
 
   + ggplot2
   + tibble
-  + tidyr
+  + [tidyr](tidyr.md)
   + readr
   + purrr
-  + dplyr
+  + [dplyr](package/dplyr.md)
   + stringr
   + forcats
 
     了解tidyverse的最佳方式是[R for Data Science](https://r4ds.had.co.nz)。
-
