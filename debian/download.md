@@ -1,9 +1,10 @@
-# 下载镜像
+# 安装 
 
+## 镜像
  从[中国科技大学镜像网站](https://mirrors.ustc.edu.cn)下载镜像文件：
  [debian-live-[version]-amd64-gnome.iso](https://mirrors.ustc.edu.cn/debian-cd/current-live/amd64/iso-hybrid)。
 
-# 制作启动u盘
+## 制作启动u盘
 
 Windows系统使用`UltraISO`或其它类似工具。在Linux系统中，一般使用`dd`命令。
 
