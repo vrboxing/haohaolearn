@@ -8,7 +8,7 @@
 - [命令备忘](./cmd.md)
 - [代码粘帖](pastebinit.md)
 - [微信](wechat.md)
-- [社区](commnunity.md)
+- [社区](community.md)
 
 ## 参考
 
