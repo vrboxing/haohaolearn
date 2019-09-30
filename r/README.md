@@ -22,4 +22,3 @@
   + forcats
 
     了解tidyverse的最佳方式是[R for Data Science](https://r4ds.had.co.nz)。
-
