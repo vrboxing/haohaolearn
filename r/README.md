@@ -14,10 +14,10 @@
 
   + ggplot2
   + tibble
-  + tidyr
+  + [tidyr](tidyr.md)
   + readr
   + purrr
-  + dplyr
+  + [dplyr](package/dplyr.md)
   + stringr
   + forcats
 
