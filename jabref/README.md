@@ -1,8 +1,9 @@
 # JabRef
 
-# 安装
+# 下载安装
 
-- [链接](https://help.jabref.org/en/Installation)
+- [安装](https://help.jabref.org/en/Installation)
+- [下载](http://builds.jabref.org/master/)
 
 # 配置
 
