@@ -19,6 +19,7 @@ mv custom.el .custom.el
 - ess-smart-underscore
 - [align-regexp](align.md)
 - [Iedit-mode](iedit.md)
+- [Magit](magit.md)
 
 ## 专题
 
