@@ -19,3 +19,8 @@
 - https://kb.iu.edu/d/abis
 - M-x table-insert: 生成一个表
 - C-c | : 生成一个表
+- C-c > 日历
+<s TAB 插入源码块
+```
+(setq cursor-type 'bar)
+```
