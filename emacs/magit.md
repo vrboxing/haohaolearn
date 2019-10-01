@@ -1,5 +1,7 @@
 # Magit
 
+![](figures/magit.png)
+
 - `SPC g g` or `M-x magit-status`： 查看git状态
 - `s`: 暂存文件
 - `c c`: 提交(输入提交消息后`C-c C-c`完成提交)
@@ -14,6 +16,7 @@
 2. `s`暂存文件
 3. `c c`提交
 4. `P u`推送
+
 
 ## 参考
 
