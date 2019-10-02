@@ -16,6 +16,7 @@ sudo apt install jabref
 
 # 文件链接
 
+- `Quality > Synchronize file links ...`(Ctrl-Shift-F7)
 - 用快捷键`F7`链接文件
 - 对于`caj`扩展名文件，需在`Options → Manage external file types`中增加
   `caj`类型
