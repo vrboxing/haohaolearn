@@ -1,5 +1,14 @@
 # CMD
 
+## apt-cache
+
+apt-cache对APT包进行查询输出。
+
+- 查找<package-name>的依赖包。
+```
+apt-cache depends <package-name>
+```
+
 ## xclip
 
 - 将当前目录拷贝至粘贴板，进入粘贴板中所存的目录，将该目录写到文件中。
