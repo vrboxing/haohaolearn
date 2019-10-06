@@ -15,6 +15,37 @@
 systemctl --user enable emacs
 ```
 
+原理上，这样启动是可以的，但这样操作会带一个问题，即在系统退出时无法正常
+退出该进程。接下来给出真正应用时的方案。
+
+## 服务配置
+
+将如下内容拷贝到`~/.config/systemd/user/emacs.service`中：
+```
+[Unit]
+Description=Emacs text editor
+Documentation=info:emacs man:emacs(1) https://gnu.org/software/emacs/
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/emacs --daemon
+ExecStop=/usr/bin/emacsclient --eval "(kill-emacs)"
+Environment=SSH_AUTH_SOCK=%t/keyring/ssh
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
+```
+注意，在脚本中，退出服务时，通过emacsclient以外部方式运行了
+`(kill-emacs)`函数，即退出emacs守护进程。
+
+然后启动该项服务：
+```
+systemctl enable --user emacs
+systemctl start --user emacs
+```
+
+
 ## emacsclient
 
 在我的系统中，采用了`systemd`启动Emacs服务器的方式。每次开机后，Emacs服
@@ -30,3 +61,5 @@ emacsclient -create-frame --alternate-editor=""
 
 - [Emacs Server](https://www.gnu.org/software/emacs/manual/html_node/emacs/Emacs-Server.html)
 - [emacsclient Options](https://www.gnu.org/software/emacs/manual/html_node/emacs/emacsclient-Options.html#emacsclient-Options)
+- [Emacs As Dameon](https://www.emacswiki.org/emacs/EmacsAsDaemon)
+- [Emacs Client](https://www.emacswiki.org/emacs/EmacsClient)

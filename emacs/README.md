@@ -1,9 +1,15 @@
 # Emacs
 
+- `C-h k`：快捷键的帮助信息
+- `C-h v`：变量的帮助信息
+- `C-h f`：函数的帮助信息
+
 
 ## 入门阅读
 
 - [一年成为Emacs高手](https://github.com/redguardtoo/mastering-emacs-in-one-year-guide/blob/master/guide-zh.org)
+- [X分钟速成Y](https://learnxinyminutes.com/docs/zh-cn/elisp-cn/)
+- [21天掌握Emacs](http://book.emacs-china.org/)
 
 ## 初始配置
 ```
