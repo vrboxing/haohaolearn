@@ -3,6 +3,7 @@
 ## 中文读音
    拉泰赫
 
+
 ## What is LaTeX?
    - LaTeX是专业排版系统。
    - https://en.wikibooks.org/wiki/LaTeX
@@ -29,10 +30,3 @@
    - wrapfig 图形被文字包围。
 
 
-## Manualy Macros
-
-    - make directory in home path: `.texmf`
-    - edit `/usr/local/texlive/2017/texmf.cnf`
-    - add: TEXMFHOME=~/.texmf
-    - create texmf tds in .texmf
-    - copy cls and sty files in to tds of .texmf

@@ -18,9 +18,31 @@ TeXLive每年发布一个新版本，下载目录中的任意镜像文件即可�
 
 ![](./gui.jpg)
 
-## TDS
+## tlmgr
+
+`tlmgr`是`TeX Live manager`的缩写，意为`TeXLive`管理器。要使用窗口界面运
+行`tlmgr`，需要安装`perl-tk`。
+
+定义镜像源：
+```
+sudo tlmgr option https://mirrors.ustc.edu.cn/CTAN/systems/texlive/tlnet/
+
+```
+更新宏包、管理器、所有文件：
+```
+sudo tlmgr update <package>
+sudo tlmgr update --self
+sudo tlmgr update --all
+```
+
 
 ## 私有文件安装
+
+本地文件夹目录：
+
+```
+kpsewhich -var-value TEXMFLOCAL
+```
 
 所谓私有文件，即一些未安到到`texmf`目录树中的宏包或字体，它们需要被置于
 用户文件夹中。`TDS标准`给用户分配了一个环境变量`TEXMFHOME`。通过如下命令
@@ -30,12 +52,21 @@ TeXLive每年发布一个新版本，下载目录中的任意镜像文件即可�
 kpsewhich -var-value TEXMFHOME
 kpsewhich -expand-var '$TEXMFHOME'
 ```
-由于系统不同会使得`TEXMFHOME`代表的路径不同。为
 
+定义`TEXMFHOME`的文件为`texmf.cnf`，要了解该文件的位置，可用命令：
+```
+kpsewhich texmf.cnf
+```
+
+按如下方式定义用户的`TEXMFHOME`：
+    - make directory in home path: `.texmf`
+    - edit `/usr/local/texlive/2017/texmf.cnf`
+    - add: TEXMFHOME=~/.texmf
+    - create texmf tds in .texmf
+    - copy cls and sty files in to tds of .texmf
 
 ## 参考
 
-- [TDS](https://texfaq.org/FAQ-what-TDS "ydw")
-- [Which tree to use](https://texfaq.org/FAQ-what-TDS)
-- [Private installations of files](https://texfaq.org/FAQ-privinst)
+- [Which tree to use](https://texfaq.org/FAQ-what-TDS "TDS")
+- [Private installations of files](https://texfaq.org/FAQ-privinst "TEXMFHOME")
 - [Where is “texmf” on a Windows install](https://tex.stackexchange.com/questions/12701/where-is-texmf-on-a-windows-install)
