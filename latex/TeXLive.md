@@ -67,6 +67,7 @@ kpsewhich texmf.cnf
 
 ## 参考
 
+- [Installation using TeX Live manager](https://texfaq.org/FAQ-inst-texlive "tlmgr")
 - [Which tree to use](https://texfaq.org/FAQ-what-TDS "TDS")
 - [Private installations of files](https://texfaq.org/FAQ-privinst "TEXMFHOME")
 - [Where is “texmf” on a Windows install](https://tex.stackexchange.com/questions/12701/where-is-texmf-on-a-windows-install)
