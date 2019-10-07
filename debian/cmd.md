@@ -1,5 +1,22 @@
 # CMD
 
+## APT
+
+- `-f`,`--force`
+    强制安装，解决依赖包的安装。
+
+- `–no-install-recommends`
+    避免安装推荐的包。
+
+### apt-cache
+
+apt-cache对APT包进行查询输出。
+
+- 查找<package-name>的依赖包。
+```
+apt-cache depends <package-name>
+```
+
 ## 系统查询
 
 - 查看系统版本
@@ -45,14 +62,6 @@ lshw -class network
 ip a
 ```
 
-## apt-cache
-
-apt-cache对APT包进行查询输出。
-
-- 查找<package-name>的依赖包。
-```
-apt-cache depends <package-name>
-```
 
 ## xclip
 
