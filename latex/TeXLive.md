@@ -17,3 +17,25 @@ TeXLive每年发布一个新版本，下载目录中的任意镜像文件即可�
 - 注意：`生成系统目录链接`置于`Yes`
 
 ![](./gui.jpg)
+
+## TDS
+
+## 私有文件安装
+
+所谓私有文件，即一些未安到到`texmf`目录树中的宏包或字体，它们需要被置于
+用户文件夹中。`TDS标准`给用户分配了一个环境变量`TEXMFHOME`。通过如下命令
+检查`TEXMFHOME`变量：
+
+```
+kpsewhich -var-value TEXMFHOME
+kpsewhich -expand-var '$TEXMFHOME'
+```
+由于系统不同会使得`TEXMFHOME`代表的路径不同。为
+
+
+## 参考
+
+- [TDS](https://texfaq.org/FAQ-what-TDS "ydw")
+- [Which tree to use](https://texfaq.org/FAQ-what-TDS)
+- [Private installations of files](https://texfaq.org/FAQ-privinst)
+- [Where is “texmf” on a Windows install](https://tex.stackexchange.com/questions/12701/where-is-texmf-on-a-windows-install)

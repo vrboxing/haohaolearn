@@ -15,7 +15,10 @@
 - [[https://docs.python.org/3/library/index.html][标准库]]: Pythons标准库包括C语言写的内建模块，以及常见问题的标准化解决
   方案的模块。
   
-** 源配置
+** Pip和源配置
+
+- [[https://www.rosehosting.com/blog/how-to-install-pip-on-debian/][如何在Debian中安装pip]]
+
 *** Linux
 
 修改~/.pip/pip.conf（若没有就新建一个）：
