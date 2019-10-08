@@ -1,6 +1,14 @@
 # CMD
 
-## APT
+## dpkg 
+
+dpkg是Debian的软件管理器(也许是Debian PacKaGe的辅音字母缩写)，用于安装、
+编译、卸载和管理Debian的软件。dpkg的前台软件为`aptitude`。
+
+dpkg保存着可用包的信息，包括三类：`states`，`selection states`，`flags`。
+
+
+## apt 
 
 - `-f`,`--force`
     强制安装，解决依赖包的安装。
@@ -12,10 +20,15 @@
 
 apt-cache对APT包进行查询输出。
 
-- 查找<package-name>的依赖包。
+- 查找<package-name>的依赖包
 ```
 apt-cache depends <package-name>
 ```
+- 查找<package-name>被哪些包依赖
+```
+apt-cache rdepends <package-name>
+```
+
 
 ## 系统查询
 
