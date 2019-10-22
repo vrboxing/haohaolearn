@@ -1,7 +1,5 @@
 # Debian
 
-![](xfce4.png)
-
 - [介绍](https://zh.wikipedia.org/wiki/Debian)
 - [下载与安装](download.md)
 - [配置](config.md)
