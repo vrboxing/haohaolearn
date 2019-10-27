@@ -1,5 +1,7 @@
 # CMD
 
+- [Linux命令大全](man.linuxde.net)
+
 ## dpkg 
 
 dpkg是Debian的软件管理器(也许是Debian PacKaGe的辅音字母缩写)，用于安装、
