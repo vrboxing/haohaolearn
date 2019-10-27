@@ -68,4 +68,5 @@ sudo apt-get install intel-microcode
 - gparted
 - crossover 
 - [zip/unip](zip.md)
+- screenkey
 
