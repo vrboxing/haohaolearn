@@ -52,7 +52,7 @@ sudo apt-get install intel-microcode
 
 - wget/curl
 - google-chrome
-- thunderbird
+- [thunderbird](thunderbird.md)
 - telegram
 - bearychat
 - filezilla
