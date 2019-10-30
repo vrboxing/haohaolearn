@@ -22,6 +22,11 @@ sudo apt-get install intel-microcode
 - [fcitx](fcitx.md)
 
 
+## PDF
+
+- evince
+- [pdftk](pdftk.md)
+
 ## 编辑器
 
 - vim
@@ -69,4 +74,3 @@ sudo apt-get install intel-microcode
 - crossover 
 - [zip/unip](zip.md)
 - screenkey
-
