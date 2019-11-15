@@ -16,6 +16,7 @@ library(here)
 set_here()
 # 获得脚本所在文件夹
 setwd(here())
+getwd()
 ```
 
 # 要点
