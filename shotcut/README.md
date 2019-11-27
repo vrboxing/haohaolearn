@@ -5,8 +5,10 @@
 ## 下载
 
 - https://www.shotcut.org/download/
+- Windows: 64-bit Windows installer
+- Linux: 64-bit Linux AppImage
 
-## 安装
+## Linux安装
 
 - 将镜像文件赋予可执行权限；
 - 在`/usr/bin/`中建立对应的软连接；
