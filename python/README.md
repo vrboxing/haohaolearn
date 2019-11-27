@@ -3,7 +3,8 @@
 ## 视频
 - [bilibili](https://www.bilibili.com/video/av39110187/?spm_id_from=333.788.videocard.5)
 
-** 教程 
+## 教程 
+
 - [python3菜鸟教程](http://www.runoob.com/python3/python3-tutorial.html)
 - [python-course(Bernd.C.Klein)](https://www.python-course.eu/index.php) 
 - [realpytho](https://realpython.com): real python团队
@@ -11,57 +12,19 @@
 - [Python-100天从新手到大师](https://github.com/jackfrued/Python-100-Days): 骆昊
 - [Python基础教程](http://c.biancheng.net/python/): C语言中文网
   
-** 参考 
+## 手册
+
 - [标准库](https://docs.python.org/3/library/index.html): Pythons标准库
   包括C语言写的内建模块，以及常见问题的标准化解决方案的模块。
   
-** pip
+## pip
 
-- pip是Python的包管理器，使用pip可以从[Python Package
-  Index(PyPI)](pypi.org)中下载包。
+- pip是Python的包管理器，使用pip可以从[Python Package Index(PyPI)](pypi.org)中下载包。
+- [pip笔记](./doc/pip.md)
 
-- 安装pip有若干种方式，最方便的是从Linux包管理器中安装，如：
+## 笔记 
 
-```
-sudo apt install python-pip # Python 2
-sudo apt install python3-pip # Python 3
-```
-
-- 运行pip
-
-```
-pip <pip argument> # 经常会出错
-python -m pip <pip argument>
-python3 -m pip <pip argument>
-```
-
-- 用pip安装包
-
-```
-python -m pip install <package>
-```
-
-- Linux
-
-    修改`~/.pip/pip.conf`(若没有就新建一个)：
-
-```
-[global]
-index-url = https://pypi.tuna.tsinghua.edu.cn/simple
-```
-
-- Windows
-
-    直接在user目录中创建一个pip目录，如：`C:\Users\xx\pip`，新建文件`pip.ini`，内容如下：
-
-```
-[global]
-index-url = https://pypi.tuna.tsinghua.edu.cn/simple
-```
-
-# 笔记 
-
-## 环境和工具
+### 环境和工具
 
 - [pycharm](file:doc/pycharm.org): IDE
 - [elpy](file:doc/elpy.org]: Emacs中Python的编辑环境
@@ -69,7 +32,7 @@ index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 - [debug](file:doc/debug.org): Linux下的调试工具
 - [virtualenv](file:doc/virtualenv.org): 虚拟环境
 
-## 语法
+### 语法
 
 - [string](file:doc/string.org): 字符串
 - [regex](file:doc/regex.org): 正则表达式 
@@ -78,7 +41,7 @@ index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 - [os.path](file:doc/os-path.org): 目录和文件
 - [sympy](file:doc/sympy.org): 解方程
 
-## 实践
+### 实践
 
 - [p001-numpy](./practice/p001-numpy.py)
 - [p002-numpy](practice/p002-numpy.py)
