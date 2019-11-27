@@ -28,3 +28,4 @@
 ## 参考
 
 - [Numerical Programming with Python](https://www.python-course.eu/numerical_programming_with_python.php)
+- [Numpy Tutorial](https://www.python-course.eu/numpy.php)
