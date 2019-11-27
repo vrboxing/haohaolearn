@@ -8,10 +8,12 @@ import pandas as pd
 obj = pd.Series([4, 7, -5, 3])
 obj.values
 obj.index
+
 obj2 = pd.Series([4, 7, -5, 3], index=['d', 'b', 'a', 'c'])
 obj2
 obj2['a']
 obj2['d'] = 6
+obj2
 obj2[obj2 > 0]
 obj2 * 2
 obj2
@@ -60,4 +62,21 @@ frame2['state']
 frame2.year
 frame2.loc['three']
 frame2['debt'] = 16.5
+frame2['debt'] = np.arange(6.)
 frame2
+val = pd.Series([-1.2, -1.5, -1.7], index=['two', 'four', 'five'])
+frame2['debt'] = val
+frame2
+frame2['eastern'] = frame2.state == 'Ohio'
+frame2
+# del方法，很不理解
+del frame2['eastern']
+frame2.columns
+pop = {'Nevada': {2001: 2.4, 2002: 2.9},'Ohio': {2000: 1.5, 2001: 1.7, 2002: 3.6}}
+frame3 = pd.DataFrame(pop)
+frame3
+# 转置
+frame3.T
+# 内层字典的键会被合并、排序以形成最终的索引。如果明确指定了索引，则不会这样
+pd.DataFrame(pop, index=[2001, 2002, 2003])
+

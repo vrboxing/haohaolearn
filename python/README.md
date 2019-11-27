@@ -1,6 +1,7 @@
 # Python
 
 ## 视频
+
 - [bilibili](https://www.bilibili.com/video/av39110187/?spm_id_from=333.788.videocard.5)
 
 ## 教程 
@@ -11,6 +12,7 @@
 - [BogoToBogo](https://www.bogotobogo.com/python/pytut.php): BogoToBogo
 - [Python-100天从新手到大师](https://github.com/jackfrued/Python-100-Days): 骆昊
 - [Python基础教程](http://c.biancheng.net/python/): C语言中文网
+- [Numerical Programming with Python](https://www.python-course.eu/numerical_programming_with_python.php)
   
 ## 手册
 
@@ -40,6 +42,7 @@
 - [argparse](./doc/argparse.org): 参数解析
 - [os.path](./doc/os-path.org): 目录和文件
 - [sympy](./doc/sympy.org): 解方程
+- [数值编程](./doc/numericalprogram.md)
 
 ### 实践
 
