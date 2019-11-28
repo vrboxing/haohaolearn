@@ -12,8 +12,9 @@
 # from numpy import *
 
 import numpy as np
+import matplotlib.pyplot as plt
 import math
-
+import time
 
 if __name__ == '__main__':
 
@@ -348,6 +349,3 @@ if __name__ == '__main__':
     row_vec = arr[np.newaxis, :]
     row_vec.shape
     row_vec
-    
-
-

@@ -38,7 +38,7 @@
 
 - [string](./doc/string.org): 字符串
 - [regex](./doc/regex.org): 正则表达式 
-- [pandas](./doc/pandas.org): 数据处理
+- [pandas](./doc/pandas.md): 数据处理
 - [argparse](./doc/argparse.org): 参数解析
 - [os.path](./doc/os-path.org): 目录和文件
 - [sympy](./doc/sympy.org): 解方程
