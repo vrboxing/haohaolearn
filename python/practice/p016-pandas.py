@@ -5,6 +5,19 @@
 import numpy as np
 import pandas as pd
 
+s = pd.Series()
+print(s)
+data = np.array(['a', 'b', 'c', 'd'])
+s = pd.Series(data, index=[100, 101, 102, 103])
+print(s)
+data = {'a': 0., 'b': 1., 'c': 2.}
+s = pd.Series(data)
+df = pd.DataFrame()
+print(df)
+df = [1, 2, 3, 4, 5]
+print(df)
+data = [['Alex', 10], ['Bob', 12], ['Clarke', 13]]
+
 obj = pd.Series([4, 7, -5, 3])
 obj.values
 obj.index
@@ -72,11 +85,20 @@ frame2
 # del方法，很不理解
 del frame2['eastern']
 frame2.columns
-pop = {'Nevada': {2001: 2.4, 2002: 2.9},'Ohio': {2000: 1.5, 2001: 1.7, 2002: 3.6}}
+pop = {
+    'Nevada': {
+        2001: 2.4,
+        2002: 2.9
+    },
+    'Ohio': {
+        2000: 1.5,
+        2001: 1.7,
+        2002: 3.6
+    }
+}
 frame3 = pd.DataFrame(pop)
 frame3
 # 转置
 frame3.T
 # 内层字典的键会被合并、排序以形成最终的索引。如果明确指定了索引，则不会这样
 pd.DataFrame(pop, index=[2001, 2002, 2003])
-
