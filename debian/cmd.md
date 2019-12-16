@@ -100,3 +100,15 @@ sudo dmesg | grep <错误信息关键字>
 ```
   apt-mark manual sudo
 ```
+## 日志查看
+
+```
+sudo journalctl -b | grep -i failed
+```
+
+## 启动错误修复 
+
+```
+debian kernel: [Firmware Bug]: TSC_DEADLINE disabled due to Errata; please update microcode to version: 0x52 (or later)
+sudo apt-get install intel-microcode
+```

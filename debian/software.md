@@ -10,12 +10,6 @@ sudo apt install evince emacs vim vim-gtk inkscape gimp wget curl hexchat
 sudo apt install transmission vlc audacious
 ```
 
-## 启动错误修复 
-
-```
-debian kernel: [Firmware Bug]: TSC_DEADLINE disabled due to Errata; please update microcode to version: 0x52 (or later)
-sudo apt-get install intel-microcode
-```
 
 ## 输入法
 
