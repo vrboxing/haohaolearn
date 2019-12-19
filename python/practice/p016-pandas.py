@@ -5,6 +5,13 @@
 import numpy as np
 import pandas as pd
 
+def say():
+    print('say in')
+
+# https://blog.csdn.net/qq_19528953/article/details/79348929
+# https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html
+apply(say)
+
 s = pd.Series()
 print(s)
 data = np.array(['a', 'b', 'c', 'd'])

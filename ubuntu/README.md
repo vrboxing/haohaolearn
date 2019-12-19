@@ -1,37 +1,32 @@
 # Ubuntu
 
 ## 下载和源
-- mirrors.ustc.edu.cn
+- mirrors.163.com
 - 页面上有`获取安装镜像`的按钮，选择安装发行版Ubuntu，选择倾向的版本，点击`获取ISO`按钮。
-- 源配置：`/etc/apt/sources.list`
+- 源配置示例(19.04)：`/etc/apt/sources.list`
 ``` 
-deb https://mirrors.ustc.edu.cn/ubuntu/ disco main restricted universe multiverse
-deb https://mirrors.ustc.edu.cn/ubuntu/ disco-security main restricted universe multiverse
-deb https://mirrors.ustc.edu.cn/ubuntu/ disco-updates main restricted universe multiverse
-deb https://mirrors.ustc.edu.cn/ubuntu/ disco-backports main restricted universe multiverse
+deb https://mirrors.163.com/ubuntu/ eoan main restricted universe multiverse
+deb https://mirrors.163.com/ubuntu/ eoan-security main restricted universe multiverse
+deb https://mirrors.163.com/ubuntu/ eoan-updates main restricted universe multiverse
+deb https://mirrors.163.com/ubuntu/ eoan-backports main restricted universe multiverse
 ```
 
 ## 将capslock设置为ctrl
 - 编辑`/etc/profile`
 - /usr/bin/setxkbmap -option "ctrl:nocaps"
  
-
-## Themes 
-
-- Applications: Numix
-
-- Cursor: DMZ-Black
-
-- Icons: Faenza-Ambiance
-
 ## PATH 
 
-`/etc/enviornment` --> `.profile`
-
+修改路径的命令如下：
 ```
 PATH=$PATH:~/.local/bin;
 export PATH
 ```
+为了使其生效，应将该命令放在配置文件中。
+- `/etc/enviornment`：对所有用户生效
+- `/etc/profile`：对所有用户生效
+- `.bashrc`: 对当前用户生效
+- `.zshrc`：当zsh作为用户登录时的shell时，应置于该文件中。
 
 ## 启动时自动执行脚本 
 
