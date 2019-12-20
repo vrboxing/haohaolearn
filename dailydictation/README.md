@@ -25,7 +25,7 @@ B: I have 5 `o'clock`.
 ## P3-4
 
 > There are three things I have never learned to discuss with people:
-religion, politics, and the great pumpgen.
+> religion, politics, and the great pumpgen.
 
 There are three things I have learned never to discuss with people:
 religion, politics, and the Great Pumpkin.
