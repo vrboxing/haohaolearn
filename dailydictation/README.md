@@ -60,3 +60,52 @@ bubblegum.
 - an(d) kick ass
 - an(d)-(I')m all-out-of /outta/
 
+## P6-7
+
+- Dec 21
+
+> The secret of life is just live want.
+
+The secret of life is just to live every moment.
+
+- secret-of /v/
+- just --> juss
+- to --> t'
+- live-very
+
+## P7-8
+
+- Dec 21
+
+> Another ruin traitor has cost bank billions.
+
+Another rogue trader has cost a bank billions.
+
+## P8-9
+
+- Dec 21
+
+> German Rohf Merchurks is the man the most piercings 453.
+
+German, Rolf Buchholz is the man with the most piercings, he's got 453.
+
+- is the -->  zuh
+- with-the
+- he's got = he has got
+- hundred --> hu--nerd
+
+## P9-10
+
+- Dec 21
+
+> A satelite boots carry space shuttled 21 years ago is about to fall to
+> earth. But nobody knows where it will bring him.
+
+A satellite that was carried to space 20 years ago aboard the shuttle
+Discovery is about to fall to Earth, but nobody knows where the debris
+will hit.
+
+- satellit(e)-(th)at 
+- is-about-(t)' fall 
+- fall d'
+- debris --> debree
