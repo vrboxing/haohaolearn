@@ -183,3 +183,47 @@ obj3
 # 插值处理
 obj3.reindex(range(6), method='ffill')
 
+# 丢弃指定轴上的项
+obj = pd.Series(np.arange(5.), index=['a', 'b', 'c', 'd', 'e'])
+new_obj = obj.drop('c')
+new_obj
+obj.drop(['d', 'c'])
+data = pd.DataFrame(np.arange(16).reshape((4, 4)),
+                    index=['Ohio', 'Colorado', 'Utah', 'New York'],
+                    columns=['one', 'two', 'three', 'four'])
+# 用标签序列调用drop会从行标签（axis 0）删除值
+data.drop(['Colorado', 'Ohio'])
+data.drop('two', axis=1)
+data.drop(['two', 'four'], axis='columns')
+# 修改obj本身，而不是返回新对象, inplace=True
+obj.drop('c', inplace=True)
+obj
+# 索引、选取和过滤
+obj = pd.Series(np.arange(4.), index=['a', 'b', 'c', 'd'])
+obj
+obj['b']
+obj[1]
+# 利用整数作索引，不含末端
+obj[1:2]
+# 利用标签的切片运算与普通的Python切片运算不同，其末端是包含的
+obj['b':'c']
+
+# 用切片可以对Series的相应部分进行设置
+obj['b':'c'] = 5
+obj
+data = pd.DataFrame(np.arange(16).reshape((4, 4)),
+                    index=['Ohio', 'Colorado', 'Utah', 'New York'],
+                    columns=['one', 'two', 'three', 'four'])
+data
+# 通过切片或布尔型数组选取数据
+data['two']
+data[['three', 'one']]
+data[:2]
+data[data['three'] > 5]
+
+# 通过布尔型DataFrame（比如下面这个由标量比较运算得出的）进行索引
+data < 5
+data[data < 5] = 0
+data
+# 用loc和iloc进行选取
+# 对于DataFrame的行的标签索引，我引入了特殊的标签运算符loc和iloc

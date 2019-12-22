@@ -5,8 +5,8 @@
 
 ## P1-2
 
-`Mother Teresa`, who received `a` Nobel Peace Prize for her work on
-behalf of `the` poor dies `Calcutta` India. She was 87 years old.
+> `Mother Teresa`, who received `a` Nobel Peace Prize for her work on
+> behalf of `the` poor dies `Calcutta` India. She was 87 years old.
 
 - received-a
 - work-on
@@ -14,9 +14,9 @@ behalf of `the` poor dies `Calcutta` India. She was 87 years old.
 
 ## P2-3
 
-A: `Jerry`, what time do you have?
+> A: `Jerry`, what time do you have?
 
-B: I have 5 `o'clock`.
+> B: I have 5 `o'clock`.
 
 - what-time
 - do-you-ave
@@ -47,9 +47,10 @@ Dont ever let somebody tell you: you cant do something.
 - can(t) do
 - some(thing) /sump'n/
 
+# Dec 20
+
 ## P5-6
 
-- Dec 20
 
 > I had come here to choose bob gang and kick ass and all bob gang.
 
@@ -62,8 +63,6 @@ bubblegum.
 
 ## P6-7
 
-- Dec 21
-
 > The secret of life is just live want.
 
 The secret of life is just to live every moment.
@@ -73,17 +72,15 @@ The secret of life is just to live every moment.
 - to --> t'
 - live-very
 
-## P7-8
+# Dec 21
 
-- Dec 21
+## P7-8
 
 > Another ruin traitor has cost bank billions.
 
 Another rogue trader has cost a bank billions.
 
 ## P8-9
-
-- Dec 21
 
 > German Rohf Merchurks is the man the most piercings 453.
 
@@ -96,8 +93,6 @@ German, Rolf Buchholz is the man with the most piercings, he's got 453.
 
 ## P9-10
 
-- Dec 21
-
 > A satelite boots carry space shuttled 21 years ago is about to fall to
 > earth. But nobody knows where it will bring him.
 
@@ -109,3 +104,50 @@ will hit.
 - is-about-(t)' fall 
 - fall d'
 - debris --> debree
+
+## P10-11
+
+> It's laughty probably impossible go.
+
+It's lofty, probably impossible goal.
+
+## P11-12
+
+> NewYork swipe typer bay rase forty two schools in a day nine double hitter once day. 
+
+NewYork swept the Tampa Bay Rays by identical 4-2 scores in a day-night doubleheader Wednesday.
+
+- swep(t)-the
+- iden(t)ical
+
+## P12-13
+
+> Jim Hanson created muppets from ... street it's born in .. from Misisspi.
+
+Jim Hanson, creator of The Muppets from Kermit the Frog to Sesame
+Street, is born in Greenville, from Mississippi.
+
+## P13-14
+
+> Ancient tiger mosquitos ...the south of Aisa, but the past few years
+> it spread all the cross south .. of the Unit States.
+
+Asian tiger mosquitoes are native to the tropics of Southeast Aisa, but
+the past few years they've spread all the southeastern United Sates.
+
+- native to 
+- bu(t) in nuh pas(t)
+
+## P14-15
+
+> Cats repeatly have 9 lives and he clearly one doesn't spend one of them
+> here and NewYork city.
+
+Cats reputedly have 9 lives and he clearly wanted to spend at least one
+of them here in New York City.
+
+- reputedly = supposely = I hear that ... = are said to ...
+- wan(t)ed 
+- a(t) least
+- one o(f) them
+
