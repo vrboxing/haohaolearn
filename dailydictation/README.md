@@ -35,9 +35,10 @@ religion, politics, and the Great Pumpkin.
 - to /tuh/
 - discuss-with
 
+# Dec 20
+
 ## P4-5
 
-- Dec 20
 
 > Now let somebody tell you: you cant do something.
 
@@ -47,7 +48,6 @@ Dont ever let somebody tell you: you cant do something.
 - can(t) do
 - some(thing) /sump'n/
 
-# Dec 20
 
 ## P5-6
 
@@ -105,6 +105,8 @@ will hit.
 - fall d'
 - debris --> debree
 
+# Dec 22
+
 ## P10-11
 
 > It's laughty probably impossible go.
@@ -151,3 +153,14 @@ of them here in New York City.
 - a(t) least
 - one o(f) them
 
+# Dec 23
+
+## P15-16
+
+> The front of picit changes from 11 seconds average often keeps spond
+> up unable to concentrate.
+
+The frantic pacing 
+
+- pacing = speed
+-  
