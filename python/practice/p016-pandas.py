@@ -171,7 +171,7 @@ obj2 = pd.Series([1.5, -2.5, 0], index=labels)
 obj2
 obj2.index is labels
 
-## 5.2 基本功能
+# 5.2 基本功能
 
 # 重新索引 reindex
 obj = pd.Series([4.5, 7.2, -5.3, 3.6], index=['d', 'b', 'a', 'c'])
@@ -227,3 +227,64 @@ data[data < 5] = 0
 data
 # 用loc和iloc进行选取
 # 对于DataFrame的行的标签索引，我引入了特殊的标签运算符loc和iloc
+data.loc['Colorado', ['two', 'three']]
+data.iloc[2, [3, 0, 1]]
+data.loc[:'Utah', 'two']
+data.iloc[:, :3][data.three > 5]
+# 整数索引
+ser = pd.Series(np.arange(3.))
+ser
+ser[-1]
+ser[2]
+ser2 = pd.Series(np.arange(3.), index=['a', 'b', 'c'])
+ser2[-1]
+ser2[1]
+# 算术运算和数据对齐
+s1 = pd.Series([7.3, -2.5, 3.4, 1.5], index=['a', 'c', 'd', 'e'])
+s2 = pd.Series([-2.1, 3.6, -1.5, 4, 3.1], index=['a', 'c', 'e', 'f', 'g'])
+s1
+s2
+s1 + s2
+df1 = pd.DataFrame(np.arange(9.).reshape((3, 3)),
+                   columns=list('bcd'),
+                   index=['Ohio', 'Texas', 'Colorado'])
+df2 = pd.DataFrame(np.arange(12.).reshape((4, 3)),
+                   columns=list('bde'),
+                   index=['Utah', 'Ohio', 'Texas', 'Oregon'])
+df1
+df2
+df1 + df2
+df1 = pd.DataFrame({'A': [1, 2]})
+df2 = pd.DataFrame({'B': [3, 4]})
+df1 + df2
+
+# 在算术方法中填充值
+
+# 5.3 汇总和计算描述统计
+
+df = pd.DataFrame([[1.4, np.nan], [7.1, -4.5], [np.nan, np.nan], [0.75, -1.3]],
+                  index=['a', 'b', 'c', 'd'],
+                  columns=['one', 'two'])
+
+df
+df.sum()
+df.sum(axis=1)
+df.mean(axis='columns', skipna=False)
+# 返回最大值的间接索引
+df.idxmax()
+# 累计统计
+df.cumsum()
+df.describe()
+obj = pd.Series(['a', 'a', 'b', 'c'] * 4)
+obj.describe()
+
+# 相关系数与协方差
+import pandas_datareader.data as web
+
+all_data = {
+    ticker: web.get_data_yahoo(ticker)
+    for ticker in ['AAPL', 'IBM', 'MSFT', 'GOOG']
+}
+
+all_data
+web.get_data_yahoo('IBM')
