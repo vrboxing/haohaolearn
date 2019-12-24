@@ -288,3 +288,17 @@ all_data = {
 
 all_data
 web.get_data_yahoo('IBM')
+# https://github.com/iamseancheney/python_for_data_analysis_2nd_chinese_version/blob/master/%E7%AC%AC06%E7%AB%A0%20%E6%95%B0%E6%8D%AE%E5%8A%A0%E8%BD%BD%E3%80%81%E5%AD%98%E5%82%A8%E4%B8%8E%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F.md
+df = pd.read_csv("ex1.csv")
+
+df
+pd.read_table('ex1.csv', sep=',')
+pd.read_csv('ex2.csv', header=None)
+pd.read_csv('ex2.csv', names=['a', 'b', 'c', 'd', 'message'])
+pd.read_table('ex2.csv', sep=',')
+names = ['a', 'b', 'c', 'd', 'message']
+pd.read_csv('ex2.csv', names=names, index_col='message')
+list(open('ex1.csv'))
+result = pd.read_csv('examples/ex5.csv')
+result
+pd.isnull(result)
