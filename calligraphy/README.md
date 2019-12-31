@@ -10,7 +10,7 @@
 - 纸：初学宜用毛边纸
   + 折出方块格，10x10 cm左右即可
 - 砚：端砚八寸
-  + [磨墨](https://www.bilibili.com/video/av46393069/?spm_id_from=333.788.videocard.0)
+  + [磨墨教学视频](https://www.bilibili.com/video/av46393069/?spm_id_from=333.788.videocard.0)
 - 镇纸：
   + 初学宜用木质镇纸，容易维护，注意不用时避免光晒。
 - 帖：魏碑《龙门二十品》
