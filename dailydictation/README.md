@@ -3,7 +3,9 @@
 - Coach Shane
 - [Daily English Dictation](https://www.bilibili.com/video/av24173069)
 
-## P1
+## Dec 19
+
+### P1
 
 > `Mother Teresa`, who received `a` Nobel Peace Prize for her work on
 > behalf of `the` poor dies `Calcutta` India. She was 87 years old.
@@ -12,7 +14,7 @@
 - work-on
 - behalf-of
 
-## P2
+### P2
 
 > A: `Jerry`, what time do you have?
 
@@ -22,7 +24,7 @@
 - do-you-ave
 - I-ave-5
 
-## P3
+### P3
 
 > There are three things I have never learned to discuss with people:
 > religion, politics, and the great pumpgen.
@@ -36,9 +38,9 @@ religion, politics, and the Great Pumpkin.
 - discuss-with
 
 
-# Dec 20
+## Dec 20
 
-## P4
+### P4
 
 
 > Now let somebody tell you: you cant do something.
@@ -50,7 +52,7 @@ Dont ever let somebody tell you: you cant do something.
 - some(thing) /sump'n/
 
 
-## P5
+### P5
 
 
 > I had come here to choose bob gang and kick ass and all bob gang.
@@ -62,7 +64,7 @@ bubblegum.
 - an(d) kick ass
 - an(d)-(I')m all-out-of /outta/
 
-## P6
+### P6
 
 > The secret of life is just live want.
 
@@ -73,15 +75,15 @@ The secret of life is just to live every moment.
 - to --> t'
 - live-very
 
-# Dec 21
+## Dec 21
 
-## P7
+### P7
 
 > Another ruin traitor has cost bank billions.
 
 Another rogue trader has cost a bank billions.
 
-## P8-9
+### P8
 
 > German Rohf Merchurks is the man the most piercings 453.
 
@@ -106,15 +108,15 @@ will hit.
 - fall d'
 - debris --> debree
 
-# Dec 22
+## Dec 22
 
-## P10
+### P10
 
 > It's laughty probably impossible go.
 
 It's lofty, probably impossible goal.
 
-## P11
+### P11
 
 > NewYork swipe typer bay rase forty two schools in a day nine double hitter once day. 
 
@@ -123,14 +125,14 @@ NewYork swept the Tampa Bay Rays by identical 4-2 scores in a day-night doublehe
 - swep(t)-the
 - iden(t)ical
 
-## P12
+### P12
 
 > Jim Hanson created muppets from ... street it's born in .. from Misisspi.
 
 Jim Hanson, creator of The Muppets from Kermit the Frog to Sesame
 Street, is born in Greenville, from Mississippi.
 
-## P13
+### P13
 
 > Ancient tiger mosquitos ...the south of Aisa, but the past few years
 > it spread all the cross south .. of the Unit States.
@@ -141,7 +143,7 @@ the past few years they've spread all the southeastern United Sates.
 - native to 
 - bu(t) in nuh pas(t)
 
-## P14
+### P14
 
 > Cats repeatly have 9 lives and he clearly one doesn't spend one of them
 > here and NewYork city.
@@ -154,9 +156,9 @@ of them here in New York City.
 - a(t) least
 - one o(f) them
 
-# Dec 23
+## Dec 23
 
-## P15
+### P15
 
 > The front of picit changes from 11 seconds average often keeps spond
 > up unable to concentrate.
@@ -171,7 +173,7 @@ leaves kids zoned out and spun up; unable to concentrate.
 - zoned-out = lost unconcentration, my mind is gone
 - spun-u(p) (spin up) = wound up (wind up)
 
-## P16
+### P16
 
 > B.. and so flooded, the Pillapine has been hit by 2nd typhoons in a weeek.
 
@@ -181,7 +183,7 @@ typhoon in a week.
 - Battered = continuously hit
 - soa(k)ed = completely wet
 
-## P17
+### P17
 
 
 > A few years ago they were thought to be useless past prime, not now.
@@ -191,11 +193,11 @@ A few years ago they were thought to be useless -- past their prime, not now.
 - thought-(t)o
 
 
-## P18
+### P18
 
 > If you are breathing, it is not too late. Get up and get going.
 
-## P19
+### P19
 
 > In 67-year-old grandpa, has been found alvie ... for 6 days in the
 > bottom of ...
@@ -207,9 +209,9 @@ of ravine.
 - has be(e)n
 - ravine 沟壑
 
-# Jan 1 
+## Jan 1 
 
-## P20
+### P20
 
 > Saturday, an altralight plane to a ferris crashed .. at rural
 > festival in Australia. Yet somehow no one ... nor no one .. hurt.
@@ -223,7 +225,7 @@ plane was hurt.
 - yet somehow = yet magically
 - amusement ride  娱乐设施
 
-## P21
+### P21
 
 > Hedi ... very cute but slightly confused look.
  
@@ -236,7 +238,7 @@ look.
 - won the world over ...
 - with-(h)er
 
-## P22
+### P22
 
 > The project to put online expected to be completed by 2016. 
 
@@ -245,7 +247,7 @@ The project to put them online is expected to be completed by 2016.
 - the project t'
 - put-them-online-is-expected-t'
 
-## P23
+### P23
 
 > As known as SAT cheating scandal has been covered ... stages on long
 > island high school, this cost students this taking entrance exam 6
@@ -261,7 +263,7 @@ college entrance exam for at least 6 students.
 - college studen(t)-is
 - taking the = taking-nuh
 
-## P24
+### P24
 
 > S.. Louis takes opener on cool night. It is 49 degree at the start of game.
 
@@ -272,7 +274,7 @@ degree at the start of the game.
 - Series-opener-on-a
 - at-the
 
-## P25
+### P25
 
 > They search for the missing through after night under generator power
 > ... lights as family members waitting by among the debris someone in
@@ -286,5 +288,5 @@ powered flood lights as family members waitted by the mounds of debris
 - mounds = piles = mountains
 - search(ed)-for
 
-## P26
+### P26
 
