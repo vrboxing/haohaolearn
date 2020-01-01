@@ -1,7 +1,7 @@
 # Daily English Dictation 
 
 - Coach Shane
-- https://www.bilibili.com/video/av24173069
+- [Daily English Dictation](https://www.bilibili.com/video/av24173069)
 
 ## P1
 
@@ -34,6 +34,7 @@ religion, politics, and the Great Pumpkin.
 - `N`ever
 - to /tuh/
 - discuss-with
+
 
 # Dec 20
 
@@ -196,5 +197,94 @@ A few years ago they were thought to be useless -- past their prime, not now.
 
 ## P19
 
-> In 67-year-old grandpa, has been found alvie to stuck for 6 days in the bottom
-> of ravine.
+> In 67-year-old grandpa, has been found alvie ... for 6 days in the
+> bottom of ...
+
+In 67-year-old grandpa, has been found alvie to stuck for 6 days in the bottom
+of ravine.
+
+- gran(d)pa
+- has be(e)n
+- ravine 沟壑
+
+# Jan 1 
+
+## P20
+
+> Saturday, an altralight plane to a ferris crashed .. at rural
+> festival in Australia. Yet somehow no one ... nor no one .. hurt.
+
+Saturday, an altralight plane crashed into a ferris wheel at a rural
+festival in Australia. Yet somehow no one one the amusement ride nor the
+plane was hurt.
+ 
+- an = en
+- ferris wheel 摩天轮
+- yet somehow = yet magically
+- amusement ride  娱乐设施
+
+## P21
+
+> Hedi ... very cute but slightly confused look.
+ 
+Hedi won the world over with her forever cute but slightly confused
+look.
+
+- opossum 负鼠
+- Heidi
+- cross-eyed 斗鸡眼
+- won the world over ...
+- with-(h)er
+
+## P22
+
+> The project to put online expected to be completed by 2016. 
+
+The project to put them online is expected to be completed by 2016.
+
+- the project t'
+- put-them-online-is-expected-t'
+
+## P23
+
+> As known as SAT cheating scandal has been covered ... stages on long
+> island high school, this cost students this taking entrance exam 6
+> students.
+
+An alleged SAT cheating scandal has been uncovered at a prestigious Long
+Island high school. This college student is accused of taking the
+college entrance exam for at least 6 students.
+
+- A-nalleged 
+- prestigious 
+- uncovered-at-a 
+- college studen(t)-is
+- taking the = taking-nuh
+
+## P24
+
+> S.. Louis takes opener on cool night. It is 49 degree at the start of game.
+
+St. Louis takes the world series opener on a cool night. It was 49
+degree at the start of the game.
+
+- take wins 
+- Series-opener-on-a
+- at-the
+
+## P25
+
+> They search for the missing through after night under generator power
+> ... lights as family members waitting by among the debris someone in
+> tears.
+
+They searched for the missing throughout the night under generator
+powered flood lights as family members waitted by the mounds of debris
+-- some in tears.
+
+- as = while
+- mounds = piles = mountains
+- search(ed)-for
+
+## P26
+
