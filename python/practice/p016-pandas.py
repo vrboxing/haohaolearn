@@ -4,6 +4,8 @@
 # https://github.com/iamseancheney/python_for_data_analysis_2nd_chinese_version/blob/master/%E7%AC%AC05%E7%AB%A0%20pandas%E5%85%A5%E9%97%A8.md
 import numpy as np
 import pandas as pd
+import pandas_datareader.data as web
+from numpy import nan as NA
 
 # https://blog.csdn.net/qq_19528953/article/details/79348929
 # https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html
@@ -279,7 +281,6 @@ obj = pd.Series(['a', 'a', 'b', 'c'] * 4)
 obj.describe()
 
 # 相关系数与协方差
-import pandas_datareader.data as web
 
 all_data = {
     ticker: web.get_data_yahoo(ticker)
@@ -288,3 +289,125 @@ all_data = {
 
 all_data
 web.get_data_yahoo('IBM')
+# https://github.com/iamseancheney/python_for_data_analysis_2nd_chinese_version/blob/master/%E7%AC%AC07%E7%AB%A0%20%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E5%92%8C%E5%87%86%E5%A4%87.md
+# 7.1 处理缺失数据
+
+data = pd.Series([1, NA, 3.5, NA, 7])
+data
+# 等价方式，去除NaN
+data.dropna()
+data[data.notnull()]
+data = pd.DataFrame([[1., 6.5, 3.], [1., NA, NA], [NA, NA, NA], [NA, 6.5, 3.]])
+data
+# 去掉含有NaN的行
+cleaned = data.dropna()
+cleaned
+# 传入how='all'将只丢弃全为NA的那些行：
+data.dropna(how='all')
+
+data = pd.DataFrame([[1., 6.5, 3.], [1., NA, NA], [NA, NA, NA], [NA, 6.5, 3.]])
+data[4] = NA
+data
+# 用这种方式丢弃列，只需传入axis=1即可
+data.dropna(axis=1, how='all')
+df = pd.DataFrame(np.random.randn(7, 3))
+df
+df.iloc[:4, 1] = NA
+df.iloc[:2, 2] = NA
+df
+df.dropna()
+df
+df.dropna(thresh=1)
+df.dropna(thresh=2)
+df.dropna(thresh=3)
+df.fillna(0)
+# 若是通过一个字典调用fillna，就可以实现对不同的列填充不同的值
+df.fillna({1: 0.5, 2: 0})
+df
+df.fillna(0, inplace=True)
+df
+df = pd.DataFrame(np.random.randn(6, 3))
+df
+df.iloc[2:, 1] = NA
+df.iloc[4:, 2] = NA
+df
+df.fillna(method='ffill')
+df.fillna(method='ffill', limit=2)
+df.fillna(method='ffill', limit=3)
+data = pd.Series([1., NA, 3.5, NA, 7])
+data
+data.fillna(data.mean())
+# 7.2 数据转换
+# 移除重复数据
+data = pd.DataFrame({
+    'k1': ['one', 'two'] * 3 + ['two'],
+    'k2': [1, 1, 2, 3, 3, 4, 4]
+})
+data
+data.duplicated()
+data.drop_duplicates(['k1'])
+data.drop_duplicates(['k2'])
+data['v1'] = range(7)
+data
+data.drop_duplicates(['k1'])
+data
+data.drop_duplicates(['k1', 'k2'])
+data.drop_duplicates(['k1', 'k2'], keep='last')
+# 利用函数或映射进行数据转换
+data = pd.DataFrame({
+    'food': [
+        'bacon', 'pulled pork', 'bacon', 'Pastrami', 'corned beef', 'Bacon',
+        'pastrami', 'honey ham', 'nova lox'
+    ],
+    'ounces': [4, 3, 12, 6, 7.5, 8, 3, 5, 6]
+})
+data
+
+meat_to_animal = {
+    'bacon': 'pig',
+    'pulled pork': 'pig',
+    'pastrami': 'cow',
+    'corned beef': 'cow',
+    'honey ham': 'pig',
+    'nova lox': 'salmon'
+}
+
+lowercased = data['food'].str.lower()
+meat_to_animal
+lowercased
+data
+data['animal'] = lowercased.map(meat_to_animal)
+data
+
+# 替换值
+data = pd.Series([1., -999., 2., -999., -1000., 3.])
+data
+data.replace(-999, np.nan)
+data.replace([-999, -1000], np.nan)
+data.replace([-999, -1000], [np.nan, 0])
+# 传入是一个字典
+data.replace({-999: np.nan, -1000: 0})
+
+# 重命名轴索引
+data = pd.DataFrame(np.arange(12).reshape((3, 4)),
+                    index=['Ohio', 'Colorado', 'New York'],
+                    columns=['one', 'two', 'three', 'four'])
+
+data
+transform = lambda x: x[:4].upper()
+data.index.map(transform)
+data.rename(index=str.title, columns=str.upper)
+data
+data.rename(index={'OHIO': 'INDIANA'}, columns={'three': 'peekaboo'})
+
+# 离散化和面元划分
+ages = [20, 22, 25, 27, 21, 23, 37, 31, 61, 45, 41, 32]
+bins = [18, 25, 35, 60, 100]
+cats = pd.cut(ages, bins)
+cats
+cats.codes
+cats.categories
+pd.value_counts(cats)
+
+# https://github.com/iamseancheney/python_for_data_analysis_2nd_chinese_version/blob/master/%E7%AC%AC08%E7%AB%A0%20%E6%95%B0%E6%8D%AE%E8%A7%84%E6%95%B4%EF%BC%9A%E8%81%9A%E5%90%88%E3%80%81%E5%90%88%E5%B9%B6%E5%92%8C%E9%87%8D%E5%A1%91.md
+
