@@ -289,6 +289,7 @@ all_data = {
 
 all_data
 web.get_data_yahoo('IBM')
+
 # https://github.com/iamseancheney/python_for_data_analysis_2nd_chinese_version/blob/master/%E7%AC%AC07%E7%AB%A0%20%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E5%92%8C%E5%87%86%E5%A4%87.md
 # 7.1 处理缺失数据
 
@@ -411,3 +412,17 @@ pd.value_counts(cats)
 
 # https://github.com/iamseancheney/python_for_data_analysis_2nd_chinese_version/blob/master/%E7%AC%AC08%E7%AB%A0%20%E6%95%B0%E6%8D%AE%E8%A7%84%E6%95%B4%EF%BC%9A%E8%81%9A%E5%90%88%E3%80%81%E5%90%88%E5%B9%B6%E5%92%8C%E9%87%8D%E5%A1%91.md
 
+# https://github.com/iamseancheney/python_for_data_analysis_2nd_chinese_version/blob/master/%E7%AC%AC06%E7%AB%A0%20%E6%95%B0%E6%8D%AE%E5%8A%A0%E8%BD%BD%E3%80%81%E5%AD%98%E5%82%A8%E4%B8%8E%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F.md
+df = pd.read_csv("ex1.csv")
+
+df
+pd.read_table('ex1.csv', sep=',')
+pd.read_csv('ex2.csv', header=None)
+pd.read_csv('ex2.csv', names=['a', 'b', 'c', 'd', 'message'])
+pd.read_table('ex2.csv', sep=',')
+names = ['a', 'b', 'c', 'd', 'message']
+pd.read_csv('ex2.csv', names=names, index_col='message')
+list(open('ex1.csv'))
+result = pd.read_csv('examples/ex5.csv')
+result
+pd.isnull(result)
