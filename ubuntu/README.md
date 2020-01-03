@@ -79,3 +79,16 @@ iconv -f GB18030 -t UTF-8 xxx.rst -o xxx_utf8.rst
 sudo vi /usr/share/applications/netease-cloud-music.desktop
 Exec=sh -c "unset SESSION_MANAGER && netease-cloud-music %U"
 ```
+
+## GNOME Extensions
+
+- OpenWeather
+- Dash to Doc
+- Caffeine
+- Sound Input & Output Device Chooser
+- Center Area Horizontal Spacing
+- Hide Activities Button
+- Status Area Horizontal Spacing
+- TopIcons Plus
+- TopIcons Redux
+- Transparent Top Bar
