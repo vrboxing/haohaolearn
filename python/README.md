@@ -33,6 +33,7 @@
 - [jupyter](./doc/jupyter.org): 优秀的交互环境
 - [debug](./doc/debug.org): Linux下的调试工具
 - [virtualenv](./doc/virtualenv.org): 虚拟环境
+- [site-packages](./doc/site-packages.md): 自定义库
 
 ### 语法
 
