@@ -287,6 +287,60 @@ powered flood lights as family members waitted by the mounds of debris
 - as = while
 - mounds = piles = mountains
 - search(ed)-for
+- throughout the night 整晚
+- lights 灯
+
+## Jan 2
 
 ### P26
+
+> It's kind of thing you look for instead of workout to dread and you
+> think of does work, just fun.
+
+It's the kind of thing you look forward to instead of, you know, some
+workouts you dread and you think of it as work and this is just fun.
+
+- haning yoga
+- thing = exercise
+- It('s)-(th)e
+- kind-o(f)
+- workout(s)
+- an(d)-you = an(d)-j
+- this is jus(t) fun
+
+### P27
+
+> Super hero costumes that usual big ... this year, especially
+> from ... movies like ... and the green ..
+
+Superhero costumes, as usual, are big this year -- especially from
+recent movies like Thor and the Green Lantern.
+
+- big = popular
+
+### P28
+
+> It's a pain because my friges I dumped today, the food is gone.
+
+It's a pain 'cuz my fridge is ... I dumped it today, and the food's gone.
+
+- I(t)'s-a pain = It's difficult
+- 'cuz = because
+- fridge =  refrigerator
+- dumped-it-today
+- and the = en-na
+
+### P29
+
+> He says it was simply  going back by the book would come to landings without  
+>  here and he is pil.. train for this type of incidents.
+
+He says he was simply going back the book when it comes to landing
+without landing gear, and that he and his fellow pilots for these type
+of incidents.
+
+- he was simply = he was just
+- go by the book = to follow the law = according to the law
+
+### P30
 
