@@ -342,5 +342,9 @@ of incidents.
 - he was simply = he was just
 - go by the book = to follow the law = according to the law
 
+## Jan 6
+
 ### P30
+
+
 
