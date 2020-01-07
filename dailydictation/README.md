@@ -341,10 +341,45 @@ of incidents.
 
 - he was simply = he was just
 - go by the book = to follow the law = according to the law
+- says-he
+- when-it-comes-t'
+- and that = en-nat
+- (h)e-and-(h)is 
 
-## Jan 6
+## Jan 7
 
 ### P30
 
+- broccoli 甘蓝
 
+> It is vegetable some love and hate, but now I'm bred broccoli, super
+> broccoli, developed ...type of ..., even some kinds of cancer.
 
+It is the vegetable some love to hate! But now a new breed of broccoli,
+super broccoli, developed in Britian may protect against heart disease --
+even some kinds of cancer.
+
+- is-(th)e
+- some --> some people
+- love-t'-hate
+- breed = type
+- developed-in
+- may = might
+- protect-against
+
+### P31
+
+- OWS = Occpuy Wall Streets
+
+> Mayer Sam .. orderd shutdown Staurday ... on healthy conditions and
+> the tr..dealer in fears.
+
+Mayer Sam Adams orderd that the camp be shutdown Saturday citing
+unhealthy conditions and the atrraction of the drug dealers and thieves.
+
+- ordered the demonstrators
+- citing = saying the reason of 
+- order(d)-that-(th)e
+- and = en
+
+### P32
