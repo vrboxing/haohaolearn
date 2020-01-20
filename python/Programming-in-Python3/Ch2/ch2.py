@@ -47,3 +47,16 @@ s[0:2]
 s[:]
 s[0:len(s)]
 
+c1 = ["red", "blue"]
+c2 = c1
+c2[1] = "green"
+print(id(c1),id(c2))
+c2 = ["green", "blue"]
+print(id(c1),id(c2))
+print(c1)
+print(c2)
+list1 = ['a','b','c','d']
+list2 = list1[:]
+list3 = list1
+print(id(list1),id(list2))
+print(id(list1),id(list3))

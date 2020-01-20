@@ -9,10 +9,11 @@ ANSYS在Linux系统中的安装说明见安装手册，然而官方称所支持�
 ## 环境准备
 
 ```
-sudo apt-get install libmotif-dev libxtst-dev  libxt-dev libzip-dev
-libxmu-dev libpng-dev 
-sudo apt-get install tcl8.5-dev tk8.5-dev
+sudo apt-get install libmotif-dev libxtst-dev  libxt-dev libzip-dev libxmu-dev libpng-dev 
+sudo apt-get install tcl8.6-dev tk8.6-dev
 sudo apt-get install csh xfonts-75dpi xfonts-100dpi wine64
+sudo rm /usr/bin/sh
+sudo ln -s /usr/bin/bash /usr/bin/sh
 ```
 
 
@@ -144,7 +145,9 @@ sudo ln -s /usr/ansys_inc/v190/ansys/bin/launcher190 /usr/bin/launcher190
 
 - 运行时会报错无法找到所需要的`libz.so.1`，将`/usr/ansys_inc/.../libz.so.1`中的文件移除，做一个软连接：
 ```
+sudo rm /usr/ansys_inc/v190/aisol/lib/linx64/libz.so.1
 sudo ln -s /usr/lib/x86_64-linux-gnu/libz.so /usr/ansys_inc/v190/aisol/lib/linx64/libz.so.1
+sudo rm /usr/ansys_inc/v190/ansys/syslib/AnsMechSolverMesh/libstdc++.so.6
 sudo ln -s /usr/lib/x86_64-linux-gnu/libstdc++.so.6 /usr/ansys_inc/v190/ansys/syslib/AnsMechSolverMesh/libstdc++.so.6
 sudo ln -s /ansys_inc/v190/Electronics/Linux64/defer/libXp.so.6 /usr/lib/x86_64-linux-gnu/libXp.so.6
 ```

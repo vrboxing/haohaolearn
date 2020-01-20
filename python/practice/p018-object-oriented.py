@@ -98,3 +98,6 @@ class EmailableContact(Contact, MailSender):
 
 e = EmailableContact("John Smith", "jsmith@example.net")
 e.send_mail("Hello, test e-mail here")
+
+dir(list)
+help(list.__add__)
