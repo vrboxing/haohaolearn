@@ -13,7 +13,7 @@
 如果遇到无法拉取 https 源的情况，请先使用 http 源并安装：
 ```
 sudo apt install apt-transport-https
-```
+``
 
 编译文件：`sudo vi /etc/apt/sources.list`
 
