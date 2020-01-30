@@ -185,3 +185,5 @@ sudo crontab -e
 ```
 sudo apt install printer-driver-all system-config-printer
 ```
+
+参考：[SystemPrinting](https://wiki.debian.org/SystemPrinting)
