@@ -160,7 +160,7 @@ sudo gpasswd -a <username> autologin
 greeter-hide-users=false
 ```
 
-- `/etct/lightdm/lightdm-gtk-greeter.conf`
+- `/etc/lightdm/lightdm-gtk-greeter.conf`
 ```
 [greeter]
 theme-name=Numix
@@ -177,4 +177,11 @@ sudo crontab -e
 填加：
 ```
 @reboot bash /path/to/script.sh
+```
+
+
+# 安装打印机
+
+```
+sudo apt install printer-driver-all system-config-printer
 ```

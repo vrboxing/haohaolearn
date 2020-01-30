@@ -9,6 +9,7 @@
 - [代码粘帖](pastebinit.md)
 - [微信](wechat.md)
 - [社区](community.md)
+- [杂项](misc.md)
 
 ## 参考
 

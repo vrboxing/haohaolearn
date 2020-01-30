@@ -7,12 +7,17 @@ sudo apt install python-pip # Python 2
 sudo apt install python3-pip # Python 3
 ```
 
-- 运行pip
+- 运行
 
 ```
 pip <pip argument> # 经常会出错
 python -m pip <pip argument>
 python3 -m pip <pip argument>
+```
+
+- 升级
+```
+sudo python3 -m pip install --upgrade pip
 ```
 
 - 用pip安装包
