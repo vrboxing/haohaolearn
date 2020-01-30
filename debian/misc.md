@@ -9,6 +9,13 @@ sudo modprobe psmouse proto=imps
 
 - 缺少固件
 
+首先安装非自由固件驱动：
+```
+sudo apt install firmware-misc-nonfree 
+```
+
+若有`i915`固件缺失，则先找到固件，比如：
+
 ```
 W: Possible missing firmware /lib/firmware/i915/icl_dmc_ver1_07.bin for module i
 915
