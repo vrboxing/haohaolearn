@@ -426,3 +426,36 @@ list(open('ex1.csv'))
 result = pd.read_csv('examples/ex5.csv')
 result
 pd.isnull(result)
+
+df1 = pd.DataFrame({
+    'key': ['b', 'b', 'a', 'c', 'a', 'a', 'b'],
+    'data1': range(7)
+})
+df2 = pd.DataFrame({'key': ['a', 'b', 'd'], 'data2': range(3)})
+df1
+df2
+pd.merge(df1, df2)
+pd.merge(df1, df2, on='key')
+
+df3 = pd.DataFrame({
+    'lkey': ['b', 'b', 'a', 'c', 'a', 'a', 'b'],
+    'data1': range(7)
+})
+df4 = pd.DataFrame({'rkey': ['a', 'b', 'd'], 'data2': range(3)})
+
+df3
+df4
+pd.merge(df3, df4, left_on='lkey', right_on='rkey')
+
+lefth = pd.DataFrame({
+    'key1': ['Ohio', 'Ohio', 'Ohio', 'Nevada', 'Nevada'],
+    'key2': [2000, 2001, 2002, 2001, 2002],
+    'data': np.arange(5.)
+})
+righth = pd.DataFrame(
+    np.arange(12).reshape((6, 2)),
+    index=[['Nevada', 'Nevada', 'Ohio', 'Ohio', 'Ohio', 'Ohio'],
+           [2001, 2000, 2000, 2000, 2001, 2002]],
+    columns=['event1', 'event2'])
+lefth
+righth
