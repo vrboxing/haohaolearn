@@ -11,6 +11,7 @@
 - [一年成为Emacs高手](https://github.com/redguardtoo/mastering-emacs-in-one-year-guide/blob/master/guide-zh.org)
 - [X分钟速成Y](https://learnxinyminutes.com/docs/zh-cn/elisp-cn/)
 - [21天掌握Emacs](http://book.emacs-china.org/)
+- [ErgoEmacs](http://ergoemacs.org/index.html)
 
 ## 初始配置
 ```
