@@ -9,3 +9,9 @@ https://github.com/redguardtoo/emacs.d/issues/810
 
 http://ergoemacs.org/emacs/emacs_n_unicode.html
 http://xahlee.info/comp/unicode_index.html
+
+
+## 在Emacs中输入中间点
+
+1. `C-x 8 RET`或`M-x insert-char`
+2. `00b7` 
