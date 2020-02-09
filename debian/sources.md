@@ -13,7 +13,7 @@
 如果遇到无法拉取 https 源的情况，请先使用 http 源并安装：
 ```
 sudo apt install apt-transport-https
-``
+```
 
 编译文件：`sudo vi /etc/apt/sources.list`
 
@@ -23,6 +23,13 @@ deb https://mirrors.ustc.edu.cn/debian/ buster-updates main contrib non-free
 deb https://mirrors.ustc.edu.cn/debiancn/ buster main
 deb https://mirrors.ustc.edu.cn/debian-security buster/updates main contrib non-free
 ```
+或测试版：
+```
+deb http://mirrors.ustc.edu.cn/debian/ bullseye main contrib non-free
+deb http://mirrors.ustc.edu.cn/debian/ bullseye-updates main contrib non-free
+deb http://mirrors.ustc.edu.cn/debian-security bullseye-security main
+```
+
 
 国内还可以选择的镜像网站：
 
