@@ -1,13 +1,13 @@
 # 杂项
 
-- Trackpoint和Touchpad未启动
+## Trackpoint和Touchpad未启动
 
 ```
 sudo modprobe -r psmouse
 sudo modprobe psmouse proto=imps
 ```
 
-- 缺少固件
+## 缺少固件
 
 首先安装非自由固件驱动：
 ```

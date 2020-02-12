@@ -186,6 +186,8 @@ sudo crontab -e
 ```
 sudo apt install printer-driver-all system-config-printer
 ```
+参考：[SystemPrinting](https://wiki.debian.org/SystemPrinting)
+
 # 锁屏
 
 1. 有`xflock4`配以`Ctrl-Alt-Delete`默认功能
@@ -196,6 +198,5 @@ sudo apt install printer-driver-all system-config-printer
 sleep 1; xset dpms force off
 ```
 
+参考：[How to turn off screen with shortcut in Linux](https://superuser.com/questions/374637/how-to-turn-off-screen-with-shortcut-in-linux)
 
-
-参考：[SystemPrinting](https://wiki.debian.org/SystemPrinting)
