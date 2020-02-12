@@ -25,6 +25,7 @@ vi /etc/sudoers
 ## 显卡配置
 
 ### 查看显卡驱动
+
 ```
 sudo apt install lshw
 suo lshw -c video
@@ -185,5 +186,16 @@ sudo crontab -e
 ```
 sudo apt install printer-driver-all system-config-printer
 ```
+# 锁屏
+
+1. 有`xflock4`配以`Ctrl-Alt-Delete`默认功能
+2. 写脚本配上快捷键
+
+```
+#!/bin/bash
+sleep 1; xset dpms force off
+```
+
+
 
 参考：[SystemPrinting](https://wiki.debian.org/SystemPrinting)
