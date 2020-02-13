@@ -168,6 +168,10 @@ theme-name=Numix
 icon-theme-name=Faenza-Ambiance
 ```
 
+# 登录届面订制
+
+使用`lightdm-settings`
+
 # crontab
 
 启机时自动执行脚本，需要`root`权限。
@@ -197,6 +201,7 @@ sudo apt install printer-driver-all system-config-printer
 #!/bin/bash
 sleep 1; xset dpms force off
 ```
+
 
 参考：[How to turn off screen with shortcut in Linux](https://superuser.com/questions/374637/how-to-turn-off-screen-with-shortcut-in-linux)
 

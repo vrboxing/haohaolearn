@@ -28,8 +28,9 @@
 
 ### 环境和工具
 
+- [overview](./doc/overview.md)：综述
 - [pycharm](./doc/pycharm.org): IDE
-- [elpy](./doc/elpy.org): Emacs中Python的编辑环境
+- [elpy](./doc/elpy.md): Emacs中Python的编辑环境
 - [jupyter](./doc/jupyter.org): 优秀的交互环境
 - [debug](./doc/debug.org): Linux下的调试工具
 - [virtualenv](./doc/virtualenv.org): 虚拟环境

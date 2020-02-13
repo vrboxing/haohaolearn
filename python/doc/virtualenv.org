@@ -9,18 +9,24 @@
 ** 操作
 
 - 建立虚拟环境：
-  + mkdir ~/.virutalevns/myevn
-  + cd ~/.virtualevns/myevn
-  + virtualenv myevn
+  + mkdir ~/.virutalevns/myenv
+  + cd ~/.virtualevns/myenv
+  + virtualenv myenv
   + source myevn/bin/active # 激活
   + 激活后即可在该环境中安装需要的包
-- 
+ 
 - 加载已存在的虚拟环境：`M-x pyvenv-workon` 
 - 激活虚拟环境：`M-x pyvenv-active` 
 - 关闭虚拟环境：`M-x pyvenv-deactive` 
   
 ** 安装包
+
 - `soure /path/to/vitualenvname/bin/active`，激活环境
 - `python3 -m pip install <package>` 
-- `deactive`j</q>
+- `deactive`
 
+注意：
+
+在虚拟环境中安装包时，应加上临时镜像网址，如：
+
+pip install -i https://mirrors.aliyun.com/pypi/simple/ <package> -U
