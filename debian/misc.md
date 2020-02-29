@@ -38,8 +38,39 @@ sudo mkdir -p /lib/firmware/i915
 sudo dpkg-reconfigure initramfs-tools
 ```
 
+## 休眠时需要授权
+
+弹出对话框提示：`Authentication is required for suspending the system`。
+
+将当前用户加入到`users`群中：
+```
+sudo usermod -aG users "$USER"
+```
+
+若Polkit版本低于0.106：
+
+增加文件：
+`/var/lib/polkit-1/localauthority/50-local.d/50-enable-suspend-on-lockscreen.pkla`
+：
+
+```
+[Allow suspending in lockscreen]
+Identity=unix-group:users
+Action=org.freedesktop.login1.suspend
+ResultAny=yes
+ResultInactive=yes
+ResultActive=yes
+```
+
+设定权限：
+```
+sudo chmod 644 /var/lib/polkit-1/localauthority/50-local.d/50-enable-suspend-on-lockscreen.pkla
+```
+
 ## 参照
 
 - [Touchpad not working after Debian Buster clean install](https://www.reddit.com/r/debian/comments/compbe/touchpad_not_working_after_debian_buster_clean/)
 
 - https://askubuntu.com/questions/811453/w-possible-missing-firmware-for-module-i915-bpo-when-updating-initramfs
+
+- [Authentication required before suspend](https://askubuntu.com/questions/543921/authentication-required-before-suspend)
