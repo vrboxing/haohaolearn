@@ -2,6 +2,40 @@
 
 - [Linux命令大全](man.linuxde.net)
 
+## mkntfs
+
+- 建立一个NTFS文件系统
+- 隶属于`ntfs-3g`包
+- 应用：
+  + 查看确认待格式化的分区：`sudo fdisk -l`
+  + 以`sdb1`为例：`sudo mkntfs -f /dev/sdb1`
+  + `-f`代表快速，亦可为`--fast`、`--quick`、`-Q`
+- 参考：https://linux.die.net/man/8/mkfs.ntfs
+
+## mkfs
+
+- 建立一个Linux文件系统
+- 隶属于`util-linux-ng`包
+- 应用：`sudo mkfs -t ext4 /dev/sdb1`
+- 参考：https://linux.die.net/man/8/mkfs
+
+## ncdu
+
+- 查看磁盘用量
+- 语法：`ncdu [options] dir`
+  + options: 选项
+  + dir: 扫描指定目录
+- 示例：`ncdu /`
+- 进入窗口后，由`KEYS`实施操作：
+  + up, down, j, k: 遍历
+  + right, enter, l: 打开选择的目录
+  + left, <, h:  返回父目录
+  + n: 以filename排序，再按一下变为降序(下同)
+  * s: 以filesize排序
+  * C: 以文件数排序
+  * a: 在用量和相对大小间切换
+  + 其它详见`man`
+
 ## dpkg 
 
 dpkg是Debian的软件管理器(也许是Debian PacKaGe的辅音字母缩写)，用于安装、

@@ -12,5 +12,7 @@
 - r/
 - statistics/
 
+# TODO
 
+- [ ] `.ignore` and to delete files in remote repository
 
