@@ -1,5 +1,7 @@
 # pip
 
+
+
 - 安装pip有若干种方式，最方便的是从Linux包管理器中安装，如：
 
 ```
@@ -28,7 +30,7 @@ python -m pip install <package>
 
 - Linux
 
-    修改`~/.pip/pip.conf`(若没有就新建一个)：
+   用户内核，修改`~/.pip/pip.conf`；系统内核修改 `/etc/pip.conf`(若没有就新建一个)：
 
 ```
 [global]
@@ -43,3 +45,8 @@ index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 [global]
 index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 ```
+
+## 参考
+
+- [pip20.0.2文档](https://pip.pypa.io/en/stable/user_guide/)
+- [pip安装](https://pip.pypa.io/en/stable/installing/)

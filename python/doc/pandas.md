@@ -8,6 +8,7 @@
 ## 视频
 
 - [Data analysis in Python with pandans](https://www.youtube.com/playlist?list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y)
+- [Pandas数据分析从入门到实战](https://www.bilibili.com/video/av67831175?from=search&seid=8199049461811913448)
 
 ## 参考
 
