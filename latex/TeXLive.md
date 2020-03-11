@@ -26,7 +26,7 @@ TeXLive每年发布一个新版本，下载目录中的任意镜像文件即可�
 
 定义镜像源：
 ```
-sudo tlmgr option https://mirrors.ustc.edu.cn/CTAN/systems/texlive/tlnet/
+sudo tlmgr option repository https://mirrors.ustc.edu.cn/CTAN/systems/texlive/tlnet/
 
 ```
 更新宏包、管理器、所有文件：
