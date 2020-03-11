@@ -27,7 +27,6 @@ TeXLive每年发布一个新版本，下载目录中的任意镜像文件即可�
 定义镜像源：
 ```
 sudo tlmgr option repository https://mirrors.ustc.edu.cn/CTAN/systems/texlive/tlnet/
-
 ```
 更新宏包、管理器、所有文件：
 ```
@@ -60,11 +59,11 @@ kpsewhich texmf.cnf
 ```
 
 按如下方式定义用户的`TEXMFHOME`：
-    - make directory in home path: `.texmf`
-    - edit `/usr/local/texlive/2017/texmf.cnf`
-    - add: TEXMFHOME=~/.texmf
-    - create texmf tds in .texmf
-    - copy cls and sty files in to tds of .texmf
+- make directory in home path: `.texmf`
+- edit `/usr/local/texlive/2019/texmf.cnf`
+- add: `TEXMFHOME=~/.texmf`
+- create texmf tds in `.texmf`
+- copy cls and sty files in to tds of `.texmf`
 
 ## 参考
 

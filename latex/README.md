@@ -22,13 +22,12 @@
 | ctable                | 排版表和图浮动体。定义表中脚注在本表宽度之内。 |
 | figsize               | 自动定义图片大小。                             |
 | wrapfig               | 图形被文字包围。                               |
-|                       |                                                |
 | newtxtext, newtxmath  | 新字体包，替代`txtfonts`。                     |
 
 
 ## 工具
 
-   - vscode
+   - [vscode](./vscode.md)
    - TexMaker
    - Emacs+Auctex
 
