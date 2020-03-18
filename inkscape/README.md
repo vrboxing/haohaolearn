@@ -4,7 +4,7 @@
 
 
 
-<img src="./inkscape-logo.svg" style="zoom:50%;" />
+<img src="figures/inkscape-logo.svg" style="zoom:50%;" />
 
 ## 简介
 
@@ -34,7 +34,7 @@
 
 - [插件(extension)](https://inkscape.org/gallery/=extension)带来强大加持，用法见下图：
 
-  <img src="./extension.png" style="zoom: 50%;" />
+  <img src="figures/extension.png" style="zoom: 50%;" />
 
 - LaTex演染
 
