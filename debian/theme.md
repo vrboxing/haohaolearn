@@ -1,17 +1,22 @@
 # 个性化
 
+- 主题或鼠标主题文件夹置于`.local/share/themes`或`.themes`；
+- 图标主题文件夹置于`.local/share/icons`中。
+
 ## 主题
 
-- [Mojave-gtk-theme](https://github.com/vinceliuice/Mojave-gtk-theme)
-- [Numix](https://github.com/numixproject/numix-gtk-theme)
+- [Adapta](https://github.com/adapta-project/adapta-gtk-theme)
 
 ## 图标
 
-- [McMojave-circle](https://github.com/vinceliuice/McMojave-circle)
 - [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
-- [Faenza](https://github.com/shlinux/faenza-icon-theme)
 
-## 推荐
+## 鼠标
 
-- 主题：Mojave-gtk-theme
-- 图标：McMojave-circle
+- [Capitaine](https://github.com/keeferrourke/capitaine-cursors)
+
+- 设置鼠标尺寸：
+
+```
+xfconf-query --channel xsettings --property /Gtk/CursorThemeSize --set 36
+```
