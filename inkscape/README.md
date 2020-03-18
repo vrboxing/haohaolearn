@@ -36,7 +36,7 @@
 
   <img src="figures/extension.png" style="zoom: 50%;" />
 
-- LaTex演染
+- LaTex公式渲染
 
   - 在科研示意图中经常出现数学公式，表现公式最佳方式是LaTeX
   - 插件：https://github.com/seebk/LaTeXText ([下载](https://github.com/seebk/LaTeXText/releases))
@@ -46,5 +46,5 @@
 
   - [irc://irc.freenode.org/#inkscape](irc://irc.freenode.org/#inkscape)
 
-- [本文最新版本](https://github.com/yangdaweihit/haohaolearn/tree/master/inkscape)
+- 本文可能会被后续更新，你可以下载[最新版本](https://github.com/yangdaweihit/haohaolearn/tree/master/inkscape)
 
