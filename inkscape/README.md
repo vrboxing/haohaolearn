@@ -2,7 +2,9 @@
 
 2020-3-18
 
-<img src="/home/wall-e/Desktop/inkscape-logo.svg" style="zoom:50%;" />
+
+
+<img src="inkscape-logo.svg" style="zoom:50%;" />
 
 ## 简介
 
@@ -32,7 +34,7 @@
 
 - [插件(extension)](https://inkscape.org/gallery/=extension)带来强大加持，用法见下图：
 
-  <img src="/home/wall-e/Desktop/extension.png" style="zoom: 50%;" />
+  <img src="extension.png" style="zoom: 50%;" />
 
 - LaTex演染
 
@@ -44,6 +46,5 @@
 
   - [irc://irc.freenode.org/#inkscape](irc://irc.freenode.org/#inkscape)
 
-    
+- [本文最新版本](https://github.com/yangdaweihit/haohaolearn/tree/master/inkscape)
 
-    
