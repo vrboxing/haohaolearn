@@ -10,6 +10,8 @@ from numpy import nan as NA
 # https://blog.csdn.net/qq_19528953/article/details/79348929
 # https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html
 #
+
+
 # 5.1 pandas的数据结构介绍
 
 # 初始化空的系列
@@ -107,6 +109,7 @@ data = {
     'pop': [1.5, 1.7, 3.6, 2.4, 2.9, 3.2]
 }
 frame = pd.DataFrame(data)
+len(frame)
 frame
 frame.head()
 # 如果指定了列序列，则DataFrame的列就会按照指定顺序进行排列

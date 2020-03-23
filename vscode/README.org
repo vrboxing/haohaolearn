@@ -3,7 +3,7 @@
    - C-S-x: 显示插件列表
    - C-S-p: 命令面板
 
-
+     
 ** 插件 
    - Org Mode
    - Excel Viewer：点击文档Tab右键Open 
@@ -11,8 +11,5 @@
    - Markdown Preview Enhanced
    - Markdown Preview Github Styling
 
-
-** 安装辅助软件
-   - [[https://www.princexml.com/download/][prince]] 
 
 

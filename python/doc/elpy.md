@@ -52,7 +52,7 @@ sudo apt install elpa-elpy python3-venv
 
 ### Prrojects
 
-- C-c C-c (elpy-shell-send-region-or-buffer)
+- C-u C-c C-c (elpy-shell-send-region-or-buffer)
 
     Evaluate the current script (or region if something is selected) in
     an interactive python shell. The python shell is automatically

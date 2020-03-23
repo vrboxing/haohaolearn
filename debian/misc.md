@@ -1,5 +1,18 @@
 # 杂项
 
+## i386
+
+增加框架
+```
+sudo dpkg --add-architecture i386
+```
+
+删除框架
+```
+sudo apt-get purge ".*:i386"
+sudo dpkg --remove-architecture i386
+```
+
 ## Trackpoint和Touchpad未启动
 
 ```
