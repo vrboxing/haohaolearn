@@ -44,7 +44,7 @@ Slack是一款**freemium**产品(即免费+付费定价策略)，付费功能体
 
 ## 个人体验
 
-![](/home/wall-e/Desktop/slack/figures/slack.png)
+![](./figures/slack.png)
 
 - 优点
   - 永久存储消息，包括附件
@@ -57,4 +57,4 @@ Slack是一款**freemium**产品(即免费+付费定价策略)，付费功能体
 
   - 中毒以后freemium让你终有一天跳入付费坑，欣赏一下它的[价格表](https://slack.com/intl/en-cn/pricing)吧。
 
-    
+附注：本文可能会被更新，请好奇者访问[最新版本](https://github.com/yangdaweihit/haohaolearn/tree/master/slack)。
