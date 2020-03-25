@@ -5,6 +5,7 @@
 
 ## 主题
 
+- Adwaita-dark
 - [Adapta](https://github.com/adapta-project/adapta-gtk-theme)
 
 ## 图标
@@ -20,3 +21,9 @@
 ```
 xfconf-query --channel xsettings --property /Gtk/CursorThemeSize --set 36
 ```
+
+## 字体
+
+- Default Font: Fira Sans Book, 14
+- Default Monospace Font: Fira Code Medium, 14
+- Terminal: Fira Code Regular, 18

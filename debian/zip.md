@@ -8,4 +8,11 @@ sudo apt install unzip-iconv
 unzip -O GB18030 xxx.zip
 ```
 
+```
+wget https://repo.debiancn.org/debiancn-keyring_0~20161212_all.deb
+sudo dpkg -i debiancn-keyring_0~20161212_all.deb
+sudo sed -i '$ a\\ndeb https://repo.debiancn.org/debiancn-keyring_0~20161212_all.deb' /etc/apt/sources.list
+sudo apt update
+sudo apt install unzip-iconv
+```
 

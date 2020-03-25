@@ -80,6 +80,17 @@ ResultActive=yes
 sudo chmod 644 /var/lib/polkit-1/localauthority/50-local.d/50-enable-suspend-on-lockscreen.pkla
 ```
 
+## 消除麦克回声
+
+```
+sudo vi /etc/pulse/default.pa
+load-module module-echo-cancel
+pulseaudio -k
+pulseaudio --start
+```
+
+- [Background Noise Cancelling](https://somtips.com/remove-background-noise-of-microphone-on-linux-system/)
+
 ## 参照
 
 - [Touchpad not working after Debian Buster clean install](https://www.reddit.com/r/debian/comments/compbe/touchpad_not_working_after_debian_buster_clean/)
