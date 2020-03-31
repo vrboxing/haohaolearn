@@ -1,3 +1,5 @@
+<script type="text/javascript"<src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
 #  Markdown笔记
 
 来源：https://support.typora.io/Markdown-Reference/
@@ -9,7 +11,6 @@
 </div>
 
 [toc]
-
 
 
 ## 块单元
@@ -142,7 +143,7 @@ puts markdown.to_html
 
 ### 数学式块
 
-可使用**MathJax**渲染$\LaTeX{}$。要添加一个数学式，可输入`$$`后按`Return`键。如：
+Typora可使用**MathJax**渲染$\LaTeX{}$。换成其它编辑器，尚没有找到这样立等可取的效果。要添加一个数学式，可输入`$$`后按`Return`键。如：
 
 $$\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ \frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\ \frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\ \end{vmatrix} $$ 
 
@@ -251,12 +252,11 @@ Typora支持用`<>`包含的地址作为链接，如`<i@typora.io>`变为： <i@
 ![Alt text](/path/to/img.jpg "Optional title")
 ```
 
-- 可直接拖拽图片到Typora里面。
+- 可直接拖拽图片到Typora里面。如下面的动画所示：
+
+  ![](./drag-img.gif)
+
 - 若图片与文档在同一文件夹或子文件夹中，则默认采用相对路径。
-
-
-
-![](./drag-img.gif)
 
 如果察看的是本文档的`PDF`文档，你将看不到下面的插图动画效果。
 
