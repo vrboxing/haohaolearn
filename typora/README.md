@@ -1,8 +1,9 @@
 #  Markdown + Typora
 
 <div align="center">
-<img src="./markdown.png" style="zoom:100%;" /> &emsp; &emsp;&emsp;<img src="./typora.png" style="zoom:100%;" /> 
+<img src="./markdown.png" align="middle" style="zoom:100%;" /> &emsp; &emsp;&emsp;<img src="./typora.png" align="middle" style="zoom:100%;" /> 
 </div>
+
 
 
 
