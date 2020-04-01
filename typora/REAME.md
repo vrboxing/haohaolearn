@@ -141,7 +141,14 @@ puts markdown.to_html
 
 ### 数学式块
 
-Typora可使用**MathJax**渲染$\LaTeX{}$。换成其它编辑器，尚没有找到这样立等可取的效果。要添加一个数学式，可输入`$$`后按`Return`键。如：
+Typora可使用**MathJax**渲染$\LaTeX{}$。
+
+- 换成其它编辑器，尚没有找到这样立等可取的效果。
+- 若在Github上察看本文档，你将无法看到公式被渲染的效果。因为我们没法在markdown文档中加入Mathjax引擎。
+- 在Typora中这些工作都被自动完成。
+- 鼠标单击渲染后的公式，数学式块自动切换为源码，并弹出菜单动态显示出对应的渲染公式。
+
+要添加一个数学式，可输入`$$`后按`Return`键。如：
 
 $$\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ \frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\ \frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\ \end{vmatrix} $$ 
 
