@@ -1,4 +1,4 @@
-#+TITLE: Pro Git
+#+TITLE: 《Pro Git》笔记
 
 - 作者：Scott Chacon 和 Ben Straub
 - 出版：Apress
