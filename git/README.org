@@ -16,12 +16,20 @@ Git是由Linus Torvalds在2005年创造的软件版本管理和控制软件，�
 
 - Debian/Ubuntu
 
-#+BEGIN_SRC 
+#+BEGIN_SRC bash
 sudo apt install git
 #+END_SRC
 
+- 
+
 
 ** 教程
+
+关于Git的教程有很多，在使用时需要注意类别及特点：
+
+- 阅读
+- 视频
+- 操作
 
 *** 视频
 
