@@ -61,5 +61,6 @@ brew install git
 ## 笔记
 
 - [Pro Git](./ProGit.org)
+- [.gitignore](./gitignore.md)
 - [杂项](./misc.org)
 
