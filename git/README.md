@@ -1,12 +1,14 @@
 # Git
 
-<img src="./Git-Icon-Black.png" style="zoom:40%;" />
+<img src="./Git-Icon-Black.png" style="zoom:100%;" />
 
 
 
 Git是由Linus Torvalds在2005年创造的软件版本管理和控制软件，如今已被广泛应用于所有文档版本控制场景中，成为团队协同工作不可或缺的工具。本项目为Git笔记，用于记录学习资源和心得。
 
 使用Git很容易，但学习它绝非是10分钟之内就能搞定的事。只要遵循好的教程耐心阅读、勤于实践，相信很快就会掌握Git，给你的工作带来便利。
+
+本文档在持续更新中，最新版本在[这里](https://github.com/yangdaweihit/haohaolearn/blob/master/git/README.md)。
 
 ## 下载和安装
 
