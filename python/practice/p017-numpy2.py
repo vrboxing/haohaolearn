@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 import math
 import time
@@ -58,3 +59,7 @@ dx = np.array([(393, ), (337, ), (256, )], dtype=dt)
 print(dx)
 dt = np.dtype('<d')
 print(dt.name, dt.byteorder, dt.itemsize)
+
+df = pd.DataFrame({'a':np.arange(10)})
+new_df = pd.DataFrame(np.arange(22).reshape(11,2), columns=['a', 'b'])
+df = pd.concat([df,new_df],axis=1)

@@ -9,7 +9,7 @@
 
 https://help.ubuntu.com/community/Pastebinit
 
-`pastebinit`是产自`ubuntu`社区的神器，用于将一大段文本信息上传到网站上，你只需要将网站为你自动生成的网址发给对方，对方就可通过访问网页看到灰常工整的代码或信息了。好处辣么多，废话不说，开始操练吧。
+`pastebinit`用于将一大段文本信息上传到网站上，你只需要将网站为你自动生成的网址发给对方，对方就可通过访问网页看到灰常工整的代码或信息了。好处辣么多，废话不说，开始操练吧。
 
 ## 安装
 ```
@@ -30,7 +30,7 @@ cat /etc/apt/sources.list | pastebinit -b paste.ubuntu.com
 
 回显出一个网址：`http://paste.ubuntu.com/19346574/`，发给对方吧。
 
-- 想看看pastebinit还支持哪些网站
+- 其它支持网站
 
 ```
 > pastebinit -l
@@ -50,5 +50,3 @@ Supported pastebins:
 - slexy.org
 - sprunge.us
 ```
-## Windows用户
-自古以来每一位Windows用户都有被爱的权利，没有pastebinit不要紧，记住任何一个代码粘帖网站，如`paste.debian.net`或`paste.ubuntu.com`，勇敢地打开网页浏览器访问它们吧。然后手动`Ctrl-c`再`Ctrl-v`...

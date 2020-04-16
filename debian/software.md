@@ -26,7 +26,6 @@ sudo apt install transmission vlc audacious
 - vim
 - emacs
 - vscode
-- sublime text
 
 ## Emacs插件
 
@@ -62,9 +61,10 @@ sudo apt install transmission vlc audacious
 - engrampa
 - git
 - teamviewer
-- pastebinit
+- [pastebinit](pastebinit.md)
 - variety
 - gparted
 - crossover 
 - [zip/unip](zip.md)
 - screenkey
+- kdocker
