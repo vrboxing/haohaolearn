@@ -1,7 +1,7 @@
 # argparse
 - argparse是Python的一个模块，用于脚本命令行参数解析。
   - argparse提供定义命令行的友好界面。
-  - 
+  - 还可以生成帮助信息。
 - 本文在持续更新中，最新版本见[这里](https://github.com/yangdaweihit/haohaolearn/tree/master/python/doc/argparse.md)。
 - 对应的实验代码见[这里](https://github.com/yangdaweihit/haohaolearn/blob/master/python/practice/p004-argparse.py)。
 - 内容来源
@@ -60,7 +60,7 @@ add_argument方法定义参数及如何被解析。每个参数的定义都有�
 - metavar：在用法消息中该参数的名称。
 - dest：由parse_args()返回对象中属性的名字。
 
-### name of flags
+### [name of flags](https://docs.python.org/3/library/argparse.html#name-or-flags)
 
 ```
 parser.add_argument('-f', '--foo')  # 定义可选参数
@@ -79,7 +79,7 @@ usage: PROG [-h] [-f FOO] bar
 PROG: error: the following arguments are required: bar  # 出现错误，因为没有设定位置参数
 ```
 
-### action
+### [action](https://docs.python.org/3/library/argparse.html#action)
 
 - `'store'`：默认动作，存储参数值。例：
 
@@ -159,9 +159,21 @@ PROG: error: the following arguments are required: bar  # 出现错误，因为�
   Namespace(foo=['f1', 'f2', 'f3', 'f4'])
   ```
 
-### nargs
+### [nargs](https://docs.python.org/3/library/argparse.html#nargs)
 
+通常一个参数和一个动作关联。`nargs`参数将若干个参数关联到一个动作上。该参数支持的值如下：
 
+- `N`(一个整数)：
+
+  ```
+  >>> parser = argparse.ArgumentParser()
+  >>> parser.add_argument('--foo', nargs=2)  # 将 --foo 后面2个值存储到foo参数。
+  >>> parser.add_argument('bar', nargs=1)
+  >>> parser.parse_args('c --foo a b'.split())
+  Namespace(bar=['c'], foo=['a', 'b'])
+  ```
+
+  
 
 ### const
 
