@@ -1,4 +1,4 @@
-# gitignore
+# .gitignore
 
 `.gitignore`文件定义了不追踪文件的规则。
 
