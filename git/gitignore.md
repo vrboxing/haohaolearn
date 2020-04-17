@@ -13,3 +13,6 @@
 - 语法定义见[这里](https://git-scm.com/docs/gitignore)
 - 中文说明见[这里](https://zhuanlan.zhihu.com/p/52885189)
 
+## 模板
+
+- 常见场景模板见[github/ignore](https://github.com/github/gitignore)
