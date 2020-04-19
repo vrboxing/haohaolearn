@@ -3,7 +3,7 @@
 ## 设置镜像
 
 - 镜像列表：https://cran.r-project.org/mirrors.html
-- 配置文件：`/etc/R/Rprofile.site`:
+- 配置文件：`/etc/R/Rprofile.site`或`.Rprofile`(推荐)：
 
 ```
 local({
