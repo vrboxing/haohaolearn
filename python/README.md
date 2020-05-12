@@ -1,11 +1,8 @@
 # Python
 
-## 视频
-
-- [bilibili](https://www.bilibili.com/video/av39110187/?spm_id_from=333.788.videocard.5)
-
 ## 教程 
 
+- [官方教程](https://docs.python.org/zh-cn/3/tutorial/)
 - [python3菜鸟教程](http://www.runoob.com/python3/python3-tutorial.html)
 - [python-course(Bernd.C.Klein)](https://www.python-course.eu/index.php) 
 - [realpytho](https://realpython.com): real python团队
@@ -13,6 +10,7 @@
 - [Python-100天从新手到大师](https://github.com/jackfrued/Python-100-Days): 骆昊
 - [Python基础教程](http://c.biancheng.net/python/): C语言中文网
 - [Numerical Programming with Python](https://www.python-course.eu/numerical_programming_with_python.php)
+- [matplotlib tutorials](https://matplotlib.org/tutorials/introductory/usage.html#sphx-glr-tutorials-introductory-usage-py)
   
 ## 手册
 
@@ -38,6 +36,7 @@
 
 ### 语法
 
+- [numpy](./doc/numpy.md)
 - [string](./doc/string.org): 字符串
 - [regex](./doc/regex.org): 正则表达式 
 - [pandas](./doc/pandas.md): 数据处理
@@ -65,7 +64,3 @@
 - [p015-json](./practice/p015-nestlist.py)
 - [p016-pandas](./practice/p016-pandas.py)
     
-## 参考
-
-- [Installing pip/setuptools/wheel with Linux Package Managers](https://packaging.python.org/guides/installing-using-linux-tools/#installing-pip-setuptools-wheel-with-linux-package-managers)
-- [pip install](https://pip.pypa.io/en/stable/reference/pip_install/)
