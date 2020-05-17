@@ -89,7 +89,7 @@ Markdown用邮件样式`>`符号表示块引用。
 
 - 快捷键：`Ctrl + Shif + Q`表示1级标题，以此类推。
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 #### 列表
 
