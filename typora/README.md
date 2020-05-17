@@ -32,7 +32,7 @@
 
 [Typora](https://typora.io/)是目前我们见到的撰写Markdown文档的最佳工具，还是Markdown的最佳阅读器。本文介绍了[Typora](https://typora.io/)所支持的Markdown语法格式和渲染方式。
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 ## Markdown语法
 
@@ -49,7 +49,7 @@
 - 回车(`Return`)生成一个新的段落。
 - 快捷键：`Ctrl + 0`
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 #### 标题
 
@@ -67,7 +67,7 @@
 
 - 快捷键：`Ctrl + 1`表示1级标题，以此类推。
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 #### 块引用
 
@@ -112,7 +112,7 @@ Markdown用邮件样式`>`符号表示块引用。
 - 按`Tab`键可向下级转换列表层级。
 - 按`Shift + Tab`键可向上级转换列表层级。
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 #### 任务列表
 
@@ -133,7 +133,7 @@ Markdown用邮件样式`>`符号表示块引用。
 - [ ] incomplete 
 - [x] completed
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 #### 代码块
 
@@ -170,7 +170,7 @@ markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 #### 数学式块
 
@@ -209,7 +209,7 @@ y = y(x,t) &= A e^{i\theta} \\
 \end{align*}
 $$
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 #### 表格
 
@@ -246,7 +246,7 @@ Markdown表格源码：
 | col 2 is      |    centered     |           $12 |
 | zebra stripes |    are neat     |            $1 |
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 #### 脚释
 
@@ -270,7 +270,7 @@ You can create footnotes like this[^fn1] and this[^fn2].
 - 鼠标悬停于上脚标时，可以看到脚释的内容。您可用任意唯一标识内容作为脚释标记。
 - Or you can create **inline footnotes**, like this^[Here is the *text* of the first **footnote**.] and this[Here is the *text* of the second **footnote**.].
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 #### 水平线
 
@@ -278,7 +278,7 @@ You can create footnotes like this[^fn1] and this[^fn2].
 
 ---
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 #### YAML Front Matter
 
@@ -292,7 +292,7 @@ Typora现已支持[YAML Front Matter](http://jekyllrb.com/docs/frontmatter/)。�
   - GUI: View > Outline
   - `Ctrl+Shift+1`
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 ###   跨越单元
 
@@ -324,7 +324,7 @@ This is [163](http://www.163.com/ "这是一个网易的链接") inline link.
 
 - 在Typora中，按住`Ctrl`键同时鼠标点击链接即可实现跳转。
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 ##### 内部链接
 
@@ -334,7 +334,7 @@ This is [163](http://www.163.com/ "这是一个网易的链接") inline link.
 [返回](#Markdown使用说明)
 ```
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 ##### 参考链接	
 
@@ -344,7 +344,7 @@ This is [163](http://www.163.com/ "这是一个网易的链接") inline link.
 
 ##### 
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 #### URLs
 
@@ -352,7 +352,7 @@ Typora支持用`<>`包含的地址作为链接，如`<i@typora.io>`变为： <i@
 
 同时Typora亦可自动将标准地址格式变为链接。
 
-[返回](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 #### 图片
 
@@ -371,7 +371,7 @@ Typora支持用`<>`包含的地址作为链接，如`<i@typora.io>`变为： <i@
 
 [^ani]: 如果察看的是本文档的`PDF`格式版本，你将看不到下面的插图动画效果。
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 ### 行内Markdown
 
@@ -390,7 +390,7 @@ _single underscores_
 
 - 要输入`*`号，可以前面加入`\`转义即可：`\*`即生成*。
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 #### 加粗
 
@@ -405,7 +405,7 @@ __double underscores__
 
 __double underscores__
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 #### 代码
 
@@ -417,7 +417,7 @@ Use the `printf()` function.
 
 Use the `printf()` function.
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 #### 删除线
 
@@ -431,7 +431,7 @@ GFM[^gfm]增加了删除线语法，这是标准Markdown语法没有的。
 
 [^gfm]: [Github风格的Markdown语法](https://github.github.com/gfm/)
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 #### Emoji
 绘文字用一个`:`号引导，即可输入Emoji符号。如：
@@ -440,7 +440,7 @@ GFM[^gfm]增加了删除线语法，这是标准Markdown语法没有的。
 ```
 :happy: :cry: :kissing_smiling_eyes: :email: :telephone: :arrow_backward: [:leftwards_arrow_with_hook: ](#Markdown + Typora)
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 #### 行内数学式
 
@@ -456,7 +456,7 @@ GFM[^gfm]增加了删除线语法，这是标准Markdown语法没有的。
 
 例如：$\lim_{x \to \infty} \exp(-x) = 0$
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 #### 下角标
 
@@ -466,7 +466,7 @@ GFM[^gfm]增加了删除线语法，这是标准Markdown语法没有的。
 
 H~2~0 X~long\ text~
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 #### 上角标
 
@@ -476,7 +476,7 @@ H~2~0 X~long\ text~
 
 X^2^
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 #### 高亮
 
@@ -486,7 +486,7 @@ X^2^
 
 ==highlight==
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 ### HTML
 
@@ -500,7 +500,7 @@ X^2^
 
 下划线在GFM中没有被定义，可以用HTML标签：`<u>Underline</u>`得到：<u>Underline</u>。
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 #### 视频
 
@@ -510,10 +510,10 @@ X^2^
 <video src="xxx.mp4" />
 ```
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
 
 #### 其它HTML支持
 
 更多细节见[这里](http://support.typora.io/HTML/).
 
-[⏮](#Markdown + Typora)
+[HOME](#Markdown + Typora)
