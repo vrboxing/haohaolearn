@@ -35,7 +35,6 @@ xfconf-query --channel xsettings --property /Gtk/CursorThemeSize --set 48
 
 ## 参考
 
-- [Sound themes](https://wiki.archlinux.org/index.php/Xfce#Sound_themes)
+- [Event sounds work only for some applications](https://forum.xfce.org/viewtopic.php?pid=57575#p57575)
 - [Smooth](https://www.xfce-look.org/p/1187979/)
-- [Enable system sounds in Xfce](https://cybergnomer.wordpress.com/2014/11/01/enable-system-sounds-in-xfce/)
 - [Cannot change mouse cursor size in XFCE](https://forum.manjaro.org/t/cannot-change-mouse-cursor-size-in-xfce/62573)
