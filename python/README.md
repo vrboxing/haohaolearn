@@ -2,6 +2,10 @@
 
 ## 教程 
 
+- [文档](https://docs.python.org/3/index.html)
+
+## 教程 
+
 - [官方教程](https://docs.python.org/zh-cn/3/tutorial/)
 - [python3菜鸟教程](http://www.runoob.com/python3/python3-tutorial.html)
 - [python-course(Bernd.C.Klein)](https://www.python-course.eu/index.php) 
