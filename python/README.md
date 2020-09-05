@@ -1,5 +1,10 @@
 # Python
 
+
+## 背景
+
+- [Python简史](https://www.cnblogs.com/vamei/archive/2013/02/06/2892628.html)
+
 ## 官方文档
 
 关于Python的所有信息都源自官方文档。所谓文档，是一个包括入门教程、库手册、
@@ -9,18 +14,17 @@
 
 - [官方文档](https://docs.python.org/3/index.html)
 - [官方教程(中文)](https://docs.python.org/zh-cn/3/tutorial/)
-- [标准库(中文)](https://docs.python.org/zh-cn/3/library/index.html#library-index): 
+- [标准库(中文)](https://docs.python.org/zh-cn/3/library/index.html#library-index) 
 - [术语(中文)](https://docs.python.org/zh-cn/3/glossary.html#glossary)
 
 ## 教程 
 
+- [Python-100天从新手到大师](https://github.com/jackfrued/Python-100-Days): 骆昊
 - [python3菜鸟教程](http://www.runoob.com/python3/python3-tutorial.html)
-- [python-course(Bernd.C.Klein)](https://www.python-course.eu/index.php) 
+- [python-course](https://www.python-course.eu/index.php) 
+  - [Numerical Programming with Python](https://www.python-course.eu/numerical_programming_with_python.php)
 - [realpytho](https://realpython.com): real python团队
 - [BogoToBogo](https://www.bogotobogo.com/python/pytut.php): BogoToBogo
-- [Python-100天从新手到大师](https://github.com/jackfrued/Python-100-Days): 骆昊
-- [Python基础教程](http://c.biancheng.net/python/): C语言中文网
-- [Numerical Programming with Python](https://www.python-course.eu/numerical_programming_with_python.php)
 - [matplotlib tutorials](https://matplotlib.org/tutorials/introductory/usage.html#sphx-glr-tutorials-introductory-usage-py)
 
   
