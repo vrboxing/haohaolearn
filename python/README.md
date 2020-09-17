@@ -19,14 +19,15 @@
 
 ## 教程 
 
-- [Python-100天从新手到大师](https://github.com/jackfrued/Python-100-Days): 骆昊
+- [Python-100天从新手到大
+  师](https://github.com/jackfrued/Python-100-Days)：自学最佳路径
 - [python3菜鸟教程](http://www.runoob.com/python3/python3-tutorial.html)
-- [python-course](https://www.python-course.eu/index.php) 
+- [python-course](https://www.python-course.eu/index.php)
   - [Numerical Programming with Python](https://www.python-course.eu/numerical_programming_with_python.php)
 - [realpytho](https://realpython.com): real python团队
 - [BogoToBogo](https://www.bogotobogo.com/python/pytut.php): BogoToBogo
 - [matplotlib tutorials](https://matplotlib.org/tutorials/introductory/usage.html#sphx-glr-tutorials-introductory-usage-py)
-
+- [正则表达式30分钟入门课程](https://deerchao.cn/tutorials/regex/regex.htm)
   
 ## pip
 
