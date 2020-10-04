@@ -9,9 +9,25 @@
 # 使用Python进行Excel数据读写
 # 示例文件：./files/data.xlsx
 
+a = tuple()
+
+
+def foo(x):
+    return x, x**2
+
+
 import pandas as pd
 import xlrd
 import xlsxwriter
+
+import collections
+
+Sale = collections.namedtuple("Sale",
+                              "productid customeid date quantity price")
+
+
+def foo(n):
+    return list(range(n+1))
 
 # 用pandas读入
 excelfile = r"files/data.xlsx"
