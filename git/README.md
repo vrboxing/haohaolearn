@@ -32,7 +32,7 @@ brew install git
 
 ## 配置
 
-安装git后的首个动作便是配置，配置文件为`~/.gitconfig`：
+安装git后的首个动作便是配置，配置文件为`~/.gitconfig`(Linux)或`C:\Users\xxx\.gitconfig`：
 
 ```
 [user]
